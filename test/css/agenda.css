@@ -3,6 +3,12 @@ hr {display:none;}
 .agenda > .heading{font-size:300%; text-align:center; }
 .agenda > .subheading{font-size:200%; text-align:center; vertical-alignment:center;font-style:italic;}
 .agenda > .datetime{font-size:200%; text-align:center; display:none; }
+
+.subagenda{padding-top:0em; background-color:green!important;}
+.subagenda > .heading{font-size:150%!important; text-align:left!important; }
+.subagenda > .subheading{font-size:100%; text-align:center; vertical-alignment:center;font-style:italic;}
+.subagenda > .datetime{font-size:200%; text-align:center; display:none!important; }
+
 .agendaItem {padding-top:0em!important; margin-bottom:-2.5em!important;  }
 .agendaItem .description { line-height:2em;text-align:left!important; font-size:150%!important;vertical-align:center!important;}
 .agendaItem .time {color:grey!important; line-height:2em; width:8em; display:block!important;vertical-align:center!important;}
