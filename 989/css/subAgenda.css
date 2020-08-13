@@ -1,0 +1,8 @@
+hr {display:none;}
+.section{padding-top:0em;}
+.section > .title{font-size:300%; text-align:center; }
+.section > .subtitle{font-size:200%; text-align:center; vertical-alignment:center;font-style:italic;}
+.section > .time{font-size:200%; text-align:center; display:none; }
+.agendaItem {padding-top:0em!important; margin-bottom:-2.5em!important;  }
+.agendaItem .description { line-height:2em;text-align:left!important; font-size:150%!important;vertical-align:center!important;}
+.agendaItem .time {color:grey!important; line-height:2em; width:8em; display:block!important;vertical-align:center!important;}
