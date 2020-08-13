@@ -1,5 +1,5 @@
 hr {display:none;}
-.subagenda{padding-top:0em;}
+.subagenda{padding-top:0em; background-color:red;}
 .subagenda > .heading{font-size:300%; text-align:center; }
 .subagenda > .subheading{font-size:200%; text-align:center; vertical-alignment:center;font-style:italic;}
 .subagenda > .datetime{font-size:200%; text-align:center; display:none; }
