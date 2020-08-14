@@ -1,5 +1,5 @@
 hr {display:none;}
-.agenda{padding-top:0em;display:flex; flex-flow: column wrap; justify-content: center; align-items:baseline;}
+.agenda{padding-top:0em;display:flex; flex-flow: column wrap; justify-content: center; align-items:center;}
 .agenda > .heading{font-size:300%; background-color:blue!important; }
 .agenda > .subheading{font-size:200%; font-style:italic; background-color:black!important; color:white!important;}
 .agenda > .datetime{font-size:200%; display:none; }
