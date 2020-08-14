@@ -5,3 +5,7 @@ hr {display:none;}
 .subagenda > .description{}
 .subagenda > .datetime{font-size:200%; text-align:center; display:none; }
 
+.agendaitem{ display:flex;  flex-flow: row wrap; justify-content: flex-start; align-items:baseline;}
+.agendaitem > .heading{ font-size:200%!important; order:2;flex-grow:8; text-align:left!important; }
+.agendaitem > .subheading{font-size:100%; font-style:italic; display:none!important;}
+.agendaitem > .datetime{ width:2em; display:block!important; flex-grow:0;order:1; text-align:left!important; color:grey!important;}
