@@ -4,7 +4,7 @@ hr {display:none;}
 .agenda > .subheading{font-size:200%; font-style:italic; background-color:black!important; color:white!important;}
 .agenda > .datetime{font-size:200%; display:none; }
 
-.subagenda{ background-color:pink!important; display:flex;  flex-flow: row wrap; align-items:baseline; justify-content: flex-start;}
+.subagenda{ background-color:pink!important; display:flex;  flex-flow: row wrap; align-items:baseline; justify-content: center;}
 .subagenda > .heading{font-size:150%!important; flex-grow:8;order:2; }
 .subagenda > .subheading{font-size:100%; font-style:italic; display:none!important;}
 .subagenda > .datetime{font-size:150%; width:8em; background-color:green!important; display:block!important; flex-grow:1;order:1; }
