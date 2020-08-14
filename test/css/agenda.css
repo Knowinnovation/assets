@@ -9,8 +9,8 @@ hr {display:none;}
 .agenda > .description {margin-bottom:2em;}
 
 .subagenda{ display:flex;  flex-flow: row wrap; justify-content: flex-start; align-items:baseline;}
-.subagenda > .heading{ order:2;flex-grow:8; text-align:left!important; }
+.subagenda > .heading{ font-size:200%!important; order:2;flex-grow:8; text-align:left!important; }
 .subagenda > .subheading{font-size:100%; font-style:italic; display:none!important;}
-.subagenda > .datetime{ width:10em; display:block!important; flex-grow:0;order:1; text-align:left!important;}
+.subagenda > .datetime{ width:10em; display:block!important; flex-grow:0;order:1; text-align:left!important;text:grey!important;}
 
 
