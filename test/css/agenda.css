@@ -1,6 +1,6 @@
 hr {display:none;}
-.agenda{padding-top:0em;}
-.agenda > .heading{font-size:300%; display:flex; flex-flow: column wrap; justify-content: center; align-items:baseline;}
+.agenda{padding-top:0em;display:flex; flex-flow: column wrap; justify-content: center; align-items:baseline;}
+.agenda > .heading{font-size:300%; }
 .agenda > .subheading{font-size:200%; font-style:italic;}
 .agenda > .datetime{font-size:200%; display:none; }
 
