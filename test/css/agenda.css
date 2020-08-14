@@ -7,7 +7,7 @@ hr {display:none;}
 .subagenda{ background-color:pink!important; display:flex;  flex-flow: row wrap; align-items:baseline; justify-content: flex-start;}
 .subagenda > .heading{font-size:150%!important; flex-grow:8;order:2; }
 .subagenda > .subheading{font-size:100%; font-style:italic; display:none!important;}
-.subagenda > .datetime{font-size:150%; width:8em; background-color:yellow!important; display:block!important; flex-grow:1;order:1; }
+.subagenda > .datetime{font-size:150%; width:8em; background-color:green!important; display:block!important; flex-grow:1;order:1; }
 
 .agendaItem {padding-top:0em!important; margin-bottom:-2.5em!important;  }
 .agendaItem .description { line-height:2em;text-align:left!important; font-size:150%!important;vertical-align:center!important;}
