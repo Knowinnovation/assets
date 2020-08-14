@@ -1,15 +1,12 @@
 hr {display:none;}
 .agenda{padding-top:0em;display:flex; flex-flow: column wrap; justify-content: center; align-items:center;}
-.agenda > .heading{font-size:300%; background-color:blue!important; }
-.agenda > .subheading{font-size:200%; font-style:italic; background-color:black!important; color:white!important;}
+.agenda > .heading{font-size:300%;  }
+.agenda > .subheading{font-size:200%; font-style:italic; margin-bottom:2em;}
 .agenda > .datetime{font-size:200%; display:none; }
 
-.subagenda{ background-color:pink!important; display:flex;  flex-flow: row wrap; align-items:baseline; justify-content: center;}
+.subagenda{ background-color:pink!important; display:flex;  flex-flow: row wrap; align-items:center; justify-content: flex-start;}
 .subagenda > .heading{font-size:150%!important; flex-grow:8;order:2; }
 .subagenda > .subheading{font-size:100%; font-style:italic; display:none!important;}
-.subagenda > .datetime{font-size:150%; width:8em; background-color:green!important; display:block!important; flex-grow:1;order:1; }
+.subagenda > .datetime{font-size:150%; width:10em; display:block!important; flex-grow:1;order:1; }
 
-.agendaItem {padding-top:0em!important; margin-bottom:-2.5em!important;  }
-.agendaItem .description { line-height:2em;text-align:left!important; font-size:150%!important;vertical-align:center!important;}
-.agendaItem .time {color:grey!important; line-height:2em; width:8em; display:block!important;vertical-align:center!important;}
 
