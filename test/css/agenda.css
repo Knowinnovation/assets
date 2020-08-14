@@ -5,7 +5,7 @@ hr {display:none;}
 .agenda > .heading{font-size:300%;  }
 .agenda > .subheading{font-size:200%; font-style:italic; margin-bottom:1em;}
 .agenda > .datetime{font-size:200%; display:none; }
-.agenda > .description > p { font-size:120%; margin-left:2em; margin-right:2em; margin-bottom:1em;}
+.agenda > .description > p { font-size:120%; margin-left:1em; margin-right:1em; margin-bottom:1em;}
 .agenda > .description {margin-bottom:2em;}
 
 .subagenda{ display:flex;  flex-flow: row wrap; justify-content: flex-start; align-items:baseline;}
