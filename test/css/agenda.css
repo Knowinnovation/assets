@@ -7,6 +7,6 @@ hr {display:none;}
 .subagenda{ background-color:pink!important; display:flex; flex-grow:8; flex-flow: row wrap; align-items:center; justify-content: flex-start;}
 .subagenda > .heading{font-size:150%!important; order:2; }
 .subagenda > .subheading{font-size:100%; font-style:italic; display:none!important;}
-.subagenda > .datetime{font-size:150%; width:10em; display:block!important; flex-grow:1;order:1; }
+.subagenda > .datetime{font-size:150%; width:10em; display:block!important; flex-grow:0;order:1; }
 
 
