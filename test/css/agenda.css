@@ -1,4 +1,6 @@
 hr {display:none;}
+.q-list--bordered{border:0px!important;}
+
 .agenda{padding-top:0em;display:flex; flex-flow: column wrap; justify-content: center; align-items:center;}
 .agenda > .heading{font-size:300%;  }
 .agenda > .subheading{font-size:200%; font-style:italic; margin-bottom:1em;}
