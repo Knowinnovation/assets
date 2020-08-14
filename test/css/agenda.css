@@ -3,6 +3,7 @@ hr {display:none;}
 .agenda > .heading{font-size:300%;  }
 .agenda > .subheading{font-size:200%; font-style:italic; margin-bottom:2em;}
 .agenda > .datetime{font-size:200%; display:none; }
+.agenda > .description {background-color:pink;}
 
 .subagenda{ display:flex;  flex-flow: row wrap; align-items:center; }
 .subagenda > .heading{font-size:150%!important; order:2;flex-grow:8; }
