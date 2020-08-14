@@ -4,8 +4,8 @@ hr {display:none;}
 .agenda > .subheading{font-size:200%; font-style:italic; margin-bottom:2em;}
 .agenda > .datetime{font-size:200%; display:none; }
 
-.subagenda{ background-color:pink!important; display:flex; flex-grow:8; flex-flow: row wrap; align-items:center; }
-.subagenda > .heading{font-size:150%!important; order:2; }
+.subagenda{ display:flex;  flex-flow: row wrap; align-items:center; }
+.subagenda > .heading{font-size:150%!important; order:2;flex-grow:8; }
 .subagenda > .subheading{font-size:100%; font-style:italic; display:none!important;}
 .subagenda > .datetime{font-size:150%; width:10em; display:block!important; flex-grow:0;order:1; }
 
