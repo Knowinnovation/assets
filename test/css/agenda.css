@@ -2,7 +2,7 @@ hr {display:none;}
 .q-list--bordered{border:0px!important;}
 
 .agenda{padding-top:0em;display:flex; flex-flow: column wrap; justify-content: center; align-items:center;}
-.agenda > .heading{font-size:400%; margin-top:3em; }
+.agenda > .heading{font-size:400%; margin-top:1em; }
 .agenda > .subheading{font-size:200%; font-style:italic; margin-bottom:1em;}
 .agenda > .datetime{font-size:200%; display:none; }
 .agenda > .description > p { font-size:120%; margin-left:1em; margin-right:1em; margin-bottom:1em;}
