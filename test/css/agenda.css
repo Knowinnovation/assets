@@ -1,7 +1,7 @@
 hr {display:none;}
 .agenda{padding-top:0em;display:flex; flex-flow: column wrap; justify-content: center; align-items:baseline;}
-.agenda > .heading{font-size:300%; }
-.agenda > .subheading{font-size:200%; font-style:italic;}
+.agenda > .heading{font-size:300%; background-color:blue!important; }
+.agenda > .subheading{font-size:200%; font-style:italic; background-color:black!important; color:white!important;}
 .agenda > .datetime{font-size:200%; display:none; }
 
 .subagenda{ background-color:pink!important; display:flex;  flex-flow: row wrap; align-items:baseline; justify-content: flex-start;}
