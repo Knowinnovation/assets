@@ -1,0 +1,7 @@
+hr {display:none;}
+.agendaitem{padding-top:0em;}
+.agendaitem > .heading{font-size:300%; text-align:center; }
+.agendaitem > .subheading{font-size:200%; text-align:center; vertical-alignment:center;font-style:italic;}
+.agendaitem > .description{}
+.agendaitem > .datetime{font-size:200%; text-align:center; display:none; }
+
