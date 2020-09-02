@@ -1,2 +1,3 @@
-.coffee-chat {font-size:400%;}
-.coffee-chat .ki-heading {background-color:yellow!important;}
+.coffee-chat {}
+.ki-explanation {font-size:200%; background-color: blue;}
+.ki-heading {background-color:yellow!important;}
