@@ -1,4 +1,4 @@
-.coffee-chat {}
+.coffee-chat {background-color:green!important;}
 .coffee-chat .ki-explanation {font-size:200%; background-color: blue;
   background-image: url("../images/coffeechat.png"); /* The image used */
   opacity:0.2;
