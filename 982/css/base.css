@@ -1,7 +1,9 @@
 
 .agenda {background-color:peachpuff!important;}
-.agenda .ki-explanation {font-size:200%; background-color: white;
+.agenda .ki-explanation {font-size:200%; background-color: white;}
 .agenda .ki-heading {background-color:red!important;}
+.agenda .ki-index {background-color:orchid!important;}
+.agenda .ki-index.custom{background-color:royalblue!important;}
 
 .coffee-chat {background-color:palegreen!important;}
 .coffee-chat .ki-explanation {font-size:200%; background-color: blue;
