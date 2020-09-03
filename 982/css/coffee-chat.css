@@ -1,5 +1,5 @@
 .coffee-chat {}
-.ki-explanation {font-size:200%; background-color: blue;
+.coffee-chat .ki-explanation {font-size:200%; background-color: blue;
   background-image: url("../images/coffeechat.png"); /* The image used */
   opacity:0.2;
   background-color: #cccccc; /* Used if the image is unavailable */
@@ -7,4 +7,4 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: auto;}
-.ki-heading {background-color:aliceblue!important;}
+.coffee-chat .ki-heading {background-color:red!important;}
