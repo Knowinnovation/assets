@@ -15,7 +15,7 @@ background-image: url("../images/coffeechat.png"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: auto;}}
-.coffee-chat .ki-explanation {font-size:300%!important; background-color!important: blue;}
+.coffee-chat .ki-explanation {font-size:300%!important; background-color:blue!important;}
 .coffee-chat .ki-heading {text-align:center!important; padding-top:6em!important;}
 
 .keynote {background-color:mintcream!important;}
