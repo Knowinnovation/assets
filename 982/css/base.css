@@ -5,7 +5,13 @@
 .agenda .ki-index {background-color:orchid!important;}
 .agenda .ki-index-custom{font-style:italic; }
 
-.break {background-color:lightgoldenrodyellow!important; font-family: serif;}
+.break {background-color:lightgoldenrodyellow!important; font-family: serif;
+background-image: url("../images/break.jpg"); /* The image used */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;}}
+}
 .break .ki-heading {font-size:400%; text-align:center;padding-top:6em;}
 
 .lunch {background-color:tomato!important; font-family: serif;}
