@@ -3,15 +3,23 @@
 .agenda .ki-explanation {font-size:200%; background-color: white;}
 .agenda .ki-heading {background-color:red!important;}
 .agenda .ki-index {background-color:orchid!important;}
-.agenda .ki-index-custom{background-color:royalblue!important;}
+.agenda .ki-index-custom{font-style:italic; }
 
-.coffee-chat {background-color:palegreen!important;}
-.coffee-chat .ki-explanation {font-size:200%; background-color: blue;
-  background-image: url("../images/coffeechat.png"); /* The image used */
-  opacity:0.2;
+.lunch {background-color:tomato!important; font-family: serif;}
+.lunch .ki-heading {font-size:400%; text-align:center;}
+
+.coffee-chat {background-color:palegreen!important;
+background-image: url("../images/coffeechat.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 300px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: auto;}
-.coffee-chat .ki-heading {background-color:red!important;}
+  background-size: auto;}}
+.coffee-chat .ki-explanation {font-size:200%; background-color: blue;
+.coffee-chat .ki-heading {text-align:center; padding-top:6em;}
+
+.keynote {background-color:mintcream!important;}
+.keynote .ki-explanation {font-size:100%; background-color: white;}
+.keynote .ki-heading {text-align: right; font-size:200%}
+.keynote .ki-index {background-color:mediumturquoise!important;}
+.keynote .ki-index-custom{font-style:bold; }
