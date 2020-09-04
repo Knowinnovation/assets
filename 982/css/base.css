@@ -21,8 +21,8 @@ background-image: url("../images/coffeechat.png"); /* The image used */
 .coffee-chat .ki-explanation {font-size:300%!important; background-color:blue!important;}
 .coffee-chat .ki-heading {text-align:center!important; padding-top:6em!important;}
 
-.keynote {background-color:mintcream!important;}
+.keynote {background-color:mintcream!important;text-align: right!important;}
 .keynote .ki-explanation {font-size:100%!important; background-color: white!important;}
-.keynote .ki-heading {text-align: right!important; font-size:200%!important;}
+.keynote .ki-heading { font-size:200%!important;}
 .keynote .ki-index {background-color:mediumturquoise!important;}
 .keynote .ki-index-custom{font-style:bold!important; }
