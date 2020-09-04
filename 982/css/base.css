@@ -5,6 +5,9 @@
 .agenda .ki-index {background-color:orchid!important;}
 .agenda .ki-index-custom{font-style:italic; }
 
+.break {background-color:lightgoldenrodyellow!important; font-family: serif;}
+.break .ki-heading {font-size:400%; text-align:center;}
+
 .lunch {background-color:tomato!important; font-family: serif;}
 .lunch .ki-heading {font-size:400%; text-align:center;}
 
