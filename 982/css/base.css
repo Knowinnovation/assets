@@ -1,9 +1,9 @@
 
 .agenda { font-family:serif;}
-.agenda .ki-explanation {text-align:center;font-size:200%; }
+.agenda .ki-explanation {text-align:center;font-size:200%; font-style:italic; }
 .agenda .ki-heading {font-size:400%;}
-.agenda .ki-index {background-color:orchid!important;}
-.agenda .ki-index-custom{font-style:italic; }
+.agenda .ki-index {}
+.agenda .ki-index-custom{ }
 
 .break {background-color:lightgoldenrodyellow!important; font-family: serif;
 background-image: url("../images/break.jpg"); /* The image used */
