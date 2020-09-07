@@ -26,7 +26,7 @@ justify-items:start;
 align-items: start;
 }
 .ki-index-custom .ki-datetime {grid-column-start:1; }
-.ki-index-custom .ki-agenda-item-description {grid-column-start:2; line-height:120%;}
+.ki-index-custom .ki-agenda-item-description {grid-column-start:2; }
 
 
 .agenda .ki-explanation {text-align:center;font-size:1em; line-height:1.5em; font-style:normal; margin-top:1em; }
