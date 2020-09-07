@@ -1,9 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-.agenda { font-family:"Courgette";}
+.agenda { }
+.agenda .ki-title {font-family:"Courgette";
+  text-align:center;font-size:400%;padding-bottom:1em; padding-top:1em; 
+background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
+background-repeat: no-repeat!important;
+  font-style:italic;
+}
+
 .agenda .ki-explanation {text-align:center;font-size:200%; font-style:italic; }
-.agenda .ki-title {font-size:400%;}
+
+
 
 
 .break {background-color:lightgoldenrodyellow!important; font-family: serif;
@@ -15,7 +23,7 @@ background-image: url("../images/break.jpg"); /* The image used */
 .break .ki-explanation {font-size:400%; padding-top:4em; font-family:"Courgette";}
 
 .lunch {background-color:tomato!important; font-family: serif;}
-.lunch .ki-heading {font-size:400%; text-align:center;}
+.lunch .ki-title {font-size:400%; text-align:center;}
 
 .coffee-chat {
 background-image: url("../images/cup.png"); /* The image used */
@@ -25,10 +33,10 @@ background-image: url("../images/cup.png"); /* The image used */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: auto;}}
 .coffee-chat .ki-explanation {font-size:300%!important; background-color:blue!important;}
-.coffee-chat .ki-heading {text-align:center!important; padding-top:8em!important;}
+.coffee-chat .ki-title {text-align:center!important; padding-top:8em!important;}
 
 .keynote {background-color:mintcream!important;text-align: right!important;}
 .keynote .ki-explanation {font-size:100%!important; background-color: white!important;}
-.keynote .ki-heading { font-size:200%!important;}
+.keynote .ki-title { font-size:200%!important;}
 .keynote .ki-index {background-color:mediumturquoise!important;}
 .keynote .ki-index-custom{font-style:bold!important; }
