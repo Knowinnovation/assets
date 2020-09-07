@@ -20,7 +20,7 @@ background-image: url("../images/break.jpg"); /* The image used */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
-.break .ki-explanation {font-size:400%; padding-top:4em; font-family:"Courgette";}
+.break .ki-explanation {font-size:400%; padding-top:4em; font-family:"Courgette"; text-align:center;}
 
 .lunch {background-color:tomato!important; font-family: serif;}
 .lunch .ki-title {font-size:400%; text-align:center;}
