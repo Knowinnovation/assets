@@ -19,6 +19,7 @@
   font-style:italic;
 }
 .agenda .ki-index {background-color:green!important;}
+.agenda .ki-custom-index {background-color:aliceblue;}
 .agenda .ki-datetime {}
 .agenda .ki-agenda-item-description {}
 
