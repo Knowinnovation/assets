@@ -1,9 +1,19 @@
-
+/* include any fonts we want to use in the event */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* set the defaults for our various custom classes */
+.ki-index-custom {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.0125em;
+}
+
+
 
 .agenda { }
 .agenda .ki-title {font-family:"Courgette";
-  text-align:center;font-size:400%;padding-bottom:1em; padding-top:1em; 
+  text-align:center;font-size:400%;padding-bottom:0em; padding-top:0em; 
   background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
   background-repeat: no-repeat!important;
   font-style:italic;
