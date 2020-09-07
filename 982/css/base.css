@@ -9,7 +9,7 @@
     letter-spacing: 0.0125em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .agenda { }
 .agenda .ki-title {font-family:'Playfair Display', serif;
   text-align:center;
