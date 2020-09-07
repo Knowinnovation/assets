@@ -4,12 +4,12 @@
 .agenda { }
 .agenda .ki-title {font-family:"Courgette";
   text-align:center;font-size:400%;padding-bottom:1em; padding-top:1em; 
-background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
-background-repeat: no-repeat!important;
+  background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
+  background-repeat: no-repeat!important;
   font-style:italic;
 }
 
-.agenda .ki-explanation {text-align:center;font-size:200%; font-style:italic; }
+.agenda .ki-explanation {text-align:center;font-size:1rem; line-height:1.5rem; font-style:normal; }
 
 
 
