@@ -1,5 +1,5 @@
 /* include any fonts we want to use in the event */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital@0;1&display=swap');
 
 /* set the defaults for our various custom classes */
 .ki-index-custom {
@@ -12,7 +12,7 @@
 
 
 .agenda { }
-.agenda .ki-title {font-family:"Courgette";
+.agenda .ki-title {font-family:'Playfair Display', serif;
   text-align:center;font-size:400%;padding-bottom:1em; padding-top:1em; /* the padding is important to show the background image */
   background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
   background-repeat: no-repeat!important;
@@ -24,15 +24,15 @@
 
 
 
-.break {background-color:lightgoldenrodyellow!important; font-family: serif;
+.break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
 background-image: url("../images/break.jpg"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
-.break .ki-explanation {font-size:400%; padding-top:4em; font-family:"Courgette"; text-align:center;}
+.break .ki-explanation {font-size:400%; padding-top:4em; font-family:'Playfair Display', serif; text-align:center;}
 
-.lunch {background-color:tomato!important; font-family: serif;}
+.lunch {background-color:tomato!important; font-family: 'Playfair Display', serif;}
 .lunch .ki-title {font-size:400%; text-align:center;}
 
 .coffee-chat {
