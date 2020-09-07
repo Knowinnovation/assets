@@ -18,6 +18,9 @@
   background-repeat: no-repeat!important;
   font-style:italic;
 }
+.agenda .ki-index {background-color:green!important;}
+.agenda .ki-datetime {}
+.agenda .ki-agenda-item-description {}
 
 .agenda .ki-explanation {text-align:center;font-size:1rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
 
