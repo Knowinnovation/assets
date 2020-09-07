@@ -13,7 +13,7 @@
 
 .agenda { }
 .agenda .ki-title {font-family:'Playfair Display', serif;
-  text-align:center;font-size:400%;padding-bottom:2em; padding-top:2em; /* the padding is important to show the background image */
+  text-align:center;font-size:400%;padding-bottom:1.5em; padding-top:1.5em; /* the padding is important to show the background image */
   background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
   background-repeat: no-repeat!important;
   font-style:italic;
@@ -24,14 +24,11 @@ display:grid;
 grid-template-columns: [time] 8em [description] auto;
 justify-items:start;
 align-items: start;
+    line-height:140%;
 }
 .ki-index-custom .ki-datetime {grid-column-start:1; }
 .ki-index-custom .ki-agenda-item-description {grid-column-start:2; }
-
-
-.agenda .ki-explanation {text-align:center;font-size:1em; line-height:1.5em; font-style:normal; margin-top:1em; }
-
-
+.agenda .ki-explanation {text-align:center;font-size:1.25rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
 
 
 .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
@@ -42,8 +39,13 @@ background-image: url("../images/break.jpg"); /* The image used */
 }
 .break .ki-explanation {font-size:400%; padding-top:4em; font-family:'Playfair Display', serif; text-align:center;}
 
-.lunch {background-color:tomato!important; font-family: 'Playfair Display', serif;}
-.lunch .ki-title {font-size:400%; text-align:center;}
+
+.lunch {background-color:tomato!important; font-family: 'Playfair Display', serif;
+background-image: url("../images/lunch.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;}
+.lunch .ki-explanation {font-size:400%; padding-top:4em; font-family:'Playfair Display', serif; text-align:center;}
 
 .coffee-chat {
 background-image: url("../images/cup.png"); /* The image used */
