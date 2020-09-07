@@ -29,7 +29,7 @@ align-items: start;
 .ki-index-custom .ki-agenda-item-description {grid-column-start:2; line-height:120%;}
 
 
-.agenda .ki-explanation {text-align:center;font-size:1rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+.agenda .ki-explanation {text-align:center;font-size:1em; line-height:1.5em; font-style:normal; margin-top:1em; }
 
 
 
