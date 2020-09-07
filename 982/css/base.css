@@ -13,7 +13,7 @@
 
 .agenda { }
 .agenda .ki-title {font-family:"Courgette";
-  text-align:center;font-size:400%;padding-bottom:0em; padding-top:0em; 
+  text-align:center;font-size:400%;padding-bottom:1em; padding-top:1em; /* the padding is important to show the background image */
   background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
   background-repeat: no-repeat!important;
   font-style:italic;
