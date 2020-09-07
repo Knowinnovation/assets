@@ -18,7 +18,7 @@
 background-image: url("../images/break.jpg"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;}
+  background-size: cover;
 }
 .break .ki-explanation {font-size:400%; padding-top:4em; font-family:"Courgette";}
 
