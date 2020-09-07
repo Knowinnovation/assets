@@ -13,7 +13,7 @@
 
 .agenda { }
 .agenda .ki-title {font-family:'Playfair Display', serif;
-  text-align:center;font-size:400%;padding-bottom:1.5rem; padding-top:1.5rem; /* the padding is important to show the background image */
+  text-align:center;font-size:400%;padding-bottom:2em; padding-top:2em; /* the padding is important to show the background image */
   background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
   background-repeat: no-repeat!important;
   font-style:italic;
