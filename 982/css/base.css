@@ -31,7 +31,7 @@ background-image: url("../images/cup.png"); /* The image used */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: auto;}}
+  background-size: auto;}
 .coffee-chat .ki-explanation {font-size:300%!important; background-color:blue!important;}
 .coffee-chat .ki-title {text-align:center!important; padding-top:8em!important;}
 
