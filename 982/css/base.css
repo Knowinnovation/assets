@@ -45,7 +45,7 @@ background-image: url("../images/lunch.jpg"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;}
-.lunch .ki-explanation {font-size:400%; padding-top:4em; font-family:'Playfair Display', serif; text-align:center;}
+.lunch .ki-explanation {font-size:400%; padding-top:4em; font-family:'Playfair Display', serif; font-style:italic; color:white; padding-top:4em; padding-left: 3em;}
 
 .coffee-chat {
 background-image: url("../images/cup.png"); /* The image used */
