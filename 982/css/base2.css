@@ -58,8 +58,15 @@
     align-items: start;
 
    }
-   .ki-index-custom .ki-datetime {grid-column-start:1;background-color:aliceblue; }
-   .ki-index-custom .ki-agenda-item-description {grid-column-start:2;background-color:antiquewhite; }
+   .ki-index-custom .ki-datetime {
+       grid-column-start:1;
+       background-color:aliceblue; 
+    }
+   .ki-index-custom .ki-agenda-item-description {
+       grid-column-start:2;
+       background-color:antiquewhite;
+       line-height:1rem;
+    }
     
 }
 
