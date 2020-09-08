@@ -45,7 +45,11 @@
     padding-top: 0.5em;
     padding-bottom: 1em;
   }
-  .agenda .ki-index {line-height:4.5em;}    
+  .agenda .ki-index {
+    text-align:left;
+    font-size:1.25em;
+    line-height:1.5em;
+  }    
   .agenda .ki-index-custom { 
     display:grid;
     grid-template-columns:  8em  auto;
@@ -55,7 +59,7 @@
    }
    .ki-index-custom .ki-datetime {
        grid-column-start:1;
-       background-color:green;
+       background-color:white;
     }
    .ki-index-custom .ki-agenda-item-description {
        grid-column-start:2;
