@@ -59,7 +59,7 @@
    }
    .ki-index-custom .ki-datetime {
        grid-column-start:1;
-       background-color:pink;
+       background-color:white;
     }
    .ki-index-custom .ki-agenda-item-description {
        grid-column-start:2;
