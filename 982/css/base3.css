@@ -1,13 +1,6 @@
 /* include any fonts we want to use in the event */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital@0;1&display=swap');
 
-/* set the defaults for our various custom classes */
-.ki-index-custom {
-    font-size: 1.25em;
-    font-weight: 500;
-    letter-spacing: 0.0125em;
-}
-
 @media only screen and (max-width: 768px) {
   .agenda { }
   .agenda .ki-explanation {
@@ -37,31 +30,30 @@
   .agenda { }
   .agenda .ki-explanation {
       text-align:center;
-      font-size:1.25em; 
-      line-height:1.5em; 
+      font-size:1.25em;  
       font-style:normal;  
     }
     
   .agenda .ki-explanation .ki-title {
     font-family:'Playfair Display', serif;
-    text-align:center;font-size:400%; /* the padding is important to show the background image */
+    text-align:center;font-size:400%; 
     font-style:italic;
     padding-top: 0.5em;
     padding-bottom: 1em;
   }
-  .agenda .ki-index {}    
-  .agenda .ki-index-custom { 
+  .agenda .ki-explanation .ki-index {}    
+  .agenda .ki-explanation .ki-index .ki-index-custom { 
     display:grid;
     grid-template-columns:  8em  auto;
     justify-items:start;
     align-items: start;
 
    }
-   .ki-index-custom .ki-datetime {
+     .agenda .ki-explanation .ki-index .ki-index-custom .ki-datetime {
        grid-column-start:1;
-       background-color:white;
+       background-color:pink;
     }
-   .ki-index-custom .ki-agenda-item-description {
+     .agenda .ki-explanation .ki-index .ki-index-custom .ki-agenda-item-description {
        grid-column-start:2;
        background-color:antiquewhite;
     }
