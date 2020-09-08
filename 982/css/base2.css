@@ -60,12 +60,13 @@
    }
    .ki-index-custom .ki-datetime {
        grid-column-start:1;
-       background-color:aliceblue; 
+       background-color:aliceblue;
+       line-height:1.5rem;
     }
    .ki-index-custom .ki-agenda-item-description {
        grid-column-start:2;
        background-color:antiquewhite;
-       line-height:1rem;
+       line-height:1.5rem;
     }
     
 }
