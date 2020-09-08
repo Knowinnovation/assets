@@ -49,11 +49,11 @@
     align-items: start;
 
    }
-     .agenda .ki-explanation .ki-index .ki-index-custom .ki-datetime {
+     .agenda  .ki-index-custom .ki-datetime {
        grid-column-start:1;
        background-color:pink;
     }
-     .agenda .ki-explanation .ki-index .ki-index-custom .ki-agenda-item-description {
+     .agenda .ki-index-custom .ki-agenda-item-description {
        grid-column-start:2;
        background-color:antiquewhite;
     }
