@@ -46,8 +46,6 @@
     padding-bottom: 1em;
   }
   .agenda .ki-index {
-    text-align:left;
-    font-size:1.25em;
   }    
   .agenda .ki-index-custom { 
     display:grid;
