@@ -50,11 +50,17 @@
     padding-top: 0.5em;
     padding-bottom: 1em;
   }
-  .agenda .ki-index {}
-  .agenda .ki-index-custom { }
-   .ki-index-custom .ki-datetime {background-color:aliceblue; }
-   .ki-index-custom .ki-agenda-item-description {background-color:antiquewhite }
+  .agenda .ki-index {}    
+  .agenda .ki-index-custom { 
+    display:grid;
+    grid-template-columns:  8em  auto;
+    justify-items:start;
+    align-items: start;
 
+   }
+   .ki-index-custom .ki-datetime {grid-column-start:1;background-color:aliceblue; }
+   .ki-index-custom .ki-agenda-item-description {grid-column-start:2;background-color:antiquewhite; }
+    
 }
 
 .break {
