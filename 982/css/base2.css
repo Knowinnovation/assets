@@ -35,7 +35,7 @@
 }
 
 @media only screen and (min-width: 769px) {
-  .agenda { }
+  .agenda {line-height:1.5em; }
   .agenda .ki-explanation {
       text-align:center;
       font-size:1.25em; 
@@ -56,11 +56,11 @@
     grid-template-columns:  8em  auto;
     justify-items:start;
     align-items: start;
-    line-height:1.5em;
+
    }
    .ki-index-custom .ki-datetime {
        grid-column-start:1;
-       background-color:pink;
+       background-color:blue;
     }
    .ki-index-custom .ki-agenda-item-description {
        grid-column-start:2;
