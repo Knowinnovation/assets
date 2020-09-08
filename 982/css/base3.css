@@ -1,0 +1,98 @@
+/* include any fonts we want to use in the event */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital@0;1&display=swap');
+
+/* set the defaults for our various custom classes */
+.ki-index-custom {
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 2em;
+    letter-spacing: 0.0125em;
+}
+
+@media only screen and (max-width: 768px) {
+  .agenda { }
+  .agenda .ki-explanation {
+      text-align:center;
+      font-size:1.25em;
+      line-height:1.5em; 
+      font-style:normal;  
+    }
+  
+  .agenda .ki-explanation .ki-title {
+    font-family:'Playfair Display', serif;
+    text-align:left;
+    font-style:italic;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+  }
+  .agenda .ki-index {}
+  .agenda .ki-index-custom {}
+
+  .ki-index-custom .ki-datetime {background-color:orange; }
+  .ki-index-custom .ki-agenda-item-description {background-color:white; }
+
+}
+
+@media only screen and (min-width: 769px) {
+  .agenda { }
+  .agenda .ki-explanation {
+      text-align:center;
+      font-size:1.25em; 
+      line-height:1.5em; 
+      font-style:normal;  
+    }
+    
+  .agenda .ki-explanation .ki-title {
+    font-family:'Playfair Display', serif;
+    text-align:center;font-size:400%; /* the padding is important to show the background image */
+    font-style:italic;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+  }
+  .agenda .ki-index {line-height:4.5em;}    
+  .agenda .ki-index-custom { 
+    display:grid;
+    grid-template-columns:  8em  auto;
+    justify-items:start;
+    align-items: start;
+
+   }
+   .ki-index-custom .ki-datetime {
+       grid-column-start:1;
+       background-color:pink;
+    }
+   .ki-index-custom .ki-agenda-item-description {
+       grid-column-start:2;
+       background-color:antiquewhite;
+    }
+    
+}
+
+.break {
+    font-family: 'Playfair Display', serif;
+}
+.break .ki-explanation {
+    font-size:400%;  
+    font-family:'Playfair Display', serif; 
+    text-align:center;
+}
+
+
+.lunch { 
+    font-family: 'Playfair Display', serif;
+}
+.lunch .ki-explanation {
+    font-size:400%; 
+    font-family:'Playfair Display', serif; 
+    font-style:italic;   
+    text-align:center;
+}
+
+.coffee-chat {}
+.coffee-chat .ki-explanation {font-size:300%!important; }
+.coffee-chat .ki-explanation .ki-title {text-align:center!important; }
+
+.keynote {text-align: right;}
+.keynote .ki-explanation {font-size:100%; }
+.keynote .ki-explanation .ki-title { font-size:200%!important;}
