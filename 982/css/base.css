@@ -35,10 +35,8 @@
    background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover;}
  .lunch .ki-explanation {
-   font-size:400%;
    font-family:'Playfair Display', serif; 
    font-style:italic;  
-   padding-top:4em; 
    text-align:center;
   }
 
@@ -76,6 +74,11 @@
 	    }
 
 	  .break .ki-explanation {font-size:400%; padding-top:1em; text-align:center;}  
+		
+	.lunch .ki-explanation {
+         font-size:400%;
+         padding-top:4em; 
+         }
 	}
 
 /* large devices */
@@ -102,6 +105,10 @@
 	    }
 	  
 	  .break .ki-explanation {font-size:400%; padding-top:4em; text-align:center;}
+         .lunch .ki-explanation {
+         font-size:200%;
+         padding-top:1em; 
+         }
 	}
 
 
