@@ -3,7 +3,7 @@
 
 @media only screen and (max-width: 768px) {
   .agenda { }
-  .agenda .ki-explanation  {text-align:center;font-size:normal; line-height:1.5rem; font-style:normal; margin-top:1rem; padding-left:1em; padding-right:1em;}
+  .agenda .ki-explanation  {text-align:center;font-size:normal; line-height:1.5em; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
   .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
   text-align:center;
   font-style:italic;
@@ -26,7 +26,7 @@
 
 @media only screen and (min-width: 769px) {
   .agenda { }
-  .agenda .ki-explanation {text-align:center;font-size:1.25rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+  .agenda .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
   .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
   text-align:center;font-size:400%;padding-bottom:1.0em; padding-top:1.0em; /* the padding is important to show the background image */
   background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
