@@ -1,17 +1,9 @@
 /* include any fonts we want to use in the event */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital@0;1&display=swap');
 
-/* set the defaults for our various custom classes */
-.ki-index-custom {
-    font-size: 1.25em;
-    font-weight: 500;
-    line-height: 2em;
-    letter-spacing: 0.0125em;
-}
-
 @media only screen and (max-width: 768px) {
   .agenda { }
-  .agenda .ki-explanation  {text-align:center;font-size:1.25rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+  .agenda .ki-explanation  {text-align:center;font-size:normal; line-height:1.5rem; font-style:normal; margin-top:1rem; }
   .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
   text-align:center;
   font-style:italic;
