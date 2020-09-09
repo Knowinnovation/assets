@@ -3,7 +3,7 @@
 
 @media only screen and (max-width: 768px) {
   .agenda { }
-  .agenda .ki-explanation  {text-align:center;font-size:normal; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+  .agenda .ki-explanation  {text-align:center;font-size:normal; line-height:1.5rem; font-style:normal; margin-top:1rem; padding-left:1em; padding-right:1em;}
   .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
   text-align:center;
   font-style:italic;
@@ -16,7 +16,7 @@
   .agenda .ki-index-custom { 
    }
   .ki-index-custom .ki-datetime {
-   color:aliceblue;
+   color:dimgrey;
    }
    .ki-index-custom .ki-agenda-item-description {
    font-weight:bold;
