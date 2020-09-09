@@ -11,27 +11,31 @@
 
 @media only screen and (max-width: 768px) {
   .agenda { }
-  .agenda .ki-title {font-family:'Playfair Display', serif;
+  .agenda .ki-explanation  {text-align:center;font-size:1.25rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+  .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
   text-align:center;
   font-style:italic;
   font-weight: bold;
+      font-size:200%;
+      padding-bottom:1.0em; 
+      padding-top:1.0em;
   }
   .agenda .ki-index {}
   .agenda .ki-index-custom { 
-    display:grid;
-    grid-template-columns: [time] 8em [description] auto;
-    justify-items:start;
-    align-items: start;
-    line-height:140%;
    }
-  .ki-index-custom .ki-datetime {grid-column-start:1; }
-  .ki-index-custom .ki-agenda-item-description {grid-column-start:2; }
-  .agenda .ki-explanation {text-align:center;font-size:1.25rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+  .ki-index-custom .ki-datetime {
+   color:aliceblue;
+   }
+   .ki-index-custom .ki-agenda-item-description {
+   font-weight:bold;
+    }
+
 }
 
 @media only screen and (min-width: 769px) {
   .agenda { }
-  .agenda .ki-title {font-family:'Playfair Display', serif;
+  .agenda .ki-explanation {text-align:center;font-size:1.25rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+  .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
   text-align:center;font-size:400%;padding-bottom:1.0em; padding-top:1.0em; /* the padding is important to show the background image */
   background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
   background-repeat: no-repeat!important;
@@ -39,15 +43,16 @@
   }
   .agenda .ki-index {}
   .agenda .ki-index-custom { 
-    display:grid;
-    grid-template-columns: [time] 8em [description] auto;
-    justify-items:start;
-    align-items: start;
-    line-height:140%;
    }
-   .ki-index-custom .ki-datetime {grid-column-start:1; }
-   .ki-index-custom .ki-agenda-item-description {grid-column-start:2; }
-   .agenda .ki-explanation {text-align:center;font-size:1.25rem; line-height:1.5rem; font-style:normal; margin-top:1rem; }
+  .ki-index-custom .ki-datetime {
+   float:left;
+   width:8em;
+   color:dimgrey;
+   }
+   .ki-index-custom .ki-agenda-item-description {
+   font-weight:bold;
+   margin-left:8em;
+    }
 }
 
 .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
