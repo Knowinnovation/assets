@@ -4,7 +4,8 @@
 /* set up our basic classes. We will modify some elements inside the media query blocks */
 
  .agenda { }
- .agenda .ki-explanation {text-align:center;line-height:1.5em; }
+ .agenda .ki-explanation {text-align:center;line-height:1.5em; font-family:normal;}
+ .agenda .ki-explanation .ki-title {font-family: 'Playfair Display', serif;}
 
  .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
    background-image: url("../images/break.jpg"); /* The image used */
@@ -13,35 +14,25 @@
    background-size: cover;
   }
 
- .coffee-chat {
-   font-family: 'Playfair Display', serif;
-  }
+ .coffee-chat {}
  .coffee-chat .ki-explanation {
-   font-size:300%!important; 
-   
+   font-size:300%!important;  
   }
- .coffee-chat .ki-explanation .ki-title {
-   text-align:center!important; 
-   padding-top:2em!important;
-  }
+ .coffee-chat .ki-explanation .ki-title {}
 
- .lunch {background-color:tomato!important; font-family: 'Playfair Display', serif;
+ .lunch {background-color:tomato!important;
    background-image: url("../images/lunch2.jpg"); /* The image used */
    background-position: center; /* Center the image */
    background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover;}
- .lunch .ki-explanation {
-   font-family:'Playfair Display', serif; 
+ .lunch .ki-explanation { 
    font-style:italic;  
    text-align:center;
+   font-family: 'Playfair Display', serif;
   }
 
- .keynote {background-color:mintcream!important;
-   text-align: right!important;
-  }
- .keynote .ki-explanation {font-size:100%!important; 
-   background-color: white!important;
-  }
+ .keynote { }
+ .keynote .ki-explanation { }
  .keynote .ki-title { font-size:200%!important;}
  .keynote .ki-index {background-color:mediumturquoise!important;}
  .keynote .ki-index-custom{font-style:bold!important; }
