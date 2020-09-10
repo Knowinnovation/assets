@@ -1,201 +1,118 @@
-.fe {padding-top:0em;}
-.fe .center{margin:auto; width:80%; font-family:Tahoma; font-size:2em} 
-.fe .bullets {padding-bottom:1.2em;}
-.fe .title{padding-top:0em;margin-top:0em;}
-.fe .tasks {width: 85%;margin:auto;}
-.fe .task {padding-left: 1%;padding-right: 1%;padding-bottom:3em;}
-.fe .grow img{transition: all .2s ease-in-out;}
-.fe .grow img:hover{transform: scale(1.1);}
-.fe .col-xs-12 img{max-width: 30%;padding-bottom:10px;}
-.fe .welcome-header {max-width: 5em; padding-top: 0.5em;}
+/* include any fonts we want to use in the event */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital@0;1&display=swap');
 
-.slack {max-width: 8em; border: .15em solid #10629B; border-radius:.8em; transition: all .2s ease-in-out;}
-.slack:hover {transform: scale(1.1);}
+/* set up our basic classes. We will modify some elements inside the media query blocks */
 
-a {color:#5B7771 !important; text-decoration: underline !important;}
+ .agenda { }
+ .agenda .ki-explanation {text-align:center;line-height:1.5em; }
 
-hr {
-  border-top: 1px solid #fafafa;
-}
-
-.fe.intro {
-  
-  background-color: #f8f8f6;
-  border-radius: 0.5rem;
-  padding: 2rem 1rem 1rem 1rem;
-  
-}
- 
-.fe.header {
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-
-  background-color: #f8f8f6;
-  border-radius: 0.5rem;
-
-  padding: 0rem 1rem 0.5rem 0.5rem;
-  margin: 0rem 0rem 1rem 0rem;
-
-  min-height: 20vh;
-
-}
-
-.fe.title {
-
-background-image: url("https://raw.githubusercontent.com/joepacal/kistorm-fe/master/assets/bg-bar-blue.svg");
-
-  background-repeat: no-repeat;
-  background-size: initial;
-
-  padding: 0rem 0rem 0rem 1rem;
-  margin: 1rem 2rem 1rem 0.5rem;
-
-}
-
-.fe.logo {
-
-  background-color: #f8f8f6;
-  border-radius: 100rem;
-
-  width: 64px;
-  height: 64px;
-
-  padding: 0.5rem;
-  margin: 0rem 1rem 0rem 0rem;
-
-  flex-grow: none;
-
-}
-
-.fe.video {
-
-  max-width: 600px;
-
-  padding: 2rem 1rem; 
-
-  background-image: url("https://uploads-ssl.webflow.com/5c34eab9a3cd45767d571354/5ec6e59a1ecb592cc3e7594a_bg-bar-1.svg");
-  background-repeat: no-repeat;
-  background-size: initial;
-  background-position: right bottom;
-
-}
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.fe.list {
-
-  display: inline-block;
-  padding: 1rem 2rem 1rem 1.5rem;
-  margin: 0.5rem;
-
-  background-image: url("https://uploads-ssl.webflow.com/5c34eab9a3cd45767d571354/5ec6f1f7deac6249117a8ec1_ico-arrow.svg");
-  background-repeat: no-repeat;
-  background-position: right 0.5rem bottom 50%;
-
-  background-color: #f8f8f6d;
-  border-radius: 0.5rem;
-
-  -moz-box-shadow:  0px 2px 4px 0px rgba(0,0,0,0.25);
-  -webkit-box-shadow:  0px 2px 4px 0px rgba(0,0,0,0.25);
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
-
-  transition: 200ms;
-  cursor: pointer;
-
-}
-
-.fe.list:hover {
-
-  background-color: #f8f8f6;
-
-  -moz-box-shadow: 0px 2px 10px 0px #ccc;
-  -webkit-box-shadow: 0px 2px 10px 0px #ccc;
-  box-shadow: 0px 2px 10px 0px #ccc;
- 
-  text-decoration: underline;
-
-}
-
-
-.fe.row {
-
-  display: block;
-  width: auto;
-  margin: 1.5rem 1rem 2rem 1rem;
-  padding: 1rem;
-
-}
-
-
-.avatarCard {
-  display: inline-block;
-  width: 16rem;
-  height: auto;
-
-  margin: 1rem 2rem 1rem 0rem;
-  padding: 0.5rem;
-}
-
-.avatar {
-
-  display: inline-block;
-  width: 112px;
-  height: 112px;
-
-}
-
-
-.compass {
-
-  padding: 2rem 1rem 1rem 1rem;
-  border-bottom: 1px solid #8996A0;
-  text-align: center;
-
-}
-
-
-body.screen--xs .varicols {
-    column-count: 1;
+ .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
+   background-image: url("../images/break.jpg"); /* The image used */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
   }
-body.screen--sm .varicols {
-  column-count: 2;
-}
-body.screen--md .varicols {
-  column-count: 4;
-}
-body.screen--lg .varicols {
-  column-count: 6;
-}
 
-body.screen--xl .varicols {
-column-count: 6;
-}
+ .coffee-chat {
+   font-family: 'Playfair Display', serif;
+  }
+ .coffee-chat .ki-explanation {
+   font-size:300%!important; 
+   
+  }
+ .coffee-chat .ki-explanation .ki-title {
+   text-align:center!important; 
+   padding-top:2em!important;
+  }
 
-.tim {
+ .lunch {background-color:tomato!important; font-family: 'Playfair Display', serif;
+   background-image: url("../images/lunch2.jpg"); /* The image used */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;}
+ .lunch .ki-explanation {
+   font-family:'Playfair Display', serif; 
+   font-style:italic;  
+   text-align:center;
+  }
 
-  display: inline-block;
-  margin: 0.5rem;
-  width:142px;
+ .keynote {background-color:mintcream!important;
+   text-align: right!important;
+  }
+ .keynote .ki-explanation {font-size:100%!important; 
+   background-color: white!important;
+  }
+ .keynote .ki-title { font-size:200%!important;}
+ .keynote .ki-index {background-color:mediumturquoise!important;}
+ .keynote .ki-index-custom{font-style:bold!important; }
 
-}
 
-.tim:hover {
-  transform: scale(0.61);
-  z-index: 3;
-}
+/* small devices */
+	@media only screen and (max-width: 768px) {
+
+	  .agenda .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
+	  .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	  text-align:center;
+	  font-style:italic;
+	  font-weight: bold;
+	      font-size:200%;
+	      padding-bottom:1.0em; 
+	      padding-top:1.0em;
+	  }
+	  .agenda .ki-index {}
+	  .agenda .ki-index-custom { font-size:1.00rem;
+	   }
+	  .ki-index-custom .ki-datetime {
+	   color:dimgrey;
+	   }
+	   .ki-index-custom .ki-agenda-item-description {
+	   font-weight:bold;
+	    }
+
+	  .break .ki-explanation {font-size:400%; padding-top:1em; text-align:center;}  
+		
+	.lunch .ki-explanation {
+         font-size:200%;
+         padding-top:4em; 
+         }
+	} /* end of screen block for small devices */
+
+/* large devices */
+	@media only screen and (min-width: 769px) {
+
+	  .agenda .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
+	  .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	    text-align:center;font-size:400%;
+	    font-style:italic;
+            padding-bottom:1.0em; 
+	    padding-top:1.0em; /* the padding is important to show the background image */
+		  
+		  /* include this if you want a background image behind the title */
+		  /* 	  background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
+	                  background-repeat: no-repeat!important;*/
+
+	  }
+	  .agenda .ki-index {}
+	  .agenda .ki-index-custom { font-size:1.25rem;}
+	  .ki-index-custom .ki-datetime {
+	    float:left;
+	    width:8em;
+	    color:dimgrey;
+	   }
+	   .ki-index-custom .ki-agenda-item-description {
+	    font-weight:bold;
+	    margin-left:8em;
+	   }
+	  
+	  .break .ki-explanation {font-size:400%; padding-top:4em; text-align:center;}
+         .lunch .ki-explanation {
+         font-size:400%;
+         padding-top:4em; 
+         }
+	} /* end of screen block for large devices */
+
+
+
+
+
 
