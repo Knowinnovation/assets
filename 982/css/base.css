@@ -3,64 +3,54 @@
 
 /* set up our basic classes. We will modify some elements inside the media query blocks */
 
- .agenda { }
- .agenda .ki-explanation {text-align:center;line-height:1.5em; font-family:normal;}
- .agenda .ki-explanation .ki-title {font-family: 'Playfair Display', serif;}
+ .ki-explanation { font-size:normal;}
+ .ki-explanation .ki-title {font-family: 'Playfair Display', serif;}
 
- .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
-   background-image: url("../images/break.jpg"); /* The image used */
-   background-position: center; /* Center the image */
-   background-repeat: no-repeat; /* Do not repeat the image */
-   background-size: cover;
-  }
+ .agenda { }
+ .agenda .ki-explanation {}
+ .agenda .ki-explanation .ki-title {}
+ .agenda .ki-index {}
+
+ .break {}
+ .break .ki-explanation { }
+ .break .ki-explanation .ki-title {}
 
  .coffee-chat {}
- .coffee-chat .ki-explanation {
-   font-size:300%!important;  
-  }
+ .coffee-chat .ki-explanation {}
  .coffee-chat .ki-explanation .ki-title {}
 
- .lunch {background-color:tomato!important;
-   background-image: url("../images/lunch2.jpg"); /* The image used */
-   background-position: center; /* Center the image */
-   background-repeat: no-repeat; /* Do not repeat the image */
-   background-size: cover;}
- .lunch .ki-explanation { 
-   font-style:italic;  
-   text-align:center;
-   font-family: 'Playfair Display', serif;
-  }
+ .lunch { }
+ .lunch .ki-explanation { }
+ .lunch .ki-explanation .ki-title {}
 
  .keynote { }
- .keynote .ki-explanation { }
- .keynote .ki-title { font-size:200%!important;}
- .keynote .ki-index {background-color:mediumturquoise!important;}
- .keynote .ki-index-custom{font-style:bold!important; }
+ .keynote .ki-explanation {}
+ .keynote .ki-explanation .ki-title {}
 
- .welcome { background-color:aliceblue;}
- .welcome .ki-explanation { background-color:tomato;}
+ .panel {}
+ .panel .ki-explanation {}
+ .panel .ki-explanation .ki-title {}
+
+ .welcome {}
+ .welcome .ki-explanation {}
+ .welcome .ki-explanation .ki-title {}
 
 /* small devices */
 	@media only screen and (max-width: 768px) {
 
 	  .agenda .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
 	  .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
-	  text-align:center;
-	  font-style:italic;
-	  font-weight: bold;
+	   text-align:center;
+	   font-style:italic;
+	   font-weight: bold;
 	      font-size:200%;
 	      padding-bottom:1.0em; 
 	      padding-top:1.0em;
 	  }
-	  .agenda .ki-index {}
-	  .agenda .ki-index-custom { font-size:1.00rem;
-	   }
-	  .ki-index-custom .ki-datetime {
-	   color:dimgrey;
-	   }
-	   .ki-index-custom .ki-agenda-item-description {
-	   font-weight:bold;
-	    }
+
+	  .agenda .ki-index-custom { font-size:1.00rem;}
+	  .ki-index-custom .ki-datetime {color:dimgrey;}
+	  .ki-index-custom .ki-agenda-item-description {font-weight:bold;}
 
 	  .break .ki-explanation {font-size:400%; padding-top:1em; text-align:center;}  
 		
@@ -85,7 +75,7 @@
 	                  background-repeat: no-repeat!important;*/
 
 	  }
-	  .agenda .ki-index {}
+
 	  .agenda .ki-index-custom { font-size:1.25rem;}
 	  .ki-index-custom .ki-datetime {
 	    float:left;
