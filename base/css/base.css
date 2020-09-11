@@ -36,16 +36,13 @@
    text-align:center;
   }
 
- .keynote {background-color:mintcream!important;
-   text-align: right!important;
-  }
- .keynote .ki-explanation {font-size:100%!important; 
-   background-color: white!important;
-  }
+ .keynote {}
+ .keynote .ki-explanation {font-size:100%  }
  .keynote .ki-title { font-size:200%!important;}
  .keynote .ki-index {background-color:mediumturquoise!important;}
  .keynote .ki-index-custom{font-style:bold!important; }
 
+ .voting {}
 
 /* small devices */
 	@media only screen and (max-width: 768px) {
@@ -75,6 +72,16 @@
          font-size:200%;
          padding-top:4em; 
          }
+		
+	.voting .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
+	.voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+		text-align:center;
+	  	font-style:italic;
+	  	font-weight: bold;
+	        font-size:200%;
+	        padding-bottom:1.0em; 
+	        padding-top:1.0em;
+	  }
 	} /* end of screen block for small devices */
 
 /* large devices */
@@ -109,6 +116,19 @@
          font-size:400%;
          padding-top:4em; 
          }
+		
+	  .voting .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
+	  .voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	    text-align:center;font-size:400%;
+	    font-style:italic;
+            padding-bottom:1.0em; 
+	    padding-top:1.0em; /* the padding is important to show the background image */
+		  
+		  /* include this if you want a background image behind the title */
+		  /* 	  background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
+	                  background-repeat: no-repeat!important;*/
+
+	  }
 	} /* end of screen block for large devices */
 
 
