@@ -44,6 +44,7 @@
 
  .voting {}
 
+
 /* small devices */
 	@media only screen and (max-width: 768px) {
 
@@ -73,7 +74,7 @@
          padding-top:4em; 
          }
 		
-	.voting .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
+	.voting .ki-explanation  {font-size:normal; text-align:left; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
 	.voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
 		text-align:center;
 	  	font-style:italic;
@@ -117,7 +118,7 @@
          padding-top:4em; 
          }
 		
-	  .voting .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
+	  .voting .ki-explanation {text-align:center; text-align:left; font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
 	  .voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
 	    text-align:center;font-size:400%;
 	    font-style:italic;
