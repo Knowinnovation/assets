@@ -37,6 +37,8 @@
  .keynote .ki-index {background-color:mediumturquoise!important;}
  .keynote .ki-index-custom{font-style:bold!important; }
 
+ .welcome { background-color:aliceblue;}
+ .welcome .ki-explanation { background-color:tomato;}
 
 /* small devices */
 	@media only screen and (max-width: 768px) {
