@@ -9,7 +9,7 @@
  .agenda { }
  .agenda .ki-explanation {text-align:center;line-height:1.5em; }
 
- .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
+ .break {
    background-image: url("../images/break.jpg"); /* The image used */
    background-position: center; /* Center the image */
    background-repeat: no-repeat; /* Do not repeat the image */
@@ -17,7 +17,6 @@
   }
 
  .coffee-chat {
-   font-family: 'Playfair Display', serif;
   }
  .coffee-chat .ki-explanation {
    font-size:300%!important; 
@@ -52,8 +51,7 @@
 	@media only screen and (max-width: 768px) {
 
 	  .agenda .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
-	  .agenda .ki-explanation .ki-title {font-family:monospace;
-	  color:#5b32b4;
+	  .agenda .ki-explanation .ki-title {
 	  text-align:center;
 	  font-style:italic;
 	  font-weight: bold;
@@ -93,8 +91,7 @@
 	@media only screen and (min-width: 769px) {
 
 	  .agenda .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
-	  .agenda .ki-explanation .ki-title {font-family:monospace;
-	    color:#5b32b4;
+	  .agenda .ki-explanation .ki-title {
 	    text-align:center;font-size:400%;
 	    font-style:italic;
             padding-bottom:1.0em; 
@@ -124,7 +121,7 @@
          }
 		
 	  .voting .ki-explanation {text-align:center; text-align:left; font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
-	  .voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	  .voting .ki-explanation .ki-title {
 	    text-align:center;font-size:400%;
 	    font-style:italic;
             padding-bottom:1.0em; 
