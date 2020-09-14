@@ -3,6 +3,9 @@
 
 /* set up our basic classes. We will modify some elements inside the media query blocks */
 
+ .ki-title{ font-family:monospace; color:#5b32b4;}
+ .ki-explanation {font-family:normal; color:#000000;}
+
  .agenda { }
  .agenda .ki-explanation {text-align:center;line-height:1.5em; }
 
