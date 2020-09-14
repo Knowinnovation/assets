@@ -3,7 +3,7 @@
 
 /* set up our basic classes. We will modify some elements inside the media query blocks */
 
- .ki-title{ font-family:'Source Code Pro'; color:#5b32b4;}
+ .ki-title{ font-family:'Source Code Pro'; color:#5b32b4; line-height:1.2em;}
  .ki-explanation { color:#000000;}
 
  .agenda { }
