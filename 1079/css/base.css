@@ -77,7 +77,7 @@
          }
 		
 	.voting .ki-explanation  {font-size:normal; text-align:left; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
-	.voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	.voting .ki-explanation .ki-title {
 		text-align:center;
 	  	font-style:italic;
 	  	font-weight: bold;
@@ -122,6 +122,19 @@
 		
 	  .voting .ki-explanation {text-align:center; text-align:left; font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
 	  .voting .ki-explanation .ki-title {
+	    text-align:center;font-size:400%;
+	    font-style:italic;
+            padding-bottom:1.0em; 
+	    padding-top:1.0em; /* the padding is important to show the background image */
+		  
+		  /* include this if you want a background image behind the title */
+		  /* 	  background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
+	                  background-repeat: no-repeat!important;*/
+
+	  }
+		
+		  .welcome .ki-explanation {text-align:center; text-align:left; font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
+	  .welcome .ki-explanation .ki-title {
 	    text-align:center;font-size:400%;
 	    font-style:italic;
             padding-bottom:1.0em; 
