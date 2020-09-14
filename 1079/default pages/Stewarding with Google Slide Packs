@@ -1,0 +1,38 @@
+    <hr>
+
+    <style>
+      div#lets-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 25px;
+      }
+      div#lets-grid div.iframe-wrapper {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 62.5%;
+        border-radius: 5px;
+      }
+      div#lets-grid div.iframe-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+      }
+      @media screen and (max-width: 800px) {
+        div#lets-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+
+    <div id="lets-grid">
+      <div class='iframe-wrapper'>
+        <iframe src="THIS IS WHERE YOU PUT THE URL OF THE SHARED SLIDE PACK"></iframe>
+      </div>
+COPY THE ABOVE THREE LINES AS MANY TIMES AS YOU WANT. CHANGE THE URL FOR EACH IFRAME
+     
+    </div> 
