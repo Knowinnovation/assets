@@ -1,9 +1,9 @@
 /* include any fonts we want to use in the event */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;1,500&display=swap');
 
 /* set up our basic classes. We will modify some elements inside the media query blocks */
 
- .ki-title{ font-family:monospace; color:#5b32b4;}
+ .ki-title{ font-family:'Source Code Pro'; color:#5b32b4;}
  .ki-explanation { color:#000000;}
 
  .agenda { }
