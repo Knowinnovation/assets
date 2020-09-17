@@ -40,7 +40,7 @@
 /* small devices */
 	@media only screen and (max-width: 768px) {
 
-	  .agenda .ki-explanation  {font-weight:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
+	  .agenda .ki-explanation  {margin-top:1em; padding-left:1em; padding-right:1em;}
 	  .agenda .ki-explanation .ki-title {
 	   text-align:center;
 	   font-style:italic;
@@ -50,7 +50,7 @@
 	      padding-top:1.0em;
 	  }
 
-	  .agenda .ki-index-custom { font-size:1.00rem;}
+	  .agenda .ki-index-custom { font-size:1.00rem; font-family:'EB+Garamond', serif;}
 	  .ki-index-custom .ki-datetime {color:dimgrey;}
 	  .ki-index-custom .ki-agenda-item-description {font-weight:bold;}
 
@@ -65,7 +65,7 @@
 /* large devices */
 	@media only screen and (min-width: 769px) {
 
-	  .agenda .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-weight:normal; margin-top:1em; }
+	  .agenda .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; margin-top:1em; }
 	  .agenda .ki-explanation .ki-title {
 	    text-align:center;font-size:400%;
 	    font-style:italic;
@@ -78,7 +78,7 @@
 
 	  }
 
-	  .agenda .ki-index-custom { font-size:1.25rem;}
+	  .agenda .ki-index-custom { font-size:1.25rem; font-family:'EB+Garamond', serif;}
 	  .ki-index-custom .ki-datetime {
 	    float:left;
 	    width:8em;
