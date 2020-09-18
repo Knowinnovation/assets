@@ -56,10 +56,19 @@
 
 	  .break .ki-explanation {font-size:400%; padding-top:1em; text-align:center;}  
 		
-	.lunch .ki-explanation {
-         font-size:200%;
-         padding-top:4em; 
-         }
+	  .lunch .ki-explanation {font-size:200%; padding-top:4em;} 
+
+	  .welcome .ki-explanation {margin-top:1em; padding-left:1em; padding-right:1em;}
+      .welcome .ki-explanation .ki-title {
+       text-align:center;
+	   font-style:italic;
+	   font-weight: bold;
+	      font-size:200%;
+	      padding-bottom:1.0em; 
+	      padding-top:1.0em;
+      }
+
+
 	} /* end of screen block for small devices */
 
 /* large devices */
@@ -70,7 +79,8 @@
 	    text-align:center;font-size:400%;
 	    font-style:italic;
             padding-bottom:1.0em; 
-	    padding-top:1.0em; /* the padding is important to show the background image */
+	    padding-top:1.0em; 
+	    /* the padding is important to show the background image */
 		  
 		  /* include this if you want a background image behind the title */
 		  /* 	  background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
@@ -94,6 +104,14 @@
          font-size:400%;
          padding-top:4em; 
          }
+
+      .welcome .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; margin-top:1em;}
+      .welcome .ki-explanation .ki-title {
+	    text-align:center;font-size:400%;
+	    font-style:italic;
+        padding-bottom:1.0em; 
+	    padding-top:1.0em;
+      }
 	} /* end of screen block for large devices */
 
 

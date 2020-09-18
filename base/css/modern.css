@@ -59,6 +59,18 @@
          font-size:200%;
          padding-top:4em; 
          }
+
+
+      .welcome .ki-explanation {font-weight:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
+ .welcome .ki-explanation .ki-title {
+ 	font-family:'Comfortaa';
+	   text-align:center;
+	   font-style:italic;
+	   font-weight: bold;
+	      font-size:200%;
+	      padding-bottom:1.0em; 
+	      padding-top:1.0em;
+ }    
 	} /* end of screen block for small devices */
 
 /* large devices */
@@ -93,6 +105,13 @@
          font-size:400%;
          padding-top:4em; 
          }
+
+          .welcome .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
+ .welcome .ki-explanation .ki-title {font-family:'Comfortaa';
+	    text-align:center;font-size:400%;
+	    font-style:italic;
+            padding-bottom:1.0em; 
+	    padding-top:1.0em;}
 	} /* end of screen block for large devices */
 
 
