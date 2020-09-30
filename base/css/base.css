@@ -73,7 +73,7 @@ padding: 1rem 2rem 1.5rem 1rem;}
 .exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
 /* It's likely that this ki-overview row will just contain paragraphs of text */
 
-.exhibitor .ki-explanation .ki-overview {background-color:pink;display: flex;
+.exhibitor .ki-explanation .ki-information {background-color:pink;display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: flex-start;
