@@ -72,21 +72,35 @@ padding: 1rem 2rem 1.5rem 1rem;}
 .exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
 .exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
 /* It's likely that this ki-overview row will just contain paragraphs of text */
+
 .exhibitor .ki-explanation .ki-overview {background-color:pink;display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: flex-start;
 padding: 1rem 2rem 1.5rem 1rem;}
+
 .exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-end;
 padding: 1rem 2rem 1.5rem 1rem;}
+
+.exhibitor .ki-explanation .ki-video .ki-video-embed {background-color:blue;
+ display:block;
+width:50%;
+padding:1rem;}
+
+.exhibitor .ki-explanation .ki-video .ki-video-description {background-color:blue;
+ display:block;
+width:50%;
+padding:1rem;}
+
 .exhbitor .ki-explanation .ki-resources {background-color:goldenrod;display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-end;
 padding: 1rem 2rem 1.5rem 1rem;}
+
 .exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
