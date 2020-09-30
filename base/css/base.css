@@ -98,7 +98,7 @@ padding:1rem;}
 .exhibitor .ki-explanation .ki-resources {background-color:red;display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 padding: 1rem 2rem 1.5rem 1rem;}
 
 .exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
