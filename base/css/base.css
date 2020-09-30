@@ -1,10 +1,17 @@
 /* include any fonts we want to use in the event */
 
 
-/* set up our basic classes. We will modify some elements inside the media query blocks */
+/* set up our basic styles */
+
+h1, h2, h3, h4, h5, h6 {}
+p {}
+
+/* agenda */
 
  .agenda { }
  .agenda .ki-explanation {text-align:center;line-height:1.5em; }
+
+/* break */
 
  .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
    background-image: url("../images/break.jpg"); /* The image used */
@@ -12,6 +19,8 @@
    background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover;
   }
+
+/* coffee-chat */
 
  .coffee-chat {
    font-family: 'Playfair Display', serif;
@@ -25,6 +34,8 @@
    padding-top:2em!important;
   }
 
+/* lunch */
+
  .lunch {background-color:tomato!important; font-family: 'Playfair Display', serif;
    background-image: url("../images/lunch2.jpg"); /* The image used */
    background-position: center; /* Center the image */
@@ -36,13 +47,57 @@
    text-align:center;
   }
 
+/* keynote */
+
  .keynote {}
  .keynote .ki-explanation {font-size:100%  }
  .keynote .ki-title { font-size:200%!important;}
  .keynote .ki-index {background-color:mediumturquoise!important;}
  .keynote .ki-index-custom{font-style:bold!important; }
 
+/* voting */
+
  .voting {}
+
+
+.ki-explanation {}
+.ki-explanation .ki-row {display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+padding: 1rem 2rem 1.5rem 1rem;}
+
+/* exhibitor */
+
+.exhibitor .ki-explanation .ki-overview {background-color:pink;display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+padding: 1rem 2rem 1.5rem 1rem;}
+.exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+padding: 1rem 2rem 1.5rem 1rem;}
+.exhbitor .ki-explanation .ki-resources {background-color:goldenrod;display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+padding: 1rem 2rem 1.5rem 1rem;}
+.exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+padding: 1rem 2rem 1.5rem 1rem;}
+
+.exhibitor .ki-explanation .ki-logo {}
+.exhibitor .ki-explanation .ki-logo img {width:50%;}
+.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
+	padding: 0.5rem 1rem 0.5rem 0; }
+
+
+
+
 
 
 /* small devices */
