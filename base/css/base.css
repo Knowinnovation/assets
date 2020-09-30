@@ -101,10 +101,12 @@ padding:1rem;}
   align-items: flex-start;
 padding: 1rem 2rem 1.5rem 1rem;}
 
+.exhibitor .ki-explanation .ki-resources ul {width:45%;}
+
 .exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
 padding: 1rem 2rem 1.5rem 1rem;}
 
 .exhibitor .ki-explanation .ki-logo {}
