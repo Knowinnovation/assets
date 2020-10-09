@@ -5,8 +5,8 @@
 /* set up our basic classes. We will modify some elements inside the media query blocks */
  .ki-explanation h1 {font-size:2rem; font-weight: bold;}
  .ki-explanation h2 {font-size:1.5rem; font-weight:bold;}
- .ki-explanation h3 {font-size:1rem; font-weight:bold;}
- .ki-explanation h4 {font-size:1rem; font-weight:initial; font-style: italic;}
+ .ki-explanation h3 {font-size:1.25rem; font-weight:bold;}
+ .ki-explanation h4 {font-size:1.25rem; font-weight:initial; font-style: italic;}
 
 
  .ki-heading {font-family: 'Playfair Display', serif;}
