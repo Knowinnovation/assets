@@ -11,7 +11,7 @@
 
  .ki-heading {font-family: 'Playfair Display', serif;}
  .ki-explanation { font-weight:normal; font-family:'EB+Garamond', serif; }
- .ki-explanation .ki-title {font-family: 'Playfair Display', serif;}
+ .ki-explanation .ki-title {font-family: 'Playfair Display', serif; line-height: 125%;}
 
  .agenda { }
  .agenda .ki-explanation {}
@@ -51,6 +51,7 @@
 	   font-style:italic;
 	   font-weight: bold;
 	      font-size:200%;
+
 	      padding-bottom:1.0em; 
 	      padding-top:1.0em;
 	  }
