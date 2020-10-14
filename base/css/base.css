@@ -9,7 +9,7 @@ p {}
 /* agenda */
 
  .agenda { }
- .agenda .ki-explanation {text-align:center;line-height:1.5em; }
+ .agenda .ki-explanation {line-height:1.5em; }
 
 /* break */
 
@@ -23,7 +23,6 @@ p {}
 /* coffee-chat */
 
  .coffee-chat {
-   font-family: 'Playfair Display', serif;
   }
  .coffee-chat .ki-explanation {
    font-size:300%!important; 
@@ -36,13 +35,12 @@ p {}
 
 /* lunch */
 
- .lunch {background-color:tomato!important; font-family: 'Playfair Display', serif;
+ .lunch {background-color:tomato!important;
    background-image: url("../images/lunch2.jpg"); /* The image used */
    background-position: center; /* Center the image */
    background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover;}
  .lunch .ki-explanation {
-   font-family:'Playfair Display', serif; 
    font-style:italic;  
    text-align:center;
   }
@@ -123,7 +121,7 @@ padding: 1rem 2rem 1.5rem 1rem;}
 	@media only screen and (max-width: 768px) {
 
 	  .agenda .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
-	  .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	  .agenda .ki-explanation .ki-title {
 	  text-align:center;
 	  font-style:italic;
 	  font-weight: bold;
@@ -149,7 +147,7 @@ padding: 1rem 2rem 1.5rem 1rem;}
          }
 		
 	.voting .ki-explanation  {font-size:normal; text-align:left; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
-	.voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	.voting .ki-explanation .ki-title {
 		text-align:center;
 	  	font-style:italic;
 	  	font-weight: bold;
@@ -163,7 +161,7 @@ padding: 1rem 2rem 1.5rem 1rem;}
 	@media only screen and (min-width: 769px) {
 
 	  .agenda .ki-explanation {text-align:center;font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
-	  .agenda .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	  .agenda .ki-explanation .ki-title {
 	    text-align:center;font-size:400%;
 	    font-style:italic;
             padding-bottom:1.0em; 
@@ -193,7 +191,7 @@ padding: 1rem 2rem 1.5rem 1rem;}
          }
 		
 	  .voting .ki-explanation {text-align:center; text-align:left; font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
-	  .voting .ki-explanation .ki-title {font-family:'Playfair Display', serif;
+	  .voting .ki-explanation .ki-title {
 	    text-align:center;font-size:400%;
 	    font-style:italic;
             padding-bottom:1.0em; 
