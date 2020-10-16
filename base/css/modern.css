@@ -5,7 +5,7 @@
 /* set up our basic classes. We will modify some elements inside the media query blocks */
 
  .ki-explanation { font-weight:normal;}
- .ki-explanation .ki-title {font-family: 'Comfortaa';}
+ .ki-explanation .ki-title {font-family: 'Comfortaa'; font-size:200%; margin-top:1rem; margin-bottom: 1rem; text-align:center;}
 
  .agenda { }
  .agenda .ki-explanation {}
