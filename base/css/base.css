@@ -129,12 +129,29 @@ padding: 1rem 2rem 1.5rem 1rem;}
 	      padding-bottom:1.0em; 
 	      padding-top:1.0em;
 	  }
+
+
+
+<div class="ki-agenda-item-numbered">1.</div>
+<div class="ki-agenda-item-description">Profiles</div>
+
+
+
+
+
+
+
 	  .agenda .ki-index {}
 	  .agenda .ki-index-custom { font-size:1.00rem;
 	   }
 	  .ki-index-custom .ki-datetime {
 	   color:dimgrey;
 	   }
+
+	   .ki-index-custom .ki-agenda-item-numbered {
+	    color:dimgrey;
+	   }
+	   
 	   .ki-index-custom .ki-agenda-item-description {
 	   font-weight:bold;
 	    }
