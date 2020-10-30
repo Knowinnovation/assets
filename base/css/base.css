@@ -2,39 +2,45 @@
 
 
 /* set up our basic styles */
-
-h1, h2, h3, h4, h5, h6 {}
-p {}
+	h1, h2, h3, h4, h5, h6 {}
+	p {}
+	.ji-heading {font-size:150%; padding-top:1em;padding-bottom:1em;font-weight: bold;}
+	.ki-explanation {}
+	.ki-explanation .ki-row {display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	padding: 1rem 2rem 1.5rem 1rem;}
 
 /* agenda */
+	.agenda { }
+	.agenda .ki-explanation {line-height:1.5em; }
 
- .agenda { }
- .agenda .ki-explanation {line-height:1.5em; }
+/* brainstorm */
+	.brainstorm {}
+	.brainstorm .ki-explanation {line-height:1.5em; }
 
 /* break */
-
- .break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
-   background-image: url("../images/break.jpg"); /* The image used */
-   background-position: center; /* Center the image */
-   background-repeat: no-repeat; /* Do not repeat the image */
-   background-size: cover;
-  }
+	.break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
+		background-image: url("../images/break.jpg"); /* The image used */
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover;
+	  	}
 
 /* coffee-chat */
-
- .coffee-chat {
-  }
- .coffee-chat .ki-explanation {
-   font-size:300%!important; 
-   
-  }
- .coffee-chat .ki-explanation .ki-title {
-   text-align:center!important; 
-   padding-top:2em!important;
-  }
+	.coffee-chat {
+	  }
+	.coffee-chat .ki-explanation {
+	   font-size:300%!important; 
+	   
+	}
+	.coffee-chat .ki-explanation .ki-title {
+	   text-align:center!important; 
+	   padding-top:2em!important;
+	 }
 
 /* lunch */
-
  .lunch {background-color:tomato!important;
    background-image: url("../images/lunch2.jpg"); /* The image used */
    background-position: center; /* Center the image */
@@ -57,64 +63,51 @@ p {}
 
  .voting {}
 
-
-.ki-explanation {}
-.ki-explanation .ki-row {display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-padding: 1rem 2rem 1.5rem 1rem;}
-
 /* exhibitor */
+	.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
+	.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
+	/* It's likely that this ki-overview row will just contain paragraphs of text */
 
-.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
-.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
-/* It's likely that this ki-overview row will just contain paragraphs of text */
+	.exhibitor .ki-explanation .ki-information {background-color:pink;display: flex;
+	  flex-flow: column wrap;
+	  justify-content: space-between;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
 
-.exhibitor .ki-explanation .ki-information {background-color:pink;display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-padding: 1rem 2rem 1.5rem 1rem;}
+	.exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	padding: 1rem 2rem 1.5rem 1rem;}
 
-.exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-padding: 1rem 2rem 1.5rem 1rem;}
+	.exhibitor .ki-explanation .ki-video .ki-video-embed {background-color:blue;
+	 display:block;
+	width:45%;
+	padding:1rem;}
 
-.exhibitor .ki-explanation .ki-video .ki-video-embed {background-color:blue;
- display:block;
-width:45%;
-padding:1rem;}
+	.exhibitor .ki-explanation .ki-video .ki-video-description {background-color:blue;
+	 display:block;
+	width:50%;
+	padding:1rem;}
 
-.exhibitor .ki-explanation .ki-video .ki-video-description {background-color:blue;
- display:block;
-width:50%;
-padding:1rem;}
+	.exhibitor .ki-explanation .ki-resources {background-color:red;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: flex-start;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
 
-.exhibitor .ki-explanation .ki-resources {background-color:red;display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-padding: 1rem 2rem 1.5rem 1rem;}
+	.exhibitor .ki-explanation .ki-resources ul {width:45%;}
 
-.exhibitor .ki-explanation .ki-resources ul {width:45%;}
+	.exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: flex-start;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
 
-.exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-padding: 1rem 2rem 1.5rem 1rem;}
-
-.exhibitor .ki-explanation .ki-logo {}
-.exhibitor .ki-explanation .ki-logo img {width:50%;}
-.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
-	padding: 0.5rem 1rem 0.5rem 0; }
-
-
-
-
+	.exhibitor .ki-explanation .ki-logo {}
+	.exhibitor .ki-explanation .ki-logo img {width:50%;}
+	.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
+		padding: 0.5rem 1rem 0.5rem 0; }
 
 
 /* small devices */
@@ -129,17 +122,6 @@ padding: 1rem 2rem 1.5rem 1rem;}
 	      padding-bottom:1.0em; 
 	      padding-top:1.0em;
 	  }
-
-
-
-<div class="ki-agenda-item-numbered">1.</div>
-<div class="ki-agenda-item-description">Profiles</div>
-
-
-
-
-
-
 
 	  .agenda .ki-index {}
 	  .agenda .ki-index-custom { font-size:1.00rem;
