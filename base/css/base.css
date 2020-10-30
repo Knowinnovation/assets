@@ -4,7 +4,7 @@
 /* set up our basic styles */
 	h1, h2, h3, h4, h5, h6 {}
 	p {}
-	.ji-heading {font-size:150%; padding-top:1em;padding-bottom:1em;font-weight: bold;}
+	.ki-heading {font-size:150%; padding-top:1em;padding-bottom:1em;font-weight: bold;}
 	.ki-explanation {}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
