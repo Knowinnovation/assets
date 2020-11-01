@@ -15,6 +15,7 @@
 /* agenda */
 	.agenda { }
 	.agenda .ki-explanation {line-height:1.5em; }
+	.agenda .ki-explanation .ki-agenda-item-description {color:darkblue;}
 
 /* brainstorm */
 	.brainstorm {}
