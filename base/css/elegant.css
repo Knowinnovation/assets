@@ -8,8 +8,7 @@
  .ki-explanation h3 {font-size:1.25rem; font-weight:bold;}
  .ki-explanation h4 {font-size:1.25rem; font-weight:initial; font-style: italic;}
 
-
- .ki-heading {font-family: 'Playfair Display', serif;}
+ .ki-heading {font-size:150%;padding-top:2em;font-weight: bold; font-family: 'Playfair Display', serif; padding-left:2em; padding-bottom: 1em;}
  .ki-explanation { font-weight:normal; font-family:'EB+Garamond', serif; margin-left: 2em; margin-right: 2em;}
  .ki-explanation .ki-title {font-family: 'Playfair Display', serif; line-height: 125%;}
 
