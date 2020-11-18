@@ -21,6 +21,7 @@
 		font-size:100%; 
 		color:white;
 		padding:1em;
+		margin-left: -2em;
 	}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
 
