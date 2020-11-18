@@ -1,0 +1,62 @@
+<link href="https://assets.hub.ki/##dir##/css/base.css" rel="stylesheet">
+
+
+<div class="ki intro">
+
+	<center>
+<img title="" src="https://assets.hub.ki/##dir##/images/banner.png" alt="" width="" height="" align="" hspace="" vspace="">	
+<h3 class="title"><br>
+			Welcome</h3>
+<p>Any introductory text you want to put goes in here.</p>
+</center>
+	<div class="row tasks">
+		<div class="task grow col-xs-12 col-sm-3">
+		  	<center>
+				<a href="https://kistorm.com/account"><img src="https://assets.hub.ki/##dir##/icons/ico-account.png" height="64px"></a>
+				<p><b>Tell us about yourself</b>.</p>
+			</center>
+			To do this, visit <a href="https://kistorm.com/account"><strong>My Account</strong></a>. You can also find your account settings by clicking on the My Account link in the bottom left hand corner of the screen. <i>If you are using a phone to access the site please click the menu symbol in the top left hand corner of your screen.</i>
+		</div>
+
+		<div class="task grow col-xs-12 col-sm-3">
+			<center>
+				<a href="https://kistorm.com/-MDBuYG9vpR0m4qQQmgb/eventMembers">
+				<img src="https://assets.hub.ki/##dir##/icons/ico-members.png" height="64px"></a>
+				<p>
+					<b>Who else is here?</b>
+				</p>
+			</center>
+
+			Click on the
+			<a href="https://kistorm.com/-MDBuYG9vpR0m4qQQmgb/eventMembers">
+			<strong>Members</strong>
+			</a> link in the menu to see the other participants.</div>
+
+
+		<div class="task grow col-xs-12 col-sm-3">
+			<center>
+				<a href="">
+				<img src="https://assets.hub.ki/##dir##/icons/ico-prework.png" height="64px">
+				</a>
+				<p>
+					<b>Pre-Work</b>.
+				</p>
+			</center>
+
+			<p>Visit the<b>&nbsp;pre recorded sessions&nbsp;</b>to watch the presentations and prepare yourself for the discussion sessions.</p></div> 
+
+
+		<div class="task  col-xs-12 col-sm-3">
+		  	<center>
+		  		<img src="https://assets.hub.ki/##dir##/icons/ico-help.png" height="64px">
+		  		<p><b>Tech support</b>.
+		  		</p></center>
+		  		<p>Be sure you've downloaded the Zoom client on your computer, or that you're using the Zoom app on a device.</p>
+				<p><a href="https://zoom.us/test" target="_blank"><strong>Test Zoom</strong></a></p>
+		 		<p>Use <a href="https://support.zoom.us/hc/en-us/categories/200101697" target="_blank"><strong>this guide</strong></a> to help troubleshoot any issues.</p>
+		</div>
+
+	</div>
+	
+</div>
+<div><br></div>
