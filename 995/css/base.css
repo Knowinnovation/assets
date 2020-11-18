@@ -16,8 +16,10 @@
 	.agenda { }
 	.agenda .ki-explanation {line-height:1.5em; }
 	.agenda .ki-index-custom .ki-agenda-item-description {color:darkblue;}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {background-color:pink!important;color:white!important;}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {font-size:400%; color:white;background-color:pink;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:pink!important;}
+
+
 
 /* brainstorm */
 	.brainstorm {}
