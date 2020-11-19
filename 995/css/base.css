@@ -12,6 +12,8 @@
 	  align-items: flex-end;
 	padding: 1rem 2rem 1.5rem 1rem;}
 
+.q-list--bordered{border-width:0px;}
+
 /* agenda */
 	.agenda { }
 	.agenda .ki-explanation {line-height:1.5em; }
@@ -22,6 +24,8 @@
 		color:white;
 		text-align: left;
 		padding-left:1em;
+		margin-left:-0.7em;
+		border-radius:25px;
 
 	}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
