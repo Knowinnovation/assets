@@ -18,12 +18,16 @@
 	.agenda {}
 	.agenda .ki-explanation {line-height:1.5em;}
 	.agenda .ki-index-custom .ki-agenda-item-description {color:black;}
-	.agenda .ki-index-custom .ki-datetime {font-family:'Source Code Pro', monospace;}
+	.agenda .ki-index-custom .ki-datetime {
+		font-family:'Source Code Pro', monospace; 
+		font-weight:bold;
+		background-color:rgba(0,0,0,0.059);
+	}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
 		font-size:100%; 
 		color:#DA45B9;
 		text-align: left;
-		padding-top:0.25em;
+		padding-top:0.25em; 
 		padding-bottom:0.25em;
 		padding-left:1em;
 		margin-left:-0.7em;
