@@ -1,0 +1,227 @@
+/* include any fonts we want to use in the event */
+
+
+/* set up our basic styles */
+	h1, h2, h3, h4, h5, h6 {}
+	p {}
+	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
+	.ki-explanation {}
+	.ki-explanation .ki-row {display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+.q-list--bordered{border-width:0px;}
+
+/* agenda */
+	.agenda {}
+	.agenda .ki-explanation {line-height:1.5em; }
+	.agenda .ki-index-custom .ki-agenda-item-description {color:darkblue;}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
+		background-color:#0A1951;
+		font-size:100%; 
+		color:white;
+		text-align: left;
+		padding-top:0.25em;
+		padding-bottom:0.25em;
+		padding-left:1em;
+		margin-left:-0.7em;
+		border-radius:25px;
+
+	}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
+
+
+
+/* brainstorm */
+	.brainstorm {}
+	.brainstorm .ki-explanation {line-height:1.5em; }
+
+/* break */
+	.break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
+		background-image: url("../images/break.jpg"); /* The image used */
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover;
+	  	}
+
+/* coffee-chat */
+	.coffee-chat {
+	  }
+	.coffee-chat .ki-explanation {
+	   font-size:300%!important; 
+	   
+	}
+	.coffee-chat .ki-explanation .ki-title {
+	   text-align:center!important; 
+	   padding-top:2em!important;
+	 }
+
+/* lunch */
+ .lunch {background-color:tomato!important;
+   background-image: url("../images/lunch2.jpg"); /* The image used */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;}
+ .lunch .ki-explanation {
+   font-style:italic;  
+   text-align:center;
+  }
+
+/* keynote */
+
+ .keynote {}
+ .keynote .ki-explanation {font-size:100%  }
+ .keynote .ki-title { font-size:200%!important;}
+ .keynote .ki-index {background-color:mediumturquoise!important;}
+ .keynote .ki-index-custom{font-style:bold!important; }
+
+/* voting */
+
+ .voting {}
+
+/* exhibitor */
+	.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
+	.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
+	/* It's likely that this ki-overview row will just contain paragraphs of text */
+
+	.exhibitor .ki-explanation .ki-information {background-color:pink;display: flex;
+	  flex-flow: column wrap;
+	  justify-content: space-between;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-video .ki-video-embed {background-color:blue;
+	 display:block;
+	width:45%;
+	padding:1rem;}
+
+	.exhibitor .ki-explanation .ki-video .ki-video-description {background-color:blue;
+	 display:block;
+	width:50%;
+	padding:1rem;}
+
+	.exhibitor .ki-explanation .ki-resources {background-color:red;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: flex-start;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-resources ul {width:45%;}
+
+	.exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: flex-start;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-logo {}
+	.exhibitor .ki-explanation .ki-logo img {width:50%;}
+	.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
+		padding: 0.5rem 1rem 0.5rem 0; }
+
+
+/* small devices */
+	@media only screen and (max-width: 768px) {
+
+	  .agenda .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
+	  .agenda .ki-explanation .ki-title {
+	  text-align:center;
+	  font-style:italic;
+	  font-weight: bold;
+	      font-size:200%;
+	      padding-bottom:1.0em; 
+	      padding-top:1.0em;
+	  }
+
+	  .agenda .ki-index {}
+	  .agenda .ki-index-custom { font-size:1.00rem;
+	   }
+	  .ki-index-custom .ki-datetime {
+	   color:dimgrey;
+	   }
+
+	   .ki-index-custom .ki-agenda-item-numbered {
+	    color:dimgrey;
+	   }
+	   
+	   .ki-index-custom .ki-agenda-item-description {
+	   font-weight:bold;
+	    }
+
+	  .break .ki-explanation {font-size:400%; padding-top:1em; text-align:center;}  
+		
+	.lunch .ki-explanation {
+         font-size:200%;
+         padding-top:4em; 
+         }
+		
+	.voting .ki-explanation  {font-size:normal; text-align:left; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
+	.voting .ki-explanation .ki-title {
+		text-align:center;
+	  	font-style:italic;
+	  	font-weight: bold;
+	        font-size:200%;
+	        padding-bottom:1.0em; 
+	        padding-top:1.0em;
+	  }
+	} /* end of screen block for small devices */
+
+/* large devices */
+	@media only screen and (min-width: 769px) {
+
+	  .agenda .ki-explanation {font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
+	  .agenda .ki-explanation .ki-title {
+
+         /*   padding-bottom:1.0em; 
+	    padding-top:1.0em;  the padding is important to show the background image */
+		  
+		  /* include this if you want a background image behind the title */
+		  /* 	  background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
+	                  background-repeat: no-repeat!important;*/
+
+	  }
+	  .agenda .ki-index {}
+	  .agenda .ki-index-custom { font-size:1.25rem;}
+	  .ki-index-custom .ki-datetime {
+	    float:left;
+	    width:8em;
+	    color:dimgrey;
+	   }
+	   .ki-index-custom .ki-agenda-item-description {
+	    font-weight:bold;
+	    margin-left:8em;
+	   }
+	  
+	  .break .ki-explanation {font-size:400%; padding-top:4em; text-align:center;}
+         .lunch .ki-explanation {
+         font-size:400%;
+         padding-top:4em; 
+         }
+		
+	  .voting .ki-explanation {font-size:1.25em; line-height:1.5em; font-style:normal; margin-top:1em; }
+	  .voting .ki-explanation .ki-title {
+	    text-align:center;font-size:400%;
+	    font-style:italic;
+            padding-bottom:1.0em; 
+	    padding-top:1.0em; /* the padding is important to show the background image */
+		  
+		  /* include this if you want a background image behind the title */
+		  /* 	  background-image: url("https://assets.hub.ki/982/images/topbanner.png")!important;
+	                  background-repeat: no-repeat!important;*/
+
+	  }
+	} /* end of screen block for large devices */
+
+
+
+
+
+
