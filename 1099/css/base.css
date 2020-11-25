@@ -1,11 +1,11 @@
 /* include any fonts we want to use in the event */
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
 
 /* set up our basic styles */
 	h1, h2, h3, h4, h5, h6 {}
 	p {}
-	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
-	.ki-explanation {}
+	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold; font-family:'Merriweather',serif;}
+	.ki-explanation {font-family:'Merriweather',serif;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
@@ -16,10 +16,10 @@
 
 /* agenda */
 	.agenda {}
-	.agenda .ki-explanation {line-height:1.5em; }
-	.agenda .ki-index-custom .ki-agenda-item-description {color:darkblue;}
+	.agenda .ki-explanation {line-height:1.5em;}
+	.agenda .ki-index-custom .ki-agenda-item-description {color:black;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
-		background-color:#0A1951;
+		background-color:#DA45B9;
 		font-size:100%; 
 		color:white;
 		text-align: left;
@@ -30,7 +30,8 @@
 		border-radius:25px;
 
 	}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;
+	}
 
 
 
@@ -39,7 +40,7 @@
 	.brainstorm .ki-explanation {line-height:1.5em; }
 
 /* break */
-	.break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
+	.break {background-color:lightgoldenrodyellow!important; font-family: 'Merriweather', serif;
 		background-image: url("../images/break.jpg"); /* The image used */
 		background-position: center; /* Center the image */
 		background-repeat: no-repeat; /* Do not repeat the image */
