@@ -19,7 +19,6 @@
 	.agenda .ki-explanation {line-height:1.5em;}
 	.agenda .ki-index-custom .ki-agenda-item-description {color:black;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
-		background-color:#DA45B9;
 		font-size:100%; 
 		color:white;
 		text-align: left;
@@ -28,6 +27,7 @@
 		padding-left:1em;
 		margin-left:-0.7em;
 		border-radius:25px;
+		border-color: #DA45B9;
 
 	}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;
