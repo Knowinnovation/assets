@@ -204,7 +204,7 @@
 	   }
 	   .ki-index-custom .ki-agenda-item-description {
 	    font-weight:bold;
-	    margin-left:8em;
+	    padding-left:1em;
 	   }
 	  
 	  .break .ki-explanation {font-size:400%; padding-top:4em; text-align:center;}
