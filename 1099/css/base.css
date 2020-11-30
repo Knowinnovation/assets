@@ -16,8 +16,12 @@
 
 /* agenda */
 	.agenda {}
+	.agenda .q-list--separator>.q-item-type+.q-item-type{border-top:0px;}
 	.agenda .ki-explanation {line-height:1.5em;}
-	.agenda .ki-index-custom .ki-agenda-item-description {color:black;}
+	.agenda .ki-index-custom .ki-agenda-item-description {
+		color:black;
+		display:inline;
+	}
 	.agenda .ki-index-custom .ki-datetime {
 		font-family:'Source Code Pro', monospace; 
 		font-weight:bold;
@@ -38,7 +42,8 @@
 		border-color: #DA45B9;
 
 	}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;
+	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {
+		color:slategrey;
 	}
 
 
