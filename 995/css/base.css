@@ -12,27 +12,11 @@
 	  align-items: flex-end;
 	padding: 1rem 2rem 1.5rem 1rem;}
 
-.q-list--bordered{border-width:0px;}
-
 /* agenda */
-	.agenda {}
+	.agenda { }
 	.agenda .ki-explanation {line-height:1.5em; }
 	.agenda .ki-index-custom .ki-agenda-item-description {color:darkblue;}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
-		background-color:#4E2A84;
-		font-size:100%; 
-		color:white;
-		text-align: left;
-		padding-top:0.25em;
-		padding-bottom:0.25em;
-		padding-left:1em;
-		margin-left:-0.7em;
-		border-radius:25px;
-
-	}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
-
-
+	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey!important;}
 
 /* brainstorm */
 	.brainstorm {}
