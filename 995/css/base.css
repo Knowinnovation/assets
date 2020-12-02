@@ -38,7 +38,7 @@
 		margin-top:1.5em;
 		border-style:solid;
 		border-radius:25px;
-		border-color: var(--q-color-accent);
+		border-color: var(--q-color-secondary);
 
 	}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {
