@@ -1,29 +1,58 @@
 /* include any fonts we want to use in the event */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 /* set up our basic styles */
 	h1, h2, h3, h4, h5, h6 {}
 	p {}
-	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
-	.ki-explanation {}
+	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold; font-family:'Merriweather',serif;}
+	.ki-explanation {font-family:'Merriweather',serif;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
 	  align-items: flex-end;
 	padding: 1rem 2rem 1.5rem 1rem;}
 
+.q-list--bordered{border-width:0px;}
+
 /* agenda */
-	.agenda { }
-	.agenda .ki-explanation {line-height:1.5em; }
-	.agenda .ki-index-custom .ki-agenda-item-description {color:darkblue;}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey!important;}
+	.agenda {}
+	.agenda .q-list--separator>.q-item-type+.q-item-type{border-top:0px;}
+	.agenda .ki-explanation {line-height:1.5em;}
+	.agenda .ki-index-custom .ki-agenda-item-description {
+		color:black;
+		display:inline;
+	}
+	.agenda .ki-index-custom .ki-datetime {
+		font-family:'Source Code Pro', monospace; 
+		font-weight:bold;
+		color:black;
+		background-color:rgba(0,0,0,0.059);
+	}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
+		font-size:100%; 
+		text-align: left;
+		padding-top:0.25em; 
+		padding-bottom:0.25em;
+		padding-left:1em;
+		margin-left:-0.7em;
+		margin-top:1.5em;
+		border-style:solid;
+		border-radius:25px;
+		border-color: var(--q-color-secondary);
+
+	}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {
+		color:slategrey;
+	}
+
+
 
 /* brainstorm */
 	.brainstorm {}
 	.brainstorm .ki-explanation {line-height:1.5em; }
 
 /* break */
-	.break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
+	.break {background-color:lightgoldenrodyellow!important; font-family: 'Merriweather', serif;
 		background-image: url("../images/break.jpg"); /* The image used */
 		background-position: center; /* Center the image */
 		background-repeat: no-repeat; /* Do not repeat the image */
@@ -129,11 +158,9 @@
 	  .agenda .ki-index-custom { font-size:1.00rem;
 	   }
 	  .ki-index-custom .ki-datetime {
-	   color:dimgrey;
 	   }
 
 	   .ki-index-custom .ki-agenda-item-numbered {
-	    color:dimgrey;
 	   }
 	   
 	   .ki-index-custom .ki-agenda-item-description {
@@ -176,12 +203,12 @@
 	  .agenda .ki-index-custom { font-size:1.25rem;}
 	  .ki-index-custom .ki-datetime {
 	    float:left;
-	    width:8em;
-	    color:dimgrey;
+	    width:7.5em;
+	    margin-right:1em;
 	   }
 	   .ki-index-custom .ki-agenda-item-description {
 	    font-weight:bold;
-	    margin-left:8em;
+	    padding-left:1em;
 	   }
 	  
 	  .break .ki-explanation {font-size:400%; padding-top:4em; text-align:center;}
