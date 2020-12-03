@@ -203,8 +203,9 @@
 	  .agenda .ki-index-custom { font-size:1.25rem;}
 	  .ki-index-custom .ki-datetime {
 	    float:left;
-	    width:7.5em;
+	    width:8.5em;
 	    margin-right:1em;
+	    padding-left:0.25em;
 	   }
 	   .ki-index-custom .ki-agenda-item-description {
 	    font-weight:bold;
