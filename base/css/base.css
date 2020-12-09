@@ -5,7 +5,12 @@
 	h1, h2, h3, h4, h5, h6 {}
 	p {}
 	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
-	.ki-explanation {}
+	.ki-explanation {line-height:1.5em;}
+	.ki-explanation .ki-title { font-size:200;
+		padding-top:1em;
+		padding-bottom:1em;
+		text-align:center;
+		font-weight: bold;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
@@ -13,8 +18,8 @@
 	padding: 1rem 2rem 1.5rem 1rem;}
 
 /* agenda */
-	.agenda { }
-	.agenda .ki-explanation {line-height:1.5em; }
+	.agenda {}
+	.agenda .ki-explanation {}
 	.agenda .ki-index-custom .ki-agenda-item-description {color:darkblue;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey!important;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
@@ -34,7 +39,7 @@
 
 /* brainstorm */
 	.brainstorm {}
-	.brainstorm .ki-explanation {line-height:1.5em; }
+	.brainstorm .ki-explanation {}
 
 /* break */
 	.break {background-color:lightgoldenrodyellow!important; font-family: 'Playfair Display', serif;
