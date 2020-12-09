@@ -6,11 +6,12 @@
 	p {}
 	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
 	.ki-explanation {line-height:1.5em;}
-	.ki-explanation .ki-title { font-size:200;
+	.ki-explanation .ki-title { font-size:3em;
 		padding-top:1em;
 		padding-bottom:1em;
 		text-align:center;
-		font-weight: bold;}
+		font-weight: bold;
+		line-height: 125%;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
