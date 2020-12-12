@@ -12,12 +12,12 @@
 	.ki-explanation h1{font-size:1.5rem; 
 		line-height: 2.25rem; 
 		}
-	.ki-explanation .ki-title { font-size:3rem;
+	.ki-explanation .ki-title { font-size:3.25rem;
 		padding-top:1em;
 		padding-bottom:1em;
 		text-align:center;
 		font-weight: bold;
-		line-height: 4.5rem;}
+		line-height: 150%;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
@@ -141,6 +141,7 @@
 
 /* small devices */
 	@media only screen and (max-width: 768px) {
+	.ki-explanation .ki-title { font-size:1.75rem;}
 
 	  .agenda .ki-explanation  {font-size:normal; font-style:normal; margin-top:1em; padding-left:1em; padding-right:1em;}
 	  .agenda .ki-explanation .ki-title {
