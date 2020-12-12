@@ -3,7 +3,7 @@
 
 /* set up our basic styles */
 
-	.ki-heading {padding-top:2em;font-weight: bold; line-height: 150%;}
+	.ki-heading {padding-top:1em;padding-left:0.5em;font-weight: bold; line-height: 150%; color:var(--q-color-primary);}
 	@media screen and (min-width: 64em) { .ki-heading { font-size: 3.25rem; } }
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-heading { font-size: 2.25rem; } }
 	@media screen and (max-width: 42em) { .ki-heading { font-size: 1.75rem; } }
