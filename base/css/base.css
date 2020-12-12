@@ -43,6 +43,7 @@
 	   }
 
 /* agenda */
+	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
