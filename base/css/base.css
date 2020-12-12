@@ -2,16 +2,19 @@
 
 
 /* set up our basic styles */
-	h1, h2, h3, h4, h5, h6 {}
-	p {}
+	h1, h2, h3, h4, h5, h6 {color:var(--q-color-secondary);}
+	h2{font-size:1.2rem;}
+	p, ul, li {font-size:1.1rem;line-height:150%;}
 	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
 	.ki-explanation {line-height:1.5em;}
 	.ki-explanation .ki-title { font-size:3em;
 		padding-top:1em;
 		padding-bottom:1em;
+		padding-left: 4em; 
+		padding-right:4em;
 		text-align:center;
 		font-weight: bold;
-		line-height: 125%;}
+		line-height: 150%;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
@@ -131,6 +134,7 @@
 	.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
 		padding: 0.5rem 1rem 0.5rem 0; }
 
+/* home */
 
 /* small devices */
 	@media only screen and (max-width: 768px) {
