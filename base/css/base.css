@@ -16,9 +16,9 @@
 	.ki-explanation a:hover { text-decoration: underline; }
 	.ki-explanation	h1, .ki-explanation h2, .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary);}
 	
-	@media screen and (min-width: 64em) { .ki-explanation h1{ max-width: 64rem; padding: 2rem 6rem; margin: 0 auto; font-size: 1.5rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation h1{ padding: 2rem 4rem; font-size: 1.3rem; } }
-	@media screen and (max-width: 42em) { .ki-explanation h1 { padding: 2rem 1rem; font-size: 1.1rem; } }
+	@media screen and (min-width: 64em) { .ki-explanation h1{ max-width: 64rem; font-size: 1.5rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation h1{  font-size: 1.3rem; } }
+	@media screen and (max-width: 42em) { .ki-explanation h1 {  font-size: 1.1rem; } }
 
 	.ki-explanation .ki-title {text-align:center; font-weight: bold; line-height:125%;}
 	@media screen and (min-width: 64em) { .ki-explanation .ki-title { font-size: 3.25rem; } }
