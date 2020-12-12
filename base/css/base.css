@@ -2,11 +2,11 @@
 
 
 /* set up our basic styles */
-	h1, h2, h3, h4, h5, h6 {color:var(--q-color-secondary);}
-	h1{font-size:1.2rem; line-height: 150%;}
-	p, ul, li {font-size:1.1rem;line-height:150%;}
+
 	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
-	.ki-explanation {line-height:1.5em;}
+	.ki-explanation {font-size:1.1rem;line-height:1.65rem;}
+	.ki-explanation	h1, h2, h3, h4, h5, h6 {color:var(--q-color-primary);}
+	.ki-explanation h1{font-size:1.5rem; line-height: 2.25rem;}
 	.ki-explanation .ki-title { font-size:3em;
 		padding-top:1em;
 		padding-bottom:1em;
