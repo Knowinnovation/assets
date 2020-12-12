@@ -3,7 +3,7 @@
 
 /* set up our basic styles */
 	h1, h2, h3, h4, h5, h6 {color:var(--q-color-secondary);}
-	h2{font-size:1.2rem;}
+	h1{font-size:1.2rem; line-height: 150%;}
 	p, ul, li {font-size:1.1rem;line-height:150%;}
 	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
 	.ki-explanation {line-height:1.5em;}
