@@ -4,17 +4,20 @@
 /* set up our basic styles */
 
 	.ki-heading {font-size:150%; padding-top:2em;font-weight: bold;}
-	.ki-explanation {font-size:1.1rem;line-height:1.65rem;}
+	.ki-explanation {font-size:1.1rem;
+		line-height:1.65rem;
+		padding-left:2rem; 
+		padding-right:2rem;}
 	.ki-explanation	h1, h2, h3, h4, h5, h6 {color:var(--q-color-primary);}
-	.ki-explanation h1{font-size:1.5rem; line-height: 2.25rem;}
-	.ki-explanation .ki-title { font-size:3em;
+	.ki-explanation h1{font-size:1.5rem; 
+		line-height: 2.25rem; 
+		}
+	.ki-explanation .ki-title { font-size:3rem;
 		padding-top:1em;
 		padding-bottom:1em;
-		padding-left: 4em; 
-		padding-right:4em;
 		text-align:center;
 		font-weight: bold;
-		line-height: 150%;}
+		line-height: 4.5rem;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
