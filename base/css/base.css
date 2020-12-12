@@ -47,7 +47,6 @@
 	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
-		font-size:100%; 
 		text-align: left;
 		padding-top:0.25em; 
 		padding-bottom:0.25em;
