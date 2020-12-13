@@ -60,6 +60,10 @@
 		border-color: var(--q-color-secondary);
 
 	}
+		.agenda .ki-index-unclickable .ki-index-custom .ki-section-break .ki-index-star{
+			visiility:hidden;
+
+	}
 
 
 
