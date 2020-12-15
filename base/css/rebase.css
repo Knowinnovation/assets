@@ -57,8 +57,9 @@
 		padding-top:0.25em; 
 		padding-bottom:0.25em;
 		padding-left:1em;
-		margin-left:-0.7em;
+		margin-left:0em;
 		margin-top:1.5em;
+		border-top-width: 2px;
 		border:solid 2px var(--q-color-secondary);
 		border-radius:25px;
 
