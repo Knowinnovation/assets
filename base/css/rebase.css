@@ -3,8 +3,8 @@
 
 /* set up our basic styles */
 
-	.ki-heading {padding-top:1em;padding-left:0.5em;font-weight: bold; line-height: 150%; color:var(--q-color-primary);}
-	@media screen and (min-width: 64em) { .ki-heading { font-size: 3.25rem; } }
+	.ki-heading {padding-top:1rem;padding-left:1rem;font-weight: bold; line-height: 125%; color:var(--q-color-primary);}
+	@media screen and (min-width: 64em) { .ki-heading { font-size: 2.25rem; } }
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-heading { font-size: 2.25rem; } }
 	@media screen and (max-width: 42em) { .ki-heading { font-size: 1.75rem; } }
 
@@ -44,7 +44,7 @@
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
-	.agenda .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); }
+	.agenda .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: center; }
 	.agenda .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em; align-items:center;}
 	.agenda .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em; align-items:center;}
 	.agenda .ki-index-item .ki-index-pageHeading{ color:dimgrey; margin-left:1em; width:50%;align-items:center;}
