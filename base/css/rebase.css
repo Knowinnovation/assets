@@ -1,0 +1,137 @@
+/* include any fonts we want to use in the event  */
+
+
+/* set up our basic styles */
+
+	.ki-heading {padding-top:1em;padding-left:0.5em;font-weight: bold; line-height: 150%; color:var(--q-color-primary);}
+	@media screen and (min-width: 64em) { .ki-heading { font-size: 3.25rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-heading { font-size: 2.25rem; } }
+	@media screen and (max-width: 42em) { .ki-heading { font-size: 1.75rem; } }
+
+	@media screen and (min-width: 64em) { .ki-explanation { padding: 2rem 6rem; margin: 0 auto; font-size: 1.1rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation { padding: 2rem 4rem; font-size: 1.1rem; } }
+	@media screen and (max-width: 42em) { .ki-explanation { padding: 2rem 1rem; font-size: 1rem; } }
+
+	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
+	.ki-explanation a:hover { text-decoration: underline; }
+	.ki-explanation	h1, .ki-explanation h2, .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary); line-height: 150%;}
+	
+	@media screen and (min-width: 64em) { .ki-explanation h1{  font-size: 1.5rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation h1{  font-size: 1.3rem; } }
+	@media screen and (max-width: 42em) { .ki-explanation h1 {  font-size: 1.1rem; } }
+
+	.ki-explanation .ki-title {text-align:center; font-weight: bold; line-height:125%;}
+	@media screen and (min-width: 64em) { .ki-explanation .ki-title { font-size: 3.25rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation .ki-title { font-size: 2.25rem; } }
+	@media screen and (max-width: 42em) { .ki-explanation .ki-title { font-size: 1.75rem; } }
+	
+	.ki-explanation .ki-row {display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+
+		  .ki-index-custom .ki-datetime {
+	    float:left;
+	    width:8em;
+	    color:dimgrey;
+	   }
+	   .ki-index-custom .ki-agenda-item-description {
+	    font-weight:bold;
+	    margin-left:8em;
+	   }
+
+/* agenda */
+	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
+	.agenda .ki-index-item{border-top-width:0px!important;}
+	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
+		font-size:1.25rem;
+		text-align: left;
+		padding-top:0.25em; 
+		padding-bottom:0.25em;
+		padding-left:1em;
+		margin-left:-0.7em;
+		margin-top:1.5em;
+		border-style:solid;
+		border-radius:25px;
+		border-color: var(--q-color-secondary);
+
+	}
+	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break .ki-index-star{
+		visiility:hidden;
+
+	}
+
+	/* experiment */
+		.agenda .ki-index .ki-section-break {
+		font-size:1.25rem;
+		text-align: left;
+		padding-top:0.25em; 
+		padding-bottom:0.25em;
+		padding-left:1em;
+		margin-left:-0.7em;
+		margin-top:1.5em;
+		border-style:solid;
+		border-radius:25px;
+		border-color: var(--q-color-secondary);
+
+	}
+
+
+
+/* exhibitor */
+	.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
+	.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
+	/* It's likely that this ki-overview row will just contain paragraphs of text */
+
+	.exhibitor .ki-explanation .ki-information {background-color:pink;display: flex;
+	  flex-flow: column wrap;
+	  justify-content: space-between;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-between;
+	  align-items: flex-end;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-video .ki-video-embed {background-color:blue;
+	 display:block;
+	width:45%;
+	padding:1rem;}
+
+	.exhibitor .ki-explanation .ki-video .ki-video-description {background-color:blue;
+	 display:block;
+	width:50%;
+	padding:1rem;}
+
+	.exhibitor .ki-explanation .ki-resources {background-color:red;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: flex-start;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-resources ul {width:45%;}
+
+	.exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
+	  flex-flow: row wrap;
+	  justify-content: flex-start;
+	  align-items: flex-start;
+	padding: 1rem 2rem 1.5rem 1rem;}
+
+	.exhibitor .ki-explanation .ki-logo {}
+	.exhibitor .ki-explanation .ki-logo img {width:50%;}
+	.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
+		padding: 0.5rem 1rem 0.5rem 0; }
+
+
+
+
+
+
+
+
