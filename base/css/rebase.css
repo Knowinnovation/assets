@@ -44,41 +44,28 @@
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
-	.agenda .ki-index-item{border-top-width:0px!important;}
-	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
-		font-size:1.25rem;
+	.agenda .ki-index-item{border-top-width:0px!important; font-size:1.25rem; color:var(--q-color-primary);}
+	.agenda .ki-index-item .ki-index-start{font-family: monospace; color:pink; width:8em;}
+	.agenda .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em;}
+	.agenda .ki-index-item .ki-index-pageHeading{ color:dimgrey; margin-left:1em;}
+	.agenda .ki-index-unclickable {color:slategrey;}
+	.agenda .ki-section-break {
 		text-align: left;
 		padding-top:0.25em; 
 		padding-bottom:0.25em;
 		padding-left:1em;
 		margin-left:-0.7em;
 		margin-top:1.5em;
-		border-style:solid;
+		border-style:solid 2px var(--q-color-secondary);
 		border-radius:25px;
-		border-color: var(--q-color-secondary);
 
 	}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break .ki-index-star{
+	.agenda .ki-section-break .ki-index-star{
 		visiility:hidden;
 
 	}
 
-	/* experiment */
-		.agenda .ki-index .ki-section-break {
-		font-size:1.25rem;
-		text-align: left;
-		padding-top:0.25em; 
-		padding-bottom:0.25em;
-		padding-left:1em;
-		margin-left:-0.7em;
-		margin-top:1.5em;
-		border-style:solid;
-		border-radius:25px;
-		border-color: var(--q-color-secondary);
 
-	}
 
 
 
