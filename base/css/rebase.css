@@ -44,26 +44,14 @@
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
-	.agenda .ki-index-item{border-top-width:0px!important; font-size:1.25rem; color:var(--q-color-primary);}
+	.agenda .ki-index-item{border-top-width:0px; font-size:1.25rem; color:var(--q-color-primary);}
 	.agenda .ki-index-item .ki-index-start{font-family: monospace; color:pink; width:8em;}
 	.agenda .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em;}
 	.agenda .ki-index-item .ki-index-pageHeading{ color:dimgrey; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-Presenter{ color:orange; margin-left:1em;}
 	.agenda .ki-index-item .calculated{ display:none;}
 
-	.agenda .ki-index-unclickable {color:slategrey;}
-	.agenda .ki-section-break {
-		text-align: left;
-		padding-top:0.25em; 
-		padding-bottom:0.25em;
-		padding-left:1em;
-		margin-left:0em;
-		margin-top:1.5em;
-		border-top-width: 2px;
-		border:solid 2px var(--q-color-secondary);
-		border-radius:25px;
-
-	}
+	
 	.agenda .ki-section-break .ki-index-star{
 		visiility:hidden;
 
