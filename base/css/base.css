@@ -30,9 +30,12 @@
 	  justify-content: space-between;
 	  align-items: flex-end;
 	padding: 1rem 2rem 1.5rem 1rem;}
+	@media screen and (min-width: 64em) { .ki-index-custom { font-size: 1.25rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-index-custom { font-size: 1.25rem; } }
+	@media screen and (max-width: 42em) { .ki-index-custom { font-size: 1.1rem; } }
+	
 
-
-		  .ki-index-custom .ki-datetime {
+	.ki-index-custom .ki-datetime {
 	    float:left;
 	    width:8em;
 	    color:dimgrey;
