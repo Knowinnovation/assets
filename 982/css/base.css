@@ -8,9 +8,10 @@
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-heading { font-size: 2.25rem; } }
 	@media screen and (max-width: 42em) { .ki-heading { font-size: 1.75rem; } }
 
-	@media screen and (min-width: 64em) { .ki-explanation { padding: 2rem 6rem; margin: 0 auto; font-size: 1.1rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation { padding: 2rem 4rem; font-size: 1.1rem; } }
-	@media screen and (max-width: 42em) { .ki-explanation { padding: 2rem 1rem; font-size: 1rem; } }
+	.ki-explanation {color:color:#1b4679; font-size}
+	@media screen and (min-width: 64em) { .ki-explanation { padding: 2rem 0rem; margin: 0 auto; font-size: 1.1rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation { padding: 2rem 0rem; font-size: 1.1rem; } }
+	@media screen and (max-width: 42em) { .ki-explanation { padding: 2rem 0rem; font-size: 1rem; } }
 
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
@@ -45,10 +46,11 @@
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.agenda .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; }
-	.agenda .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em; align-items:center;}
-	.agenda .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em; align-items:center;}
-	.agenda .ki-index-item .ki-index-pageHeading{ color:dimgrey; margin-left:1em; width:50%;align-items:center;}
-	.agenda .ki-index-item .ki-index-Presenter{ color:orange; margin-left:1em; align-items:center;}
+	.agenda .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em;}
+	.agenda .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em;}
+	.agenda .ki-index-item .ki-index-pageHeading{ color:dimgrey; margin-left:1em; width:50%;}
+	.agenda .ki-index-item .ki-index-subdescription{ color:dimgrey; margin-left:1em; width:50%;}
+	.agenda .ki-index-item .ki-index-Presenter{ color:orange; margin-left:1em;}
 	.agenda .ki-index-item .calculated{ display:none;}
 
 	
