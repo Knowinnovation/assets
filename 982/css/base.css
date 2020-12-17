@@ -67,29 +67,29 @@
 	.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
 	/* It's likely that this ki-overview row will just contain paragraphs of text */
 
-	.exhibitor .ki-explanation .ki-information {background-color:pink;display: flex;
+	.exhibitor .ki-explanation .ki-information {display: flex;
 	  flex-flow: column wrap;
 	  justify-content: space-between;
 	  align-items: flex-start;
 	padding: 1rem 2rem 1.5rem 1rem;}
 
-	.exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
+	.exhibitor .ki-explanation .ki-video {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
 	  align-items: flex-end;
 	padding: 1rem 2rem 1.5rem 1rem;}
 
-	.exhibitor .ki-explanation .ki-video .ki-video-embed {background-color:blue;
+	.exhibitor .ki-explanation .ki-video .ki-video-embed {
 	 display:block;
 	width:45%;
 	padding:1rem;}
 
-	.exhibitor .ki-explanation .ki-video .ki-video-description {background-color:blue;
+	.exhibitor .ki-explanation .ki-video .ki-video-description {
 	 display:block;
 	width:50%;
 	padding:1rem;}
 
-	.exhibitor .ki-explanation .ki-resources {background-color:red;display: flex;
+	.exhibitor .ki-explanation .ki-resources {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: flex-start;
 	  align-items: flex-start;
