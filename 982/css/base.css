@@ -51,7 +51,6 @@
 	.agenda .ki-index-item .ki-index-pageHeading{ color:dimgrey; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-subdescription{ color:dimgrey; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em;}
-	.agenda .ki-index-item .calculated{ text-style: italic }
 
 	
 	.agenda .ki-section-break .ki-index-star{
