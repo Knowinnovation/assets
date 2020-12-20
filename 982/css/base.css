@@ -48,7 +48,7 @@
 	.agenda .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; padding-top:1em; padding-bottom:2em;}
 	.agenda .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em;}
 	.agenda .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em;}
-	.agenda .ki-index-item .ki-index-pageHeading{ color:dimgrey; margin-left:1em; width:50%;}
+	.agenda .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-subdescription{ color:dimgrey; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em;}
 
