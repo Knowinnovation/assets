@@ -61,23 +61,22 @@
 	.ki-poster .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
 	.ki-poster .ki-explanation p {font-size:1.2rem; line-height:1.6rem; color:black;}
 
-	.ki-poster .ki-explanation .ki-presentation-abstract {font-size:1.5rem; background-color: pink; padding-left:2rem; padding-right:2rem;}
-
-	.ki-poster .ki-explanation .ki-information {display: flex;
-	  flex-flow: column wrap;
-	  justify-content: space-between;
-	  align-items: flex-start;
-	padding: 1rem 2rem 1.5rem 1rem;}
+	.ki-poster .ki-explanation .ki-presentation-abstract {font-size:1.5rem; padding-left:1rem; padding-right:1rem;}
 
 	.ki-poster .ki-explanation .ki-presenters {display: flex;
 	  flex-flow: row wrap;
-	  justify-content: space-between;
+	  justify-content: flex-start;
 	  align-items: flex-start;
 	padding: 1rem 2rem 1.5rem 1rem;}
 
 	.ki-poster .ki-explanation .ki-presenters .ki-presenter {
+		display:flex;
 		flex-flow: column wrap;
-		align-items: flex-start;}
+		align-items: flex-start;
+		font-size:1.2rem;
+		line-height: 125%;
+		margin-top: 1rem;
+		margin-right:2rem;}
 
 	.ki-poster .ki-explanation .ki-video .ki-video-description {
 	 display:block;
