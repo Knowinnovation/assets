@@ -61,13 +61,14 @@
 	.ki-poster .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
 	.ki-poster .ki-explanation p {font-size:1.2rem; line-height:1.6rem; color:black;}
 
-	.ki-poster .ki-explanation .ki-presentation-abstract {font-size:1.5rem; padding-left:1rem; padding-right:1rem;}
+	.ki-poster .ki-explanation .ki-presentation-abstract {font-size:1.4rem; padding-left:1rem; padding-right:1rem; line-height: 125%;color:black;}
 
 	.ki-poster .ki-explanation .ki-presenters {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: flex-start;
 	  align-items: flex-start;
-	padding: 1rem 2rem 1.5rem 1rem;}
+	padding: 1rem 2rem 1.5rem 1rem;
+	color:darkslategray;}
 
 	.ki-poster .ki-explanation .ki-presenters .ki-presenter {
 		display:flex;
