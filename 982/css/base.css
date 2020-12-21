@@ -62,7 +62,7 @@
 	.ki-poster .ki-explanation p {font-size:1.2rem; line-height:1.6rem; color:black;}
 	/* It's likely that this ki-overview row will just contain paragraphs of text */
 
-	.ki-poster .ki-presentation-abstract {font-size:normal; background-color: pink;}
+	.ki-poster .ki-explanation .ki-presentation-abstract {font-size:1.5rem; background-color: pink; padding-left:2rem; padding-right:2rem;}
 
 	.ki-poster .ki-explanation .ki-information {display: flex;
 	  flex-flow: column wrap;
