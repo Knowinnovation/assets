@@ -70,9 +70,9 @@
 	.ki-poster .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
 	.ki-poster .ki-explanation p {font-size:1.2rem; line-height:1.6rem; color:black;}
 
-	.ki-poster .ki-explanation .ki-presentation-abstract {font-size:1.4rem; padding-left:1rem; padding-right:1rem; line-height: 125%;color:black;}
+	.ki-poster .ki-explanation .ki-presentation-long_abstract {font-size:1.4rem; padding-left:1rem; padding-right:1rem; line-height: 125%;color:black;}
 
-	.ki-poster .ki-explanation .ki-presentation-abstract iframe {float:left; padding-right:1em; padding-bottom:1em;}
+	.ki-poster .ki-explanation iframe {float:left; padding: 0 1rem 0rem 1rem;}
 
 	.ki-poster .ki-explanation .ki-presenters {display: flex;
 	  flex-flow: row wrap;
