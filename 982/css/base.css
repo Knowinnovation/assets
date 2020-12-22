@@ -109,7 +109,7 @@
 
 	.exhibitor .ki-explanation .ki-video {}
 
-	.exhibitor .ki-explanation .ki-video .ki-video-embed  iframe{float:left; padding:; 1rem;}
+	.exhibitor .ki-explanation .ki-video .ki-video-embed  iframe{float:left; padding: 1rem;}
 
 	.exhibitor .ki-explanation .ki-video .ki-video-description {
 	 line-height:125%;
