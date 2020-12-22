@@ -139,7 +139,7 @@
 		margin-top: 1rem;
 		margin-right:2rem;}
 
-	.exhibitor .ki-explanation .ki-contacts .ki-person p {line-height:1rem;} 
+	.exhibitor .ki-explanation .ki-contacts .ki-person p {line-height:0.5rem;} 
 
 	.exhibitor .ki-explanation .ki-logo {}
 	.exhibitor .ki-explanation .ki-logo img {width:50%;}
