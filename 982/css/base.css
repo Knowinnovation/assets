@@ -114,7 +114,8 @@
 	.exhibitor .ki-explanation .ki-video .ki-video-description {
 	 line-height:125%;
 	color:black;
-	padding:1rem;}
+	padding:1rem;
+min-height: 300px;} /* to stop the resources links from flowing into this block if the screen is too wide */
 
 	.exhibitor .ki-explanation .ki-resources {display: flex;
 	  flex-flow: row wrap;
