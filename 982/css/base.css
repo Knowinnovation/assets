@@ -53,10 +53,19 @@
 	.agenda .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em;}
 
 	
-	.agenda .ki-section-break .ki-index-star{
-		visibility:hidden; 
+	.agenda .ki-section-break .ki-index-star{visibility:hidden;	}
 
-	}
+/* ki-posters  - this is for pages listing posters */
+/* agenda */
+	.posters .q-list--bordered {border:0px;} /* remove the border on indexed pages */
+	.posters .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; padding-top:1em; padding-bottom:2em;}
+	.posters .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em;}
+	.posters .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em;}
+	.posters .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:50%;}
+	.posters .ki-index-item .ki-index-subdescription{ color:dimgrey; margin-left:1em; width:50%;}
+	.posters .ki-index-item .ki-index-sessiontype{ color:var(--q-color-secondary); margin-left:1em;}
+
+
 /* poster */
 	.ki-poster .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
 	.ki-poster .ki-explanation p {font-size:1.2rem; line-height:1.6rem; color:black;}
