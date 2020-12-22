@@ -56,7 +56,6 @@
 	.agenda .ki-section-break .ki-index-star{visibility:hidden;	}
 
 /* ki-posters  - this is for pages listing posters */
-/* agenda */
 	.posters .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.posters .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; padding-top:1em; padding-bottom:2em;}
 	.posters .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em;}
@@ -89,6 +88,12 @@
 		line-height: 130%;
 		margin-top: 1rem;
 		margin-right:2rem;}
+
+/* exhibitors  - this is for pages listing exhibitors */
+	.exhibitors .q-list--bordered {border:0px;} /* remove the border on indexed pages */
+	.exhibitors .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; padding-top:1em; padding-bottom:2em;}
+	.exhibitors .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:50%;}
+	.exhibitors .ki-index-item .ki-index-pageHeading .ki-exhibitor-name{ color:dimgrey; margin-left:1em; width:50%;}
 
 
 /* exhibitor */
