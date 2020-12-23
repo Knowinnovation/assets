@@ -99,7 +99,7 @@
 
 /* exhibitor */
 	.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
-	.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
+	.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem; color:black;}
 	/* It's likely that this ki-overview row will just contain paragraphs of text */
 
 	.exhibitor .ki-explanation .ki-information {display: flex;
@@ -143,7 +143,7 @@ min-height: 300px;} /* to stop the resources links from flowing into this block 
 
 	.exhibitor .ki-explanation .ki-contacts .ki-person p {line-height:0.5rem;} 
 
-	.exhibitor .ki-explanation .ki-logo {}
+	.exhibitor .ki-explanation .ki-logo {padding-left: 1rem;}
 	.exhibitor .ki-explanation .ki-logo img {width:50%;}
 	.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
 		padding: 0.5rem 1rem 0.5rem 0; }
