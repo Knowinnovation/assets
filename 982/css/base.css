@@ -148,7 +148,14 @@
 	.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
 		padding: 0.5rem 1rem 0.5rem 0; }
 
+/* Welcome */
+	.q-mx-sm.welcome {background-image: url(https://firebasestorage.googleapis.com/v0/b/kistorm-live.appspot.com/o/assets%2FWGKtSGofZNFn6Uq1wOd5%2Fwelcomebanner.png?alt=media&token=7f22e6f6-0048-41a5-92f8-fd04431fdb96);
+    background-size: contain;
+    background-repeat: no-repeat;}
 
+    .welcome .ki-explanation {padding: 2rem 0rem;
+    margin: 5em 1em 1em 1em;
+	}
 
 
 
