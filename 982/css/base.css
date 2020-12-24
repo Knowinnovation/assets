@@ -51,6 +51,11 @@
 	.agenda .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-subdescription{ color:dimgrey; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em;}
+	.agenda .ki-explanation .ki-thematic {color:black; font-size:1.3rem; margin:0rem 1rem 1rem 1rem;}
+	.agenda .ki-explanation .ki-thematic h4 {font-size:1.4rem; margin:1rem 0rem 1rem 0rem;}
+	.agenda .ki-explanation .ki-thematic ul {}
+	.agenda .ki-explanation .ki-thematic ul li {margin:0px; padding:0px; margin:0px;}
+	.agenda .ki-explanation .ki-thematic ul li p {margin:0rem;}
 
 	
 	.agenda .ki-section-break .ki-index-star{visibility:hidden;	}
@@ -150,9 +155,11 @@
 
 /* Welcome */
 
-    .welcome .ki-explanation {padding: 0rem 0rem;
+    .welcome .ki-explanation {padding: 0em 0em 1em 0em;
     margin: 0em 0em 1em 0em;
 	}
+
+	.welcome .ki-explanation img {padding-bottom:2em;}
 
 
 
