@@ -61,6 +61,29 @@
 	
 	.agenda .ki-section-break .ki-index-star{visibility:hidden;	}
 
+/* concurrent */
+	.concurrent .q-list--bordered {border:0px;} /* remove the border on indexed pages */
+	.concurrent .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; padding-top:1em; padding-bottom:2em;}
+	.concurrent .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em;}
+	.concurrent .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em;}
+	.concurrent .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:50%;}
+
+	.concurrent .ki-index-item .ki-index-pageHeading .ki-title{ font-weight:bold;}
+	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenters{font-size:08.rem; font-style:italic;}
+	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenter {margin-bottom:0.5rem;}
+
+
+
+	.concurrent .ki-index-item .ki-index-short_abstract{ color:dimgrey; margin-left:1em; width:50%;}
+	.concurrent .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em;}
+	.concurrent .ki-index-item .ki-index-cluster{margin-left:2em;}
+	.concurrent .ki-explanation .ki-thematic { font-size:1.3rem; margin:0rem 1rem 1rem 1rem;}
+	.concurrent .ki-explanation .ki-thematic h4 {font-size:1.4rem; margin:1rem 0rem 1rem 0rem;}
+	.concurrent .ki-explanation .ki-thematic ul {}
+	.concurrent .ki-explanation .ki-thematic ul li {margin:0px; padding:0px; margin:0px;}
+	.concurrent .ki-explanation .ki-thematic ul li p {margin:0rem;}
+
+
 /* ki-posters  - this is for pages listing posters */
 	.posters .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.posters .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; padding-top:1em; padding-bottom:2em;}
