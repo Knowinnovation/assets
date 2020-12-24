@@ -51,6 +51,7 @@
 	.agenda .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-subdescription{ color:dimgrey; margin-left:1em; width:50%;}
 	.agenda .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em;}
+	.agenda .ki-index-item .ki-index-cluster{margin-left:2em;}
 	.agenda .ki-explanation .ki-thematic { font-size:1.3rem; margin:0rem 1rem 1rem 1rem;}
 	.agenda .ki-explanation .ki-thematic h4 {font-size:1.4rem; margin:1rem 0rem 1rem 0rem;}
 	.agenda .ki-explanation .ki-thematic ul {}
