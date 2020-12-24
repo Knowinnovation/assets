@@ -130,7 +130,7 @@
 	  align-items: flex-start;
 	padding: 1rem 2rem 1.5rem 1rem;}
 
-	.exhibitor .ki-explanation ul {width:45%; font-size: 1.4rem;}
+	.exhibitor .ki-explanation ul { font-size: 1.4rem;}
 
 	.exhibitor .ki-explanation .ki-contacts {display: flex;
 	  flex-flow: row wrap;
