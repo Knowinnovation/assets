@@ -26,7 +26,7 @@
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation .ki-title { font-size: 2.25rem; } }
 	@media screen and (max-width: 42em) { .ki-explanation .ki-title { font-size: 1.75rem; } }
 
-	.ki-button {background-color:var(--q-color-primary); color:white; cursor: pointer;
+	.ki-button {background-color:var(--q-color-primary); cursor: pointer;
         transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
             appearance: none;
     display: inline-block;
