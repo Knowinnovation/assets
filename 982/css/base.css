@@ -38,7 +38,7 @@
     text-decoration: none;
     white-space: nowrap;
 border-radius: 0.2em;}
-	
+
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
@@ -79,11 +79,13 @@ border-radius: 0.2em;}
 	.concurrent .ki-index-item{font-size:1.25rem; color:var(--q-color-primary); align-items: flex-start; padding-top:1em; padding-bottom:2em;}
 	.concurrent .ki-index-item .ki-index-start{font-family: monospace; color:dimgray; width:5em;margin-left:1em;}
 	.concurrent .ki-index-item .ki-index-duration{font-family: monospace; color:blue; margin-left:1em;width:4em;}
-	.concurrent .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:50%;}
+	.concurrent .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:80%;}
 
 	.concurrent .ki-index-item .ki-index-pageHeading .ki-title{ font-weight:bold;}
-	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenters{font-size:08.rem; font-style:italic;}
+	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenters{font-size:80%; font-style:italic;}
 	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenter {margin-bottom:0.5rem;}
+	.concurrent .ki-index-item .ki-presentation-short_abstract{ color:d#272b2f; margin-bottom:0.5rem;}
+
 
 
 
