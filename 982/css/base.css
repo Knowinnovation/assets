@@ -83,8 +83,8 @@ border-radius: 0.2em;}
 	.concurrent .ki-index-item .ki-index-pageHeading{ color:black; margin-left:1em; width:80%;}
 
 	.concurrent .ki-index-item .ki-index-pageHeading .ki-title{ font-weight:bold;}
-	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenters{font-size:80%; font-style:italic;}
-	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenter {margin-bottom:0.5rem;}
+	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenters{font-size:80%; font-style:italic; display:flex;}
+	.concurrent .ki-index-item .ki-index-pageHeading .ki-presenter {margin-bottom:0.5rem; }
 	.concurrent .ki-index-item .ki-presentation-short_abstract{ color:d#272b2f; margin-bottom:0.5rem;}
 
 
