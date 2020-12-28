@@ -99,7 +99,7 @@ border-radius: 0.2em;}
 
 
 	.concurrent .ki-index-item .ki-index-short_abstract{ color:dimgrey; margin-left:1em; width:50%;}
-	.concurrent .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em;}
+	.concurrent .ki-index-item .ki-index-Presenter{ color:var(--q-color-secondary); margin-left:1em; padding-right:1em;}
 	.concurrent .ki-index-item .ki-index-cluster{margin-left:2em;}
 	.concurrent .ki-explanation .ki-thematic { font-size:1.3rem; margin:0rem 1rem 1rem 1rem;}
 	.concurrent .ki-explanation .ki-thematic h4 {font-size:1.4rem; margin:1rem 0rem 1rem 0rem;}
