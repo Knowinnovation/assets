@@ -25,6 +25,7 @@
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation .ki-title { font-size: 2.25rem; } }
 	@media screen and (max-width: 42em) { .ki-explanation .ki-title { font-size: 1.75rem; } }
 	
+	.ki-explanation .ki-title {margin-bottom:1rem;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
 	  justify-content: space-between;
