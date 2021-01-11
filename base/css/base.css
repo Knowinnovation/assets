@@ -48,6 +48,13 @@
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.agenda .ki-index-item{border-top-width:0px!important;}
+	.agenda .ki-index-item .ki-index-date {
+		margin-right:0em;
+		font-size:1.5em;
+		width:4em;
+		font-family: monospace;
+		color:slategray;
+	}
 	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
