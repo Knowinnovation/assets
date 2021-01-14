@@ -66,6 +66,8 @@
 	}
 	.agenda .ki-index-item .ki-index-pageName {font-size: 1.5em;}
 	.agenda .ki-index-item .ki-index-pageHeading {font-size: 1.5em;}
+	.agenda .ki-index-item .ki-index-pageHeading .ki-title {font-size: 1.5em;
+		line-height: 135%; }
 	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
