@@ -84,7 +84,7 @@
 
 	}
 	.ki-presenter-org {width:20em;}
-	.ki-index-region {width:8em; padding-top: 0.5em;}
+	.ki-index-region {width:8em; padding-top: 0.5em; min-width:8em;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break .ki-index-star{
 		visiility:hidden;
 
