@@ -109,6 +109,8 @@
     height: 150px;
     border-radius: 20%;}
 
+ .ki-keynote .ki-presenter{margin-bottom: 3em;}
+
 
 /* exhibitor */
 	.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
