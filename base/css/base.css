@@ -50,6 +50,7 @@
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.agenda .ki-index-item{border-top-width:0px!important;}
+	.agenda .ki-highlight-page {border:5px dashed slategrey;}
 		.agenda .ki-index-item .ki-index-start {
 		margin-right:0em;
 		font-size:1.5em;
