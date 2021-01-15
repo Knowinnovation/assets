@@ -49,8 +49,7 @@
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
-	.agenda .ki-index-item{border-top-width:0px!important;}
-		.agenda .ki-index-item .ki-index-start {
+	.agenda .ki-index-item .ki-index-time {
 		margin-right:0em;
 		font-size:1.5em;
 		width:4em;
@@ -83,25 +82,9 @@
 	}
 	.ki-presenter-org {width:20em;}
 	.ki-index-region {width:8em; padding-top: 0.5em; min-width:8em;}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break .ki-index-star{
-		visiility:hidden;
 
-	}
 
-	/* experiment */
-		.agenda .ki-index .ki-section-break {
-		font-size:1.25rem;
-		text-align: left;
-		padding-top:0.25em; 
-		padding-bottom:0.25em;
-		padding-left:1em;
-		margin-left:-0.7em;
-		margin-top:1.5em;
-		border-style:solid;
-		border-radius:25px;
-		border-color: var(--q-color-secondary);
 
-	}
 .ki-keynote img {    float: left;
     margin-right: 1em;
     height: 150px;
