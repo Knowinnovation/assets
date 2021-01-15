@@ -84,6 +84,12 @@
 
 	}
 
+.ki-index-Time {
+    min-width: 6em;
+    max-width: 6em;
+}
+
+
 .ki-index-unclickable .ki-index-Time {
     min-width: 0em;
     max-width: 0em;
