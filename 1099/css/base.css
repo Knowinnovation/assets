@@ -83,6 +83,13 @@
 		border-color: deeppink;
 
 	}
+
+.ki-index-unclickable .ki-index-Time {
+    min-width: 0em;
+    max-width: 0em;
+}
+
+	
 	.ki-presenter-org {width:20em;}
 	.ki-index-region {width:8em; padding-top: 0.5em; min-width:8em;}
 
