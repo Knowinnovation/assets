@@ -74,9 +74,12 @@
 		text-align: left;
 		padding-top:0.25em; 
 		padding-bottom:0.25em;
-		padding-left:1em;
+		padding-left:0em;
 		border-style:solid;
 		border-bottom-width:3px;
+		border-left-width:0px;
+		border-right-wdith:0px;
+		border-top-width: 0px;
 		border-color: deeppink;
 
 	}
