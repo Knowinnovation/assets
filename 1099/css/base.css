@@ -69,8 +69,8 @@
 	.agenda .ki-index-item .ki-index-pageHeading .ki-title {
 		line-height: 135%; font-weight: bold;}
 	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
+	.agenda .ki-index-unclickable .ki-agenda-item-description {color:slategrey;}
+	.agenda .ki-index-unclickable  {
 		font-size:1.25rem;
 		text-align: left;
 		padding-top:0.25em; 
