@@ -51,8 +51,8 @@
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.agenda .ki-index-item .ki-index-time {
 		margin-right:0em;
-		font-size:1.5em;
-		width:4em;
+		font-size:1.2em;
+		width:6em;
 		font-family: monospace;
 		color:slategray;
 	}
@@ -84,15 +84,9 @@
 
 	}
 
-.ki-index-Time {
-    min-width: 6em;
-    max-width: 6em;
-}
 
-
-.ki-index-unclickable .ki-index-Time {
-    min-width: 0em;
-    max-width: 0em;
+.ki-index-unclickable .ki-index-time {
+display: none;
 }
 
 	
