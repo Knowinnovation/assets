@@ -1,5 +1,5 @@
 /* include any fonts we want to use in the event  */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* set up our basic styles */
 
@@ -63,7 +63,7 @@
 		font-family: monospace;
 		color:slategray;
 	}
-	.agenda .ki-index-item .ki-index-pageName {font-size: 1.5em;}
+	.agenda .ki-index-item .ki-index-pageName {font-size: 1.5em; align-self:center;}
 	.agenda .ki-index-item .ki-index-pageHeading {font-size: 1.5em;}
 	.agenda .ki-index-item .ki-index-pageHeading .ki-title {
 		line-height: 135%; font-weight: bold;}
