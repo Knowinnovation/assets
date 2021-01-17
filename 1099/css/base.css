@@ -52,8 +52,9 @@
 	.agenda .ki-index-item .ki-index-CombinedTime {
 		margin-right:0em;
 		font-size:1.2em;
-		width:6em;
-		min-width:6em;
+		width:7em;
+		min-width:7em;
+		max-width:7em;
 		font-family: monospace;
 		color:slategray;
 	}
@@ -86,7 +87,7 @@
 	}
 
 
-.ki-index-unclickable .ki-index-time {
+.ki-index-unclickable .ki-index-CombinedTime {
 display: none;
 }
 
