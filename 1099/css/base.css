@@ -53,6 +53,7 @@
 		margin-right:0em;
 		font-size:1.2em;
 		width:6em;
+		min-width:6em;
 		font-family: monospace;
 		color:slategray;
 	}
