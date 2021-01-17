@@ -49,7 +49,7 @@
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
-	.agenda .ki-index-item .ki-index-time {
+	.agenda .ki-index-item .ki-index-CombinedTime {
 		margin-right:0em;
 		font-size:1.2em;
 		width:6em;
