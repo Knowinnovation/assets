@@ -143,7 +143,7 @@ display: none;
 
 	}
 
-	.panel .ki-index-item .ki-index-headShot img{}
+	.panel .ki-index-item .ki-index-headShot img{
 		border: solid 5px slategray;
 	    width: 150px;
 	    height: 150px;
