@@ -104,6 +104,53 @@ display: none;
 
  .ki-keynote .ki-presenter{margin-bottom: 3em;}
 
+/* panel */
+	.panel .q-list--bordered {border:0px;} /* remove the border on indexed pages */
+	.panel .ki-index-item .ki-index-CombinedTime {
+		margin-right:0em;
+		font-size:1.2em;
+		width:7em;
+		min-width:7em;
+		max-width:7em;
+		font-family: monospace;
+		color:slategray;
+	}
+	.panel .ki-index-item .ki-index-date {
+		margin-right:0em;
+		font-size:1.5em;
+		width:4em;
+		font-family: monospace;
+		color:slategray;
+	}
+	.panel .ki-index-item .ki-index-pageName {font-size: 1.5em; align-self:center;}
+	.panel .ki-index-item .ki-index-pageHeading {font-size: 1.5em;}
+	.panel .ki-index-item .ki-index-pageHeading .ki-title {
+		line-height: 135%; font-weight: bold;}
+	.panel .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
+	.panel .ki-index-unclickable .ki-agenda-item-description {color:slategrey;}
+	.panel .ki-index-unclickable  {
+		font-size:1.25rem;
+		text-align: left;
+		padding-top:0.25em; 
+		padding-bottom:0.25em;
+		padding-left:0em;
+		border-style:solid;
+		border-bottom-width:3px;
+		border-left-width:0px;
+		border-right-width:0px;
+		border-top-width: 0px;
+		border-color: #f44336;
+
+	}
+
+	.panel .ki-index-item .ki-index-headShot img{}
+		border: solid 5px slategray;
+	    width: 150px;
+	    height: 150px;
+	    margin-right: 1em;
+	    border-radius: 1em;
+	}
+
 
 /* exhibitor */
 	.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
