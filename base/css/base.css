@@ -83,9 +83,8 @@
 	.agenda .ki-index-item .ki-index-pageName {font-size: 1.5em;}
 	.agenda .ki-index-item .ki-index-pageHeading {font-size: 1.5em;}
 	.agenda .ki-index-item .ki-index-presenter-name {font-style: italic; font-size: larger;}
-	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
-	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
+	.agenda .ki-index-item .ki-agenda-item-description {color:slategrey;}
+	.agenda .ki-index-item .ki-section-break {
 		margin-top:1.5em;
 		margin-right:2em;
 		font-weight: bold;
