@@ -84,14 +84,14 @@
 	.agenda .ki-index-item .ki-index-pageHeading {font-size: 1.5em;}
 	.agenda .ki-index-item .ki-index-presenter-name {font-style: italic; font-size: larger;}
 	.agenda .ki-index-item .ki-agenda-item-description {color:slategrey;}
-	.agenda .ki-index-item .ki-section-break .ki-index-unclickable{
+	.agenda .ki-section-break{
 		margin-top:1.5em;
 		margin-right:2em;
 		font-weight: bold;
 		border-radius:25px;
 
 	}
-	.agenda .ki-index-item .ki-section-break .ki-index-unclickable .ki-index-star{
+	.agenda .ki-section-break .ki-index-star{
 		visibility:hidden;
 
 	}
