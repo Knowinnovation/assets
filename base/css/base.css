@@ -86,19 +86,14 @@
 	.agenda .ki-index-custom .ki-agenda-item-description {color:var(--q-color-primary);}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-agenda-item-description {color:slategrey;}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break {
-		text-align: left;
-		padding-top:0.25em; 
-		padding-bottom:0.25em;
-		padding-left:1em;
-		margin-left:-0.7em;
 		margin-top:1.5em;
-		border-style:solid;
+		margin-right:2em;
+		font-weight: bold;
 		border-radius:25px;
-		border-color: var(--q-color-secondary);
 
 	}
 	.agenda .ki-index-unclickable .ki-index-custom .ki-section-break .ki-index-star{
-		visiility:hidden;
+		visibility:hidden;
 
 	}
 
