@@ -84,6 +84,10 @@
 	.agenda .ki-index-item .ki-index-pageHeading {font-size: 1.5em;}
 	.agenda .ki-index-item .ki-index-presenter-name {font-style: italic; font-size: larger;}
 	.agenda .ki-index-item .ki-agenda-item-description {color:slategrey;}
+	.agenda .ki-index-item .ki-highlight-page {border:4px solid var(--q-color-secondary);
+		border-radius: 50px;
+		margin-right:2rem;}
+		
 	.agenda .ki-section-break{
 		margin-top:1.5em;
 		margin-right:2em;
