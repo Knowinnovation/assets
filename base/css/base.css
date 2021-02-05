@@ -45,6 +45,7 @@
 	@media screen and (max-width: 42em) { .ki-explanation .ki-title { font-size: 1.75rem; } }
 	
 	.ki-explanation {padding-left:1em; padding-right:1em;}
+	.ki-explanation .ki-template-default-contents{display:block;}
 	.ki-explanation .ki-title {margin-bottom:1rem;}
 	.ki-explanation .ki-row {display: flex;
 	  flex-flow: row wrap;
