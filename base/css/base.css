@@ -123,7 +123,12 @@ svg {fill:var(--q-color-secondary);}
 	}
 
 
-
+/* poster */
+	.poster .ki-template-abstract-number{display:block;}
+	.poster .ki-template-abstract-number::before{content:"#";}
+	.poster .ki-template-google{margin-left: 2rem;}
+	.poster .ki-template-poster{display:block; padding-top: 2rem;}
+	.poster .ki-template-presenter{display:block; padding-top: 2rem;}
 
 
 /* exhibitor */
