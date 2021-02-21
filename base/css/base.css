@@ -112,6 +112,7 @@ svg {fill:var(--q-color-secondary);}
 	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%;}
 	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5em;}
 	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5em; line-height: normal; font-weight: 600;}
+	.agenda .ki-index .ki-index-item .ki-index-presenter {font-size: 1rem; padding-top:0.5rem;}
 	.agenda .ki-index .ki-index-item .ki-index-presenter-name {font-style: italic; font-size: larger;}
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 	.agenda .ki-index .ki-index-item .ki-highlight-page {border:4px solid var(--q-color-secondary);
