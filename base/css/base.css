@@ -130,7 +130,16 @@ svg {fill:var(--q-color-secondary);}
 		visibility:hidden;
 
 	}
-
+/* striped */
+/* always used as an option with agenda */
+.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
+    background-color: rgba(144, 144, 144, 0.075);
+    border: solid 1px #dbdbdb;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0.75rem 0.75rem;
+    border-top: solid 1px #dbdbdb !important;
+}
 
 /* poster */
 	.poster .ki-template-abstract-number{display:inline;}
