@@ -132,7 +132,7 @@ svg {fill:var(--q-color-secondary);}
 	}
 /* striped */
 /* always used as an option with agenda */
-.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
+.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
     background-color: rgba(144, 144, 144, 0.075);
     border: solid 1px #dbdbdb;
     border-left: 0px;
