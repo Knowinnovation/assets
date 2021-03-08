@@ -3,41 +3,24 @@
 
 /* set up our basic styles */
 
+	/* override the background colour from cultured grey to white */
+	.bg-ki { background-color: pink;}
 
-/* override the background colour from cultured grey to white */
-.bg-ki {
-    background-color: pink;
-}
-
-.ki-template-page-title {padding-top:0.5em;padding-bottom:1.0em;padding-left:2rem;padding-right:2rem; line-height: 125%; color:var(--q-color-primary); text-align: center; display:block;}
-	@media screen and (min-width: 64em) { .ki-template-page-title { font-size: 3.25rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-template-page-title { font-size: 2.25rem; } }
-	@media screen and (max-width: 42em) { .ki-template-page-title { font-size: 1.75rem; } }
-
-	@media screen and (min-width: 64em) { .ki-explanation { padding: 0rem 2rem 0rem 2rem; margin: 0 auto; font-size: 1.1rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation { padding: 0rem 2rem 0rem 2rem; font-size: 1.1rem; } }
-	@media screen and (max-width: 42em) { .ki-explanation { padding: 0rem 2rem 0rem 2rem; font-size: 1rem; } }
-
-
-
-	.ki-heading {padding-top:0.5em;padding-bottom:0.5em;padding-left:2rem;padding-right:2rem; line-height: 125%; color:var(--q-color-primary);}
+	.ki-heading {margin-top:1rem;margin-bottom:1rem;margin-left:2rem;line-height: 125%; color:var(--q-color-primary);}
 	@media screen and (min-width: 64em) { .ki-heading { font-size: 3.25rem; } }
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-heading { font-size: 2.25rem; } }
 	@media screen and (max-width: 42em) { .ki-heading { font-size: 1.75rem; } }
 
-	@media screen and (min-width: 64em) { .ki-explanation { padding: 0rem 2rem 0rem 2rem; margin: 0 auto; font-size: 1.1rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation { padding: 0rem 2rem 0rem 2rem; font-size: 1.1rem; } }
-	@media screen and (max-width: 42em) { .ki-explanation { padding: 0rem 2rem 0rem 2rem; font-size: 1rem; } }
+	@media screen and (min-width: 64em) { .ki-explanation { margin: 0 auto; font-size: 1.1rem; } }
+	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation { font-size: 1.1rem; } }
+	@media screen and (max-width: 42em) { .ki-explanation { font-size: 1rem; } }
 
-	.ki-heading .ki-heading-star {
-    display: none;
-}
+	.ki-heading .ki-heading-star {display: none;}
 
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
 
-.ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem; color:var(--q-color-primary);}
-.ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
+	.ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem; color:var(--q-color-primary);}
 
 	.ki-explanation	h1,  .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary); line-height: 150%;}
 	
@@ -45,33 +28,14 @@
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation h1{  font-size: 1.3rem; } }
 	@media screen and (max-width: 42em) { .ki-explanation h1 {  font-size: 1.1rem; } }
 
-	.ki-explanation .ki-title {text-align:center; font-weight: bold; line-height:125%;}
-	@media screen and (min-width: 64em) { .ki-explanation .ki-title { font-size: 3.25rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation .ki-title { font-size: 2.25rem; } }
-	@media screen and (max-width: 42em) { .ki-explanation .ki-title { font-size: 1.75rem; } }
-	
-	.ki-explanation {padding-left:1em; padding-right:1em;}
-	.ki-explanation .ki-template-default-contents{display:block;}
-	.ki-explanation .ki-title {margin-bottom:1rem;}
-	.ki-explanation .ki-row {display: flex;
-	  flex-flow: row wrap;
-	  justify-content: space-between;
-	  align-items: flex-end;
-	padding: 1rem 2rem 1.5rem 1rem;}
-	@media screen and (min-width: 64em) { .ki-index-custom { font-size: 1.25rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-index-custom { font-size: 1.25rem; } }
-	@media screen and (max-width: 42em) { .ki-index-custom { font-size: 1.1rem; } }
-	
 
-	.ki-index-custom .ki-datetime {
-	    float:left;
-	    width:8em;
-	    color:dimgrey;
-	   }
-	   .ki-index-custom .ki-agenda-item-description {
-	    font-weight:bold;
-	    margin-left:8em;
-	   }
+
+/* == Page Types == */
+
+/* Info */
+	.ki-info {}
+	.ki-info .ki-banner{}
+	.ki-info .ki-heading{}
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
@@ -129,16 +93,28 @@
 		visibility:hidden;
 
 	}
-/* striped */
-/* always used as an option with agenda */
-.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
-    background-color: rgba(144, 144, 144, 0.075);
-    border: solid 1px #dbdbdb;
-    border-left: 0px;
-    border-right: 0px;
-    padding: 0.75rem 0.75rem;
-    border-top: solid 1px #dbdbdb !important;
-}
+	/* striped */
+	/* always used as an option with agenda */
+	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
+	    background-color: rgba(144, 144, 144, 0.075);
+	    border: solid 1px #dbdbdb;
+	    border-left: 0px;
+	    border-right: 0px;
+	    padding: 0.75rem 0.75rem;
+	    border-top: solid 1px #dbdbdb !important;
+	}
+
+/* Activity */
+
+/* List */
+
+/* Panel */
+
+/* Panelist */
+
+/* Keynote */
+
+/* Section Break */
 
 /* poster */
 	.poster .ki-template-abstract-number{display:inline;}
@@ -148,59 +124,6 @@
 	.poster .ki-template-poster{display:block; padding-top: 1rem;}
 	.poster .ki-template-presenters{display:block; }
 	.poster .ki-template-institutions{display:block; padding-bottom:1rem;}
-
-
-
-/* exhibitor */
-	.exhibitor .ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem;}
-	.exhibitor .ki-explanation p {font-size:1.2rem; line-height:1.6rem;}
-	/* It's likely that this ki-overview row will just contain paragraphs of text */
-
-	.exhibitor .ki-explanation .ki-information {background-color:pink;display: flex;
-	  flex-flow: column wrap;
-	  justify-content: space-between;
-	  align-items: flex-start;
-	padding: 1rem 2rem 1.5rem 1rem;}
-
-	.exhibitor .ki-explanation .ki-video {background-color:orange;display: flex;
-	  flex-flow: row wrap;
-	  justify-content: space-between;
-	  align-items: flex-end;
-	padding: 1rem 2rem 1.5rem 1rem;}
-
-	.exhibitor .ki-explanation .ki-video .ki-video-embed {background-color:blue;
-	 display:block;
-	width:45%;
-	padding:1rem;}
-
-	.exhibitor .ki-explanation .ki-video .ki-video-description {background-color:blue;
-	 display:block;
-	width:50%;
-	padding:1rem;}
-
-	.exhibitor .ki-explanation .ki-resources {background-color:red;display: flex;
-	  flex-flow: row wrap;
-	  justify-content: flex-start;
-	  align-items: flex-start;
-	padding: 1rem 2rem 1.5rem 1rem;}
-
-	.exhibitor .ki-explanation .ki-resources ul {width:45%;}
-
-	.exhibitor .ki-explanation .ki-contacts {background-color:aliceblue;display: flex;
-	  flex-flow: row wrap;
-	  justify-content: flex-start;
-	  align-items: flex-start;
-	padding: 1rem 2rem 1.5rem 1rem;}
-
-	.exhibitor .ki-explanation .ki-logo {}
-	.exhibitor .ki-explanation .ki-logo img {width:50%;}
-	.exhibitor .ki-explanation .ki-title {color: black; font-size:200%;
-		padding: 0.5rem 1rem 0.5rem 0; }
-
-
-
-
-
 
 
 
