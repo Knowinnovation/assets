@@ -3,11 +3,10 @@
 
 /* set up our basic styles */
 
-svg {fill:var(--q-color-secondary);}
 
 /* override the background colour from cultured grey to white */
 .bg-ki {
-    background-color: #ffffff;
+    background-color: pink;
 }
 
 .ki-template-page-title {padding-top:0.5em;padding-bottom:1.0em;padding-left:2rem;padding-right:2rem; line-height: 125%; color:var(--q-color-primary); text-align: center; display:block;}
