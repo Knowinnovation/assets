@@ -141,6 +141,18 @@ h6 {
 
 }
 
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 3.75rem;
+        line-height: 3.75rem;
+    }
+
+    h2 {
+        font-size: 3.125rem;
+        line-height: 3.375rem;
+    }
+}
+
 
 
 	.ki-heading {margin-top:1rem;margin-bottom:1rem;margin-left:1.9rem;line-height: 125%; color:var(--q-color-primary);}
