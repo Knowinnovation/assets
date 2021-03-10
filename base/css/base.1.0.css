@@ -169,8 +169,6 @@ h6 {
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
 
-	.ki-explanation h2 {font-size:2.0rem; line-height:2.5rem; margin-top:1.0rem; margin-bottom:0.6rem; color:var(--q-color-primary);}
-
 	.ki-explanation	h1,  .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary); line-height: 150%;}
 	
 	@media screen and (min-width: 64em) { .ki-explanation h1{  font-size: 1.5rem; } }
