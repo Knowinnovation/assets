@@ -45,6 +45,7 @@
 	.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
+	.ki-highlight-explanation { font-weight:bold;}
 	.ki-heading .ki-heading-star {display: none;}
 	.ki-highlight-page {font-weight: 700;}
 }
