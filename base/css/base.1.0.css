@@ -153,7 +153,7 @@ h6 {
     }
 }
 
-
+p:last-child{background-color: blue;}
 
 	.ki-heading {margin-top:1rem;margin-bottom:1rem;margin-left:1.9rem;line-height: 125%; color:var(--q-color-primary);}
 	@media screen and (min-width: 64em) { .ki-heading { font-size: 3.25rem; } }
