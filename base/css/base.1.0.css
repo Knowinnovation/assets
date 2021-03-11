@@ -4,7 +4,7 @@
 /* set up our basic styles */
 
 	/* override the background colour from cultured grey to white */
-	.bg-ki { background-color: goldenrod;}
+	.bg-ki { background-color: white;}
 
 
 /* declare the standard tags */
@@ -46,6 +46,8 @@
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
 	.ki-heading .ki-heading-star {display: none;}
+	.ki-highlight-page {font-weight: 700;}
+}
 
 /* Set the left-hand margin for the items, so that they align with the explanation block */
 .q-pa-md {margin-left: 1rem;}	
