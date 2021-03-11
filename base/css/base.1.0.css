@@ -103,7 +103,7 @@
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
-	.agenda .ki-index-item{border-top-width:0px!important;}
+	.agenda .ki-index-item{}
 	.agenda .ki-highlight-page {
 		    border-top: 4px solid var(--q-color-secondary) !important;
 		    border-bottom: 4px solid var(--q-color-secondary) !important;
