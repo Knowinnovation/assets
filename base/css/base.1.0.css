@@ -8,10 +8,11 @@
 
 
 	/* declare the standard tags */
+	    body {font-size: 1rem; line-height: 1.5rem;}
 	h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1.125rem;
     font-weight: 400;
-    line-height: 1;}
+    line-height: 1.5rem;}
 
     strong {
     font-weight: 700;
@@ -23,9 +24,6 @@ ul {
     margin: 0 0 .625rem;
 }
 
-ul li {
-    line-height: 1.875rem;
-}
 
 ol {
     list-style: decimal outside;
@@ -33,9 +31,6 @@ ol {
     margin: 0 0 .625rem;
 }
 
-ol li {
-    line-height: 1.875rem;
-}
 
 blockquote {
     padding: 1.25rem 1.875rem;
@@ -44,7 +39,6 @@ blockquote {
 
 blockquote p {
     font-size: 1.125rem;
-    line-height: 1.5;
 }
 
 blockquote p:last-of-type {
@@ -56,45 +50,37 @@ blockquote p:last-of-type {
 
 
 @media screen and (min-width: 600px) {
-    body {
-        font-size: 18px;
-    }
+
 
     h1 {
         font-size: 2.8125rem;
-        line-height: 3.125rem;
     }
 
     h2 {
         font-size: 2.1875rem;
-        line-height: 2.1875rem;
     }
 
     h3 {
-        font-size: 1.875rem;
-        line-height: 2.125rem;
+        font-size: 2rem;
+
     }
 
     h4 {
-        font-size: 2rem;
-        line-height: 2.25rem;
+        font-size: 1.875rem;
     }
 
     h5 {
         font-size: 1.5rem;
-        line-height: 2rem;
     }
 
     h6 {
         font-size: 1rem;
-        line-height: 1.25rem;
     }
 
 
 
     p {
         font-size: 1.125rem;
-        line-height: 1.875rem;
     }
 
 }
@@ -102,16 +88,14 @@ blockquote p:last-of-type {
 
 
 
-	.ki-heading {margin-top:2rem;margin-bottom:1rem;margin-left:1.9rem;line-height: 125%; color:var(--q-color-primary);}
+	.ki-heading {margin-top:2rem;margin-bottom:1rem;margin-left:1.9rem; color:var(--q-color-primary);}
 	.ki-explanation	h1,  .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary);}
 
 
 	@media screen and (min-width: 64em) { 
 			.ki-heading { font-size: 3.25rem; } 
-			h1 { font-size: 3.25rem; 
-				line-height: 3.375rem;} 
-			h2 { font-size: 3.125rem;
-		        line-height: 3.375rem;}
+			h1 { font-size: 3.25rem; } 
+			h2 { font-size: 3.125rem;}
 
 	}
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-heading { font-size: 2.25rem; } }
@@ -120,39 +104,39 @@ blockquote p:last-of-type {
 
     h1 {
         font-size: 2.8125rem;
-        line-height: 3.125rem;
+
     }
 
     h2 {
         font-size: 2.1875rem;
-        line-height: 2.1875rem;
+
     }
 
     h3 {
-        font-size: 1.875rem;
-        line-height: 2.125rem;
+        font-size: 2rem;
+
     }
 
     h4 {
-        font-size: 2rem;
-        line-height: 2.25rem;
+        font-size: 1.875rem;
+
     }
 
     h5 {
         font-size: 1.5rem;
-        line-height: 2rem;
+
     }
 
     h6 {
         font-size: 1rem;
-        line-height: 1.25rem;
+
     }
 
 
 
     p {
         font-size: 1.125rem;
-        line-height: 1.875rem;
+
     }
 
 
@@ -219,7 +203,7 @@ blockquote p:last-of-type {
 
 	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%;}
 	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5em;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5em; line-height: normal; font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5em;font-weight: 500;}
 	.agenda .ki-index .ki-index-item .ki-index-presenter {font-size: 1rem; padding-top:0.5rem;}
 	.agenda .ki-index .ki-index-item .ki-index-presenter-name {font-style: italic; font-size: larger;}
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
