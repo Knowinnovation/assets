@@ -73,7 +73,7 @@
 	}
 	@media screen and (max-width: 42rem) { 
 		.ki-explanation {margin: auto 2rem; font-size: 1rem; }
-		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 3rem;line-height: 3rem;} 
+		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 3rem;line-height: 2.5rem;} 
 		h1 { font-size: 2.1875rem; } 
 		h2 { font-size: 2rem;}
 		h3 { font-size: 1.875rem;}
