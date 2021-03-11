@@ -49,7 +49,7 @@
 
 /* set up the various break points */
 	@media screen and (min-width: 64em) { 
-		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem; } 
+		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 3rem; } 
 		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 3rem; } 
 		h1 { font-size: 3.25rem; } 
 		h2 { font-size: 3.125rem;}
