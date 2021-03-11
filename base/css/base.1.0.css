@@ -71,7 +71,7 @@
 		h6 { font-size: 1.25rem;}
 		p {  font-size: 1.125rem; line-height: 1.35rem;}}
 	}
-	@media screen and (max-width: 42rem) { 
+	@media screen and (max-width: 599px) { 
 		.ki-explanation {margin: auto 2rem; font-size: 1rem; }
 		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 3rem;line-height: 3rem;} 
 		h1 { font-size: 2.1875rem; } 
