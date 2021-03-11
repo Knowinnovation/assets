@@ -158,11 +158,8 @@ h6 {
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
 
-	.ki-explanation	h1,  .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary); line-height: 150%;}
+	.ki-explanation	h1,  .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary);}
 	
-	@media screen and (min-width: 64em) { .ki-explanation h1{  font-size: 1.5rem; } }
-	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation h1{  font-size: 1.3rem; } }
-	@media screen and (max-width: 42em) { .ki-explanation h1 {  font-size: 1.1rem; } }
 
 
 
