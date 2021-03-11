@@ -47,6 +47,9 @@
 	.ki-explanation a:hover { text-decoration: underline; }
 	.ki-heading .ki-heading-star {display: none;}
 
+/* Set the left-hand margin for the items, so that they align with the explanation block */
+.q-pa-md {margin-left: 1rem;}	
+
 /* set up the various break points */
 	@media screen and (min-width: 64rem) { 
 		.ki-explanation { margin: auto 2rem; font-size: 1.125rem;  } 
