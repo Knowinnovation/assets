@@ -53,31 +53,7 @@ blockquote p:last-of-type {
 
 
 
-h1 {
-    line-height: 2.125rem;
-}
 
-h2 {
-    line-height: 1.75rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-h4 {
-    line-height: 1rem;
-}
-
-h5 {
-    font-size: .875rem;
-    line-height: 1.25rem;
-}
-
-h6 {
-    font-size: .75rem;
-    line-height: 1.125rem;
-}
 
 @media screen and (min-width: 600px) {
     body {
@@ -121,16 +97,14 @@ h6 {
         line-height: 1.875rem;
     }
 
-    blockquote, ol, p, ul {
-        margin: 0 0 1rem;
-    }
-
 }
 
 
 
 
 	.ki-heading {margin-top:2rem;margin-bottom:1rem;margin-left:1.9rem;line-height: 125%; color:var(--q-color-primary);}
+	.ki-explanation	h1,  .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary);}
+
 
 	@media screen and (min-width: 64em) { 
 			.ki-heading { font-size: 3.25rem; } 
@@ -139,26 +113,64 @@ h6 {
 			h2 { font-size: 3.125rem;
 		        line-height: 3.375rem;}
 
-
-
-
-
-
-
 	}
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-heading { font-size: 2.25rem; } }
-	@media screen and (max-width: 42em) { .ki-heading { font-size: 1.75rem; } }
+	@media screen and (max-width: 42em) { .ki-heading { font-size: 1.75rem; } 
+
+
+    h1 {
+        font-size: 2.8125rem;
+        line-height: 3.125rem;
+    }
+
+    h2 {
+        font-size: 2.1875rem;
+        line-height: 2.1875rem;
+    }
+
+    h3 {
+        font-size: 1.875rem;
+        line-height: 2.125rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+        line-height: 2.25rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+
+
+
+    p {
+        font-size: 1.125rem;
+        line-height: 1.875rem;
+    }
+
+
+
+
+}
 
 	@media screen and (min-width: 64em) { .ki-explanation { margin: auto 2rem; font-size: 1.1rem; } }
 	@media screen and (min-width: 42em) and (max-width: 64em) { .ki-explanation {margin: auto 2rem; font-size: 1.1rem; } }
 	@media screen and (max-width: 42em) { .ki-explanation {margin: auto 2rem; font-size: 1rem; } }
+
+
 
 	.ki-heading .ki-heading-star {display: none;}
 
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
 
-	.ki-explanation	h1,  .ki-explanation h3, .ki-explanation h4, .ki-explanation h5, .ki-explanation h6 {color:var(--q-color-primary);}
 	
 
 
