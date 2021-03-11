@@ -69,7 +69,7 @@
 		h4 { font-size: 1.875rem;}
 		h5 { font-size: 1.5rem;}
 		h6 { font-size: 1.25rem;}
-		p {  font-size: 1.125rem; line-height: 1.35rem;}
+		p {  font-size: 1.125rem; line-height: 1.4rem;}
 	}
 	@media screen and (max-width: 42rem) { 
 		.ki-explanation {margin: auto 2rem; font-size: 1rem; }
@@ -80,7 +80,7 @@
 		h4 { font-size: 1.5rem;}
 		h5 { font-size: 1.25rem;}
 		h6 { font-size: 1.125rem;}
-		p {  font-size: 1rem;}
+		p {  font-size: 1rem; line-height: 1.4rem;}
 	}
 
 
