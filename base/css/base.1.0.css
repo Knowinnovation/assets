@@ -42,7 +42,7 @@
 	}
 
 	.ki-heading {margin-left:1.9rem; color:var(--q-color-primary);}
-	.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary);}
+	.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
 	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
 	.ki-heading .ki-heading-star {display: none;}
