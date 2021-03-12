@@ -104,6 +104,7 @@
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
 	.agenda .ki-index-item{}
+	.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-end;}
 	.agenda .ki-highlight-page {
 		    border-top: 4px solid var(--q-color-secondary) !important;
 		    border-bottom: 4px solid var(--q-color-secondary) !important;
@@ -164,7 +165,7 @@
 	    border-left: 0px;
 	    border-right: 0px;
 	    padding: 0.75rem 0.75rem;
-	    border-top: solid 1px #dbdbdb !important;
+	    border-top: solid 1px #dbdbdb;
 	}
 
 /* Activity */
