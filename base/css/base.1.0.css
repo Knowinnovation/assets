@@ -136,7 +136,7 @@
 	}
 
 
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%;}
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 125%;}
 	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
 	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
 	.agenda .ki-index .ki-index-item .ki-index-presenter {font-size: 1rem; padding-top:0.5rem;}
