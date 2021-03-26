@@ -55,7 +55,7 @@
 
 /* set up the various break points */
 	@media screen and (min-width: 64rem) { 
-		.ki-explanation { margin: auto 2rem; font-size: 1.125rem;  } 
+		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem; } 
 		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 3rem; } 
 		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 3rem; } 
 
@@ -65,11 +65,11 @@
 		h4 { font-size: 2.1875rem;}
 		h5 { font-size: 2rem;}
 		h6 { font-size: 1.875rem;}
-		p {  font-size: 1.125rem; line-height: 1.5rem;}
+
 	}
 	
 	@media screen and (min-width: 42rem) and (max-width: 64rem) { 
-		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; } 
+		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; line-height: 1.4rem;} 
 		.ki-heading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 3rem;} 
 		.ki-template-pageHeading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 3rem;} 
 		h1 { font-size: 2.8125rem; } 
@@ -78,10 +78,10 @@
 		h4 { font-size: 1.875rem;}
 		h5 { font-size: 1.5rem;}
 		h6 { font-size: 1.25rem;}
-		p {  font-size: 1.125rem; line-height: 1.4rem;}
+
 	}
 	@media screen and (max-width: 42rem) { 
-		.ki-explanation {margin: auto 2rem; font-size: 1rem; }
+		.ki-explanation {margin: auto 2rem; font-size: 1rem; line-height:1.3rem;}
 		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 2.5rem;} 
 		.ki-template-pageHeading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 2.5rem;} 
 		h1 { font-size: 2.1875rem; } 
@@ -90,7 +90,7 @@
 		h4 { font-size: 1.5rem;}
 		h5 { font-size: 1.25rem;}
 		h6 { font-size: 1.125rem;}
-		p {  font-size: 1rem; line-height: 1.3rem;}
+
 	}
 
 
