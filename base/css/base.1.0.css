@@ -50,7 +50,7 @@
 	.ki-highlight-page {font-weight: 700;}
 }
 
-/* Set the left-hand margin for the items, so that they align with the explanation block */
+/* Set the left and right-hand margin for the items, so that they align with the explanation block */
 .q-pa-md {margin-left: 1rem; margin-right: 1rem;}	
 
 /* set up the various break points */
