@@ -8,7 +8,7 @@
 
 
 /* declare the standard tags */
-	    body {font-size: 1rem; line-height: 1.5rem;}
+	body {font-size: 1rem; line-height: 1.5rem;}
 	h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1.125rem;
     font-weight: 400;
@@ -48,7 +48,6 @@
 	.ki-highlight-explanation { font-weight:bold;}
 	.ki-heading .ki-heading-star {display: none;}
 	.ki-highlight-page {font-weight: 700;}
-}
 
 /* Set the left and right-hand margin for the items, so that they align with the explanation block */
 .q-pa-md {margin-left: 1rem; margin-right: 1rem;}	
