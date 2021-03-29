@@ -169,7 +169,13 @@
 	    padding: 0.75rem 0.75rem;
 	    border-top: solid 1px #dbdbdb;
 	}
-
+	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(even) {
+	    border: solid 1px #dbdbdb;
+	    border-left: 0px;
+	    border-right: 0px;
+	    padding: 0.75rem 0.75rem;
+	    border-top: solid 1px #dbdbdb;
+	}
 /* Activity */
 
 /* List */
