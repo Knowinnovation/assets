@@ -105,7 +105,7 @@
 
 /* agenda */
 	.agenda .q-list--bordered {border:0px;} /* remove the border on indexed pages */
-	.agenda .ki-index-item{}
+	.agenda .ki-index-item{align-items: flex-start;}
 	.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-end;}
 	.agenda .ki-highlight-page {
 		    border-top: 4px solid var(--q-color-secondary) !important;
