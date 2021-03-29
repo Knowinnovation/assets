@@ -55,6 +55,7 @@
 /* set up the various break points */
 	@media screen and (min-width: 64rem) { 
 		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem; } 
+		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:50%;}
 		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 3rem; } 
 		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 3rem; } 
 
