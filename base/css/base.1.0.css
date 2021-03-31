@@ -108,8 +108,6 @@
 
 	.agenda .q-list--bordered {border-left:0px; border-right:0px; } 
 	.agenda .ki-section-break{
-		margin-top:1.5rem;
-		margin-right:2rem;
 		font-weight: bold;
 		color:var(--q-color-primary);
 	}
@@ -118,6 +116,11 @@
 	}
 	.agenda .ki-section-break .ki-index-start{
 		display:none;
+	}
+		.agenda .ki-section-break .ki-index-description{
+			flex:auto;
+			padding-top:1rem;
+			padding-bottom:1rem;
 	}
 
 
