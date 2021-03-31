@@ -108,11 +108,10 @@
 
 	.agenda .q-list--bordered {border-left:0px; border-right:0px; } 
 	.agenda .ki-section-break{
-		margin-top:1.5em;
-		margin-right:2em;
+		margin-top:1.5rem;
+		margin-right:2rem;
 		font-weight: bold;
-		border-radius:25px;
-
+		color:var(--q-color-secondary);
 	}
 	.agenda .ki-section-break .ki-index-star{
 		visibility:hidden;
@@ -124,8 +123,8 @@
 	.agenda .ki-index-item{align-items: flex-start;}
 	.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.agenda .ki-highlight-page {
-		    border-top: 4px solid var(--q-color-secondary) !important;
-		    border-bottom: 4px solid var(--q-color-secondary) !important;
+		    border-top: 4px solid var(--q-color-secondary);
+		    border-bottom: 4px solid var(--q-color-secondary);
 	}
 	.agenda .q-item__section--side {
     color: #757575;
@@ -136,19 +135,9 @@
     max-width: 2em;} /* ensure that the text in menus aligns in a column */
 
 
-		.agenda .ki-index-item .ki-index-start {
-		margin-right:1em;
-		font-size:1.5em;
-		width:5em;
-		max-width: 5em;
-		min-width: 5em;
-		font-family: monospace;
-		color:slategray;
-	}
-	.agenda .ki-index-item .ki-index-date {
-		margin-right:0em;
-		font-size:1.5em;
-		width:4em;
+	.agenda .ki-index-item .ki-index-start {
+		margin-right:2rem;
+		font-size:1.5rem;
 		font-family: monospace;
 		color:slategray;
 	}
@@ -157,13 +146,7 @@
 	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 125%;}
 	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
 	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-index-presenter {font-size: 1rem; padding-top:0.5rem;}
-	.agenda .ki-index .ki-index-item .ki-index-presenter-name {font-style: italic; font-size: larger;}
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
-	.agenda .ki-index .ki-index-item .ki-highlight-page {border:4px solid var(--q-color-secondary);
-		border-radius: 50px;
-		margin-right:2rem;}
-
 	} /* end of 64rem block */
 
 
