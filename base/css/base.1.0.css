@@ -107,21 +107,26 @@
 /* agenda */
 
 	.agenda .q-list--bordered {border-left:0px; border-right:0px; } 
-	.agenda .ki-section-break{
-		font-weight: bold;
-		color:var(--q-color-primary);
-	}
 	.agenda .ki-section-break .ki-index-star{
 		visibility:hidden;
 	}
 	.agenda .ki-section-break .ki-index-start{
 		display:none;
 	}
-		.agenda .ki-section-break .ki-index-description{
-			flex:auto;
+	.agenda .ki-section-break .ki-index-description{
+			display:flex;
+			align-items:center;
+			justify-content: center;
 			padding-top:1rem;
-			padding-bottom:1rem;
+			color:var(--q-color-primary);
+			min-width: 100%!important;
+			min-height: 4rem;
 	}
+	.agenda .ki-section-break .ki-index-description .pageHeading{
+			color:var(--q-color-primary);
+			font-weight: 600;
+	}
+
 
 
 	@media screen and (min-width: 64rem) { 
