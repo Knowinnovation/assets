@@ -11,8 +11,9 @@
 	body {font-size: 1rem; line-height: 1.5rem;}
 	h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1.125rem;
-    font-weight: 400;
-    line-height: 1.5rem;}
+    font-weight: 400;}
+    h1, h2, h3{line-height:110%;}
+    h4, h5, h6{line-height: 120%;}
 
     strong {font-weight: 700;}
 
@@ -56,8 +57,8 @@
 	@media screen and (min-width: 64rem) { 
 		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem; } 
 		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:50%;}
-		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 3rem; } 
-		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 3rem; } 
+		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%; } 
+		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%;} 
 
 		h1 { font-size: 3.25rem; } 
 		h2 { font-size: 3.125rem;}
