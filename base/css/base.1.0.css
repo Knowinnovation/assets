@@ -111,10 +111,13 @@
 		margin-top:1.5rem;
 		margin-right:2rem;
 		font-weight: bold;
-		color:var(--q-color-secondary);
+		color:var(--q-color-primary);
 	}
 	.agenda .ki-section-break .ki-index-star{
 		visibility:hidden;
+	}
+	.agenda .ki-section-break .ki-index-start{
+		display:none;
 	}
 
 
@@ -163,11 +166,7 @@
 	/* always used as an option with agenda */
 	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
 	    background-color: rgba(144, 144, 144, 0.075);
-	    border: solid 1px #dbdbdb;
-	    border-left: 0px;
-	    border-right: 0px;
 	    padding: 0.75rem 0.75rem;
-	    border-top: solid 1px #dbdbdb;
 	}
 	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(even) {
 	    border: solid 1px #dbdbdb;
