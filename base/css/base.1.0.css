@@ -100,9 +100,9 @@
 /* == Page Types == */
 
 /* Info */
-	.ki-info {}
-	.ki-info .ki-banner{}
-	.ki-info .ki-heading{}
+	.info {}
+	.info .ki-banner{}
+	.info .ki-heading{}
 
 /* agenda */
 
