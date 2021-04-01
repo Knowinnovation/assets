@@ -157,11 +157,6 @@
 
 	} /* end of 64rem block */
 
-
-
-
-
-
 	@media screen and (min-width: 42rem) and (max-width: 64rem) {
 
 			.agenda .ki-index-item .ki-index-start {
@@ -182,9 +177,12 @@
 		}
 
 	} /* end of 42rem block */
-	
+/* end of agenda */
+
+
+
 	/* striped */
-	/* always used as an option with agenda */
+	/* always used as an option with agenda or list */
 	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
 	    background-color: rgba(144, 144, 144, 0.075);
 	    padding: 0.75rem 0.75rem;
@@ -196,9 +194,62 @@
 	    padding: 0.75rem 0.75rem;
 	    border-top: solid 1px #dbdbdb;
 	}
-/* Activity */
 
 /* List */
+
+
+	.list .q-list--bordered {border-left:0px; border-right:0px; } 
+	.list .ki-section-break .ki-index-star{
+		visibility:hidden;
+	}
+	.list .ki-section-break .ki-index-start{
+		display:none;
+	}
+	.list .ki-section-break .ki-index-description{
+			display:flex;
+			align-items:center;
+			justify-content: center;
+			padding-top:1rem;
+			min-width: 100%!important;
+			min-height: 4rem;
+	}
+	.list .ki-section-break .ki-index-description .ki-index-pageHeading{
+			color:var(--q-color-primary);
+			font-weight: 700;
+	}
+	.list .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
+	.list .ki-index-item{align-items: flex-start;}
+	.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
+	.list .ki-highlight-page {
+		    border-top: 4px solid var(--q-color-secondary);
+		    border-bottom: 4px solid var(--q-color-secondary);
+	}
+
+	.list .q-item__section--side {
+	    color: #757575;
+	    align-items: flex-start;
+	    padding-right: 2em;
+	    width: 2em;
+	    min-width: 2em;
+	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
+
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 125%;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
+	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
+
+	@media screen and (min-width: 64rem) { 
+
+	} /* end of 64rem block */
+
+	@media screen and (min-width: 42rem) and (max-width: 64rem) {
+
+	} /* end of 42 - 64 rem block */
+
+	@media screen and (max-width: 42rem) { 
+
+	} /* end of 42rem block */
+	/* end of List */
 
 /* Panel */
 
@@ -206,7 +257,7 @@
 
 /* Keynote */
 
-/* Section Break */
+
 
 /* poster */
 	.poster .ki-template-abstract-number{display:inline;}
