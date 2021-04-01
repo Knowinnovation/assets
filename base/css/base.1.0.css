@@ -72,8 +72,8 @@
 	@media screen and (min-width: 42rem) and (max-width: 64rem) { 
 		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem;} 
 		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:50%;}
-		.ki-heading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 3rem;} 
-		.ki-template-pageHeading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 3rem;} 
+		.ki-heading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
+		.ki-template-pageHeading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
 		h1 { font-size: 2.8125rem; } 
 		h2 { font-size: 2.1875rem;}
 		h3 { font-size: 2rem;}
@@ -83,10 +83,10 @@
 
 	}
 	@media screen and (max-width: 42rem) { 
-		.ki-explanation {margin: auto 2rem; font-size: 1rem; line-height:1.4rem;}
+		.ki-explanation {margin: auto 2rem; font-size: 1rem; line-height:120%;}
 		.ki-explanation .ki-banner {display:none;}
-		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 2.5rem;} 
-		.ki-template-pageHeading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 2.5rem;} 
+		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 120%;} 
+		.ki-template-pageHeading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 120%;} 
 		h1 { font-size: 2.1875rem; } 
 		h2 { font-size: 2rem;}
 		h3 { font-size: 1.875rem;}
@@ -127,7 +127,7 @@
 	}
 	.agenda .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
 	.agenda .ki-index-item{align-items: flex-start;}
-	.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
+	.agenda .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.agenda .ki-highlight-page {
 		    border-top: 4px solid var(--q-color-secondary);
 		    border-bottom: 4px solid var(--q-color-secondary);
@@ -141,12 +141,17 @@
 	    min-width: 2em;
 	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
 
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 125%;}
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 120%;}
 	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
 	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 	@media screen and (min-width: 64rem) { 
+
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 110%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 	.agenda .ki-index-item .ki-index-start {
 		margin-right:2rem;
@@ -158,20 +163,28 @@
 	} /* end of 64rem block */
 
 	@media screen and (min-width: 42rem) and (max-width: 64rem) {
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 115%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 			.agenda .ki-index-item .ki-index-start {
 		margin-right:2rem;
-		font-size:1.5rem;
+		font-size:1.25rem;
 		font-family: monospace;
 		color:slategray;
 		}
 	} /* end of 42 - 64 rem block */
 
 	@media screen and (max-width: 42rem) { 
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 120%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 		.agenda .ki-index-item .ki-index-start {
 		margin-right:2rem;
-		font-size:1.5rem;
+		font-size:1.1rem;
 		font-family: monospace;
 		color:slategray;
 		}
@@ -219,7 +232,7 @@
 	}
 	.list .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
 	.list .ki-index-item{align-items: flex-start;}
-	.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
+	.list .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.list .ki-highlight-page {
 		    border-top: 4px solid var(--q-color-secondary);
 		    border-bottom: 4px solid var(--q-color-secondary);
@@ -233,20 +246,29 @@
 	    min-width: 2em;
 	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
 
-	.list .ki-index .ki-index-item .ki-index-description {line-height: 125%;}
+
+
+	@media screen and (min-width: 64rem) { 
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 110%;}
 	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
 	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
 	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
 
-	@media screen and (min-width: 64rem) { 
-
 	} /* end of 64rem block */
 
 	@media screen and (min-width: 42rem) and (max-width: 64rem) {
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 115%;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem;font-weight: 500;}
+	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
 
 	} /* end of 42 - 64 rem block */
 
 	@media screen and (max-width: 42rem) { 
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 120%;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem;font-weight: 500;}
+	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
 
 	} /* end of 42rem block */
 	/* end of List */
