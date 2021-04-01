@@ -125,10 +125,6 @@
 			color:var(--q-color-primary);
 			font-weight: 700;
 	}
-
-
-
-	@media screen and (min-width: 64rem) { 
 	.agenda .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
 	.agenda .ki-index-item{align-items: flex-start;}
 	.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
@@ -136,14 +132,21 @@
 		    border-top: 4px solid var(--q-color-secondary);
 		    border-bottom: 4px solid var(--q-color-secondary);
 	}
-	.agenda .q-item__section--side {
-    color: #757575;
-    align-items: flex-start;
-    padding-right: 2em;
-    width: 2em;
-    min-width: 2em;
-    max-width: 2em;} /* ensure that the text in menus aligns in a column */
 
+	.agenda .q-item__section--side {
+	    color: #757575;
+	    align-items: flex-start;
+	    padding-right: 2em;
+	    width: 2em;
+	    min-width: 2em;
+	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
+
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 125%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
+
+	@media screen and (min-width: 64rem) { 
 
 	.agenda .ki-index-item .ki-index-start {
 		margin-right:2rem;
@@ -152,11 +155,6 @@
 		color:slategray;
 	}
 
-
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 125%;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 	} /* end of 64rem block */
 
 
@@ -165,10 +163,26 @@
 
 
 	@media screen and (min-width: 42rem) and (max-width: 64rem) {
-	}
+
+			.agenda .ki-index-item .ki-index-start {
+		margin-right:2rem;
+		font-size:1.5rem;
+		font-family: monospace;
+		color:slategray;
+		}
+	} /* end of 42 - 64 rem block */
 
 	@media screen and (max-width: 42rem) { 
-	}
+
+		.agenda .ki-index-item .ki-index-start {
+		margin-right:2rem;
+		font-size:1.5rem;
+		font-family: monospace;
+		color:slategray;
+		}
+
+	} /* end of 42rem block */
+	
 	/* striped */
 	/* always used as an option with agenda */
 	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
