@@ -129,8 +129,8 @@
 	.agenda .ki-index-item{align-items: flex-start;}
 	.agenda .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.agenda .ki-highlight-page {
-		    border-top: 4px solid var(--q-color-secondary);
-		    border-bottom: 4px solid var(--q-color-secondary);
+		    border-top: 4px solid var(--q-color-secondary)!important;
+		    border-bottom: 4px solid var(--q-color-secondary)!important;
 	}
 
 	.agenda .q-item__section--side {
@@ -141,16 +141,12 @@
 	    min-width: 2em;
 	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
 
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 120%;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 	@media screen and (min-width: 64rem) { 
 
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 110%;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 115%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;line-height: 115%;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;line-height: 115%;font-weight: 500;}
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 	.agenda .ki-index-item .ki-index-start {
@@ -164,8 +160,8 @@
 
 	@media screen and (min-width: 42rem) and (max-width: 64rem) {
 	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 115%;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem;line-height: 115%;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem;line-height: 115%;font-weight: 500;}
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 			.agenda .ki-index-item .ki-index-start {
@@ -178,8 +174,8 @@
 
 	@media screen and (max-width: 42rem) { 
 	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 120%;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 		.agenda .ki-index-item .ki-index-start {
@@ -234,8 +230,8 @@
 	.list .ki-index-item{align-items: flex-start;}
 	.list .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.list .ki-highlight-page {
-		    border-top: 4px solid var(--q-color-secondary);
-		    border-bottom: 4px solid var(--q-color-secondary);
+		    border-top: 4px solid var(--q-color-secondary)!important;
+		    border-bottom: 4px solid var(--q-color-secondary)!important;
 	}
 
 	.list .q-item__section--side {
@@ -249,25 +245,25 @@
 
 
 	@media screen and (min-width: 64rem) { 
-	.list .ki-index .ki-index-item .ki-index-description {line-height: 110%;}
-	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;}
-	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 115%;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem; line-height: 115%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem; line-height: 115%; font-weight: 500;}
 	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
 
 	} /* end of 64rem block */
 
 	@media screen and (min-width: 42rem) and (max-width: 64rem) {
 	.list .ki-index .ki-index-item .ki-index-description {line-height: 115%;}
-	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem;}
-	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem;font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem; line-height: 115%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem; line-height: 115%; font-weight: 500;}
 	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
 
 	} /* end of 42 - 64 rem block */
 
 	@media screen and (max-width: 42rem) { 
 	.list .ki-index .ki-index-item .ki-index-description {line-height: 120%;}
-	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem;}
-	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem;font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
 	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
 
 	} /* end of 42rem block */
