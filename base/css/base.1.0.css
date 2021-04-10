@@ -192,11 +192,11 @@
 
 	/* striped */
 	/* always used as an option with agenda or list */
-	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(odd) {
+	.striped .ki-index-item:nth-child(odd) {
 	    background-color: rgba(144, 144, 144, 0.075);
 	    padding: 0.75rem 0.75rem;
 	}
-	.striped .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item:nth-child(even) {
+	.striped .ki-index-item:nth-child(even) {
 	    border: solid 1px #dbdbdb;
 	    border-left: 0px;
 	    border-right: 0px;
