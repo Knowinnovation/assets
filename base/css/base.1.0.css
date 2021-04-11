@@ -111,7 +111,7 @@
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item {display:flex; flex-direction: row;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem; padding-top:1rem;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-heading{font-weight:700; margin-bottom:0rem;}
-	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-top: 1px solid var(--q-color-primary); padding-top:1rem;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-top: 1px solid var(--q-color-primary); padding-top:1rem; width:100%;}
 	.welcome .ki-explanation .ki-getting-started h3 {}  /*this needs to be wrapped inside a media query */
 
 
