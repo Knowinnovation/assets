@@ -109,9 +109,9 @@
 	.welcome .ki-explanation {}
 	.welcome .ki-explanation .ki-getting-started {display:flex;flex-direction: column;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item {display:flex; flex-direction: row;}
-	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem; padding-top:1rem;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-heading{font-weight:700; margin-bottom:0rem;}
-	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-bottom: 1px solid var(--q-color-primary);}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-top: 1px solid var(--q-color-primary); padding-top:1rem;}
 	.welcome .ki-explanation .ki-getting-started h3 {}  /*this needs to be wrapped inside a media query */
 
 
