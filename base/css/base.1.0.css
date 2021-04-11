@@ -104,6 +104,13 @@
 	.info .ki-banner{}
 	.info .ki-heading{}
 
+/* Welcome */
+	.welcome {}
+	.welcome .ki-explanation {}
+	.welcome .ki-explanation img{width:50px; margin-right:2rem;}
+	.welcome .ki-explanation .ki-banner{}
+	.welcome .ki-explanation .ki-heading{}
+
 /* agenda */
 
 	.agenda .q-list--bordered {border-left:0px; border-right:0px; } 
