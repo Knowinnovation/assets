@@ -56,7 +56,7 @@
 /* set up the various break points */
 	@media screen and (min-width: 64rem) { 
 		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem; } 
-		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:50%;}
+		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
 		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%; } 
 		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%;} 
 
@@ -71,7 +71,7 @@
 	
 	@media screen and (min-width: 42rem) and (max-width: 64rem) { 
 		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem;} 
-		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:50%;}
+		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
 		.ki-heading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
 		.ki-template-pageHeading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
 		h1 { font-size: 2.8125rem; } 
@@ -105,7 +105,7 @@
 	.info .ki-heading{}
 
 /* Welcome */
-	.welcome {}
+	.welcome h2 {margin-top:2rem!important;}
 	.welcome .ki-explanation {}
 	.welcome .ki-explanation .ki-getting-started {display:flex;flex-direction: column;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item {display:flex; flex-direction: row;}
@@ -127,17 +127,19 @@
 	.agenda .ki-section-break .ki-index-start{
 		display:none;
 	}
-	.agenda .ki-section-break .ki-index-description{
+	.agenda .ki-section-break{
 			display:flex;
 			align-items:center;
 			justify-content: center;
-			padding-top:1rem;
+
 			min-width: 100%!important;
-			min-height: 4rem;
+
 	}
-	.agenda .ki-section-break .ki-index-description .ki-index-pageHeading{
+	.agenda .ki-section-break .ki-index-pageHeading{
 			color:var(--q-color-primary);
 			font-weight: 700;
+			min-height: 4rem;
+			padding-top:1rem;
 	}
 	.agenda .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
 	.agenda .ki-index-item{align-items: flex-start;}
