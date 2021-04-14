@@ -130,6 +130,7 @@
 
 	.agenda .ki-section-break .ki-index-pageHeading{
 			color:var(--q-color-primary);
+			background-color: white!important;
 			font-weight: 700 !important;
 			min-height: 4rem;
 			padding-top:2rem;
@@ -224,17 +225,13 @@
 	.list .ki-section-break .ki-index-start{
 		display:none;
 	}
-	.list .ki-section-break .ki-index-description{
-			display:flex;
-			align-items:center;
-			justify-content: center;
-			padding-top:1rem;
-			min-width: 100%!important;
-			min-height: 4rem;
-	}
-	.list .ki-section-break .ki-index-description .ki-index-pageHeading{
+	.list .ki-section-break .ki-index-pageHeading{
 			color:var(--q-color-primary);
-			font-weight: 700;
+			background-color: white!important;
+			font-weight: 700 !important;
+			min-height: 4rem;
+			padding-top:2rem;
+			margin:auto;
 	}
 	.list .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
 	.list .ki-index-item{align-items: flex-start;}
