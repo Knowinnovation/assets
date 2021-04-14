@@ -121,6 +121,7 @@
 /* agenda */
 
 	.agenda .q-list--bordered {border-left:0px; border-right:0px; } 
+	.agenda .ki-section-break {background-color: white!important;}
 	.agenda .ki-section-break .ki-index-star{
 		visibility:hidden;
 	}
@@ -130,7 +131,6 @@
 
 	.agenda .ki-section-break .ki-index-pageHeading{
 			color:var(--q-color-primary);
-			background-color: white!important;
 			font-weight: 700 !important;
 			min-height: 4rem;
 			padding-top:2rem;
@@ -219,6 +219,7 @@
 
 
 	.list .q-list--bordered {border-left:0px; border-right:0px; } 
+	.list .ki-section-break {background-color: white!important;}
 	.list .ki-section-break .ki-index-star{
 		visibility:hidden;
 	}
