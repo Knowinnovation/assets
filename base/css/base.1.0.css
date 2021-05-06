@@ -277,6 +277,21 @@
 	} /* end of 42rem block */
 	/* end of List */
 
+/* static-agenda */
+.static-agenda {
+    margin: 0 0 2em 0;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.static-agenda tbody {display: table-row-group;}
+.static-agenda tbody tr {
+    border: solid 1px #dbdbdb;
+    border-left: 0;
+    border-right: 0;
+}
+.static-agenda td {padding: 0.75em 0.75em;}
+
 /* Panel */
 
 /* Panelist */
