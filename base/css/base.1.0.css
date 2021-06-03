@@ -117,6 +117,7 @@
 
 	.welcome .ki-explanation .ki-banner{}
 	.welcome .ki-explanation .ki-heading{}
+	.welcome .ki-icon { font-size: 32pt}  /* these are used on the getting started section */
 
 /* agenda */
 
