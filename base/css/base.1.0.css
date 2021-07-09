@@ -58,7 +58,7 @@
 
 /* set up the various break points */
 	@media screen and (min-width: 64rem) { 
-		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem; } 
+		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5em; } 
 		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
 		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%; } 
 		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%;} 
@@ -73,7 +73,7 @@
 	}
 	
 	@media screen and (min-width: 42rem) and (max-width: 64rem) { 
-		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem;} 
+		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; line-height: 1.5em;} 
 		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
 		.ki-heading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
 		.ki-template-pageHeading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
@@ -86,7 +86,7 @@
 
 	}
 	@media screen and (max-width: 42rem) { 
-		.ki-explanation {margin: auto 2rem; font-size: 1rem; line-height:120%;}
+		.ki-explanation {margin: auto 2rem; font-size: 1rem; line-height:160%;}
 		.ki-explanation .ki-banner {display:none;}
 		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 120%;} 
 		.ki-template-pageHeading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 120%;} 
