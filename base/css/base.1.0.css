@@ -169,6 +169,7 @@
 		font-size:1.5rem;
 		font-family: monospace;
 		color:slategray;
+		min-width: 10rem;
 	}
 
 	} /* end of 64rem block */
@@ -184,6 +185,7 @@
 		font-size:1.25rem;
 		font-family: monospace;
 		color:slategray;
+		min-width: 10rem;
 		}
 	} /* end of 42 - 64 rem block */
 
@@ -198,6 +200,7 @@
 		font-size:1.1rem;
 		font-family: monospace;
 		color:slategray;
+		min-width: 10rem;
 		}
 
 	} /* end of 42rem block */
