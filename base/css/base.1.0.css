@@ -181,11 +181,11 @@
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 			.agenda .ki-index-item .ki-index-start {
-		margin-right:2rem;
+		margin-right:1rem;
 		font-size:1.25rem;
 		font-family: monospace;
 		color:slategray;
-		min-width: 10rem;
+		min-width: 9rem;
 		}
 	} /* end of 42 - 64 rem block */
 
@@ -196,11 +196,11 @@
 	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
 
 		.agenda .ki-index-item .ki-index-start {
-		margin-right:2rem;
+		margin-right:1rem;
 		font-size:1.1rem;
 		font-family: monospace;
 		color:slategray;
-		min-width: 10rem;
+		min-width: 8rem;
 		}
 
 	} /* end of 42rem block */
