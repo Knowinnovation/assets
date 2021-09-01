@@ -315,6 +315,11 @@
 	.poster .ki-template-poster{display:block; padding-top: 1rem;}
 	.poster .ki-template-presenters{display:block; }
 	.poster .ki-template-institutions{display:block; padding-bottom:1rem;}
+	.poster .ki-template-video{display: block;max-width: 850px;
+		border: .5em solid #232d4b;
+		border-radius: .5em;
+		margin: 0 0 .5rem 0;}
+	.poster .ki-template-video .ki-video-wrapper{padding:56.25% 0 0 0; position:relative;}
 
 
 
