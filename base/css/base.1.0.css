@@ -308,18 +308,51 @@
 
 
 /* poster */
-	.poster .ki-template-abstract-number{display:inline;}
+	/*.poster .ki-template-abstract-number{display:inline;}
 	.poster .ki-template-abstract-number::before{content:"#";}
 	.poster .ki-template-abstract-number::after{content:". ";}
 	.poster .ki-template-google{display:block;margin-left: 2rem;}
 	.poster .ki-template-poster{display:block; padding-top: 1rem;}
 	.poster .ki-template-presenters{display:block; }
-	.poster .ki-template-institutions{display:block; padding-bottom:1rem;}
-	.poster .ki-template-video{display: block;max-width: 850px;
-		border: .5em solid #232d4b;
-		border-radius: .5em;
-		margin: 0 0 .5rem 0;}
-	.poster .ki-template-video .ki-video-wrapper{padding:56.25% 0 0 0; position:relative;}
+	.poster .ki-template-institutions{display:block; padding-bottom:1rem;}*/
+	
+.poster .ki-explanation{
+  display: grid;
+  grid-template-rows:1fr ;
+  margin-bottom: .25rem;
+  max-width: 850px;
+  row-gap:1em;
+  grid-template-areas:
+  "section1"
+  "section2"
+  "section3"
+  ;
+}
+/* ----- Section 1 ----- ( Buttons are in Section 3 ) */
+.poster .ki-template-awards {
+  grid-area: section1;
+  display: grid;
+}
+
+/* ----- Section 2 ----- */
+.poster .ki-template-names {
+  grid-area: section2;
+  display: grid;
+  row-gap: .5em;
+}
+
+.poster .ki-template-presenters{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, .25fr));
+  row-gap: .5em;
+}
+
+/* ----- Section 3 ----- */
+.poster .ki-template-body {
+  grid-area: section3;
+  display: grid;
+  row-gap: .5em;
+}
 
 /* Hello Pearl, Malicactus was here!!!!!! Baguette et fromage*/
 
