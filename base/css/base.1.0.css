@@ -354,7 +354,7 @@
   row-gap: .5em;
 }
 
-.poster details > summary {
+.poster  details > summary {
   box-sizing: border-box;
   background-color:var(--q-color-primary);
   color:#fff;
@@ -376,7 +376,7 @@
   transition: .5s;
 }
 
-.wrapper {
+.poster .wrapper {
   box-sizing: border-box;
   border: .25em solid var(--q-color-primary);
   border-radius: .5em;
@@ -386,7 +386,7 @@
   background-color: var(--q-color-primary);
 }
 
-.wrapper > iframe{
+.poster .wrapper > iframe{
   border-radius: calc(.5em - .25em);
   margin: 0;
 }
