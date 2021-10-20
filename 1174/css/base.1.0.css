@@ -10,7 +10,7 @@
 .ki-item {word-break:break-word;}
 
 /* ensure images stay within the item */
-.ki-item-text > img { max-width: 100%; }
+.ki-item-text img { max-width: 100%; }
 
 /* declare the standard tags */
 	body {font-size: 1rem; line-height: 1.5rem;}
