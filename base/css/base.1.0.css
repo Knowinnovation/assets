@@ -3,12 +3,14 @@
 
 /* set up our basic styles */
 
-	/* override the background colour from cultured grey to white */
-	.bg-ki { background-color: white;}
+/* override the background colour from cultured grey to white */
+.bg-ki { background-color: white;}
 
-	/* override the word-break setting on the .item class */
-	.item {word-break:break-word;}
+/* override the word-break setting on the .ki-item class */
+.ki-item {word-break:break-word;}
 
+/* ensure images stay within the item */
+.ki-item-text > img { max-width: 100%; }
 
 /* declare the standard tags */
 	body {font-size: 1rem; line-height: 1.5rem;}
