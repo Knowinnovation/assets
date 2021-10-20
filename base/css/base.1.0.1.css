@@ -1,0 +1,432 @@
+/* include any fonts we want to use in the event  */
+
+
+/* set up our basic styles */
+
+/* override the background colour from cultured grey to white */
+.bg-ki { background-color: white;}
+
+/* override the word-break setting on the .ki-item class */
+.ki-item {word-break:break-word;}
+
+/* ensure images stay within the item */
+.ki-item-text > img { max-width: 100%; }
+
+/* declare the standard tags */
+	body {font-size: 1rem; line-height: 1.5rem;}
+	h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 1.125rem;
+    font-weight: 400;}
+    h1, h2, h3{line-height:110%;}
+    h4, h5, h6{line-height: 120%;}
+
+    strong {font-weight: 700;}
+
+	ul {
+	    list-style: disc outside;
+	    padding: 0 0 0 1.5rem;
+	    margin: 0 0 .625rem;
+	}
+
+	ol {
+	    list-style: decimal outside;
+	    padding: 0 0 0 1.5rem;
+	    margin: 0 0 .625rem;
+	}
+
+	blockquote {
+	    padding: 1.25rem 1.875rem;
+	    margin: 0 0 .625rem;
+	}
+
+	blockquote p {
+	    font-size: 1.125rem;
+	}
+
+	blockquote p:last-of-type {
+	    margin: 0;
+	}
+
+	.ki-heading {margin-left:1.9rem; color:var(--q-color-primary);}
+	.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
+	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
+	.ki-explanation a:hover { text-decoration: underline; }
+	.ki-highlight-explanation { font-weight:bold;}
+	.ki-heading .ki-heading-star {display: none;}
+	.ki-highlight-page {font-weight: 700;}
+
+/* Set the left and right-hand margin for the items, so that they align with the explanation block */
+.q-pa-md {margin-left: 1rem; margin-right: 1rem;}	
+
+/* set up the various break points */
+	@media screen and (min-width: 64rem) { 
+		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5em; } 
+		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
+		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%; } 
+		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%;} 
+
+		h1 { font-size: 3.25rem; } 
+		h2 { font-size: 3.125rem;}
+		h3 { font-size: 2.8125rem;}
+		h4 { font-size: 2.1875rem;}
+		h5 { font-size: 2rem;}
+		h6 { font-size: 1.875rem;}
+
+	}
+	
+	@media screen and (min-width: 42rem) and (max-width: 64rem) { 
+		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; line-height: 1.5em;} 
+		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
+		.ki-heading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
+		.ki-template-pageHeading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
+		h1 { font-size: 2.8125rem; } 
+		h2 { font-size: 2.1875rem;}
+		h3 { font-size: 2rem;}
+		h4 { font-size: 1.875rem;}
+		h5 { font-size: 1.5rem;}
+		h6 { font-size: 1.25rem;}
+
+	}
+	@media screen and (max-width: 42rem) { 
+		.ki-explanation {margin: auto 2rem; font-size: 1rem; line-height:160%;}
+		.ki-explanation .ki-banner {display:none;}
+		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 120%;} 
+		.ki-template-pageHeading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 120%;} 
+		h1 { font-size: 2.1875rem; } 
+		h2 { font-size: 2rem;}
+		h3 { font-size: 1.875rem;}
+		h4 { font-size: 1.5rem;}
+		h5 { font-size: 1.25rem;}
+		h6 { font-size: 1.125rem;}
+
+	}
+
+
+/* == Page Types == */
+
+/* Info */
+	.info {}
+	.info .ki-banner{}
+	.info .ki-heading{}
+
+/* Welcome */
+	.welcome h2 {margin-top:2rem!important;}
+	.welcome .ki-explanation {}
+	.welcome .ki-explanation .ki-getting-started {display:flex;flex-direction: column;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item {display:flex; flex-direction: row;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem; padding-top:1rem;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-heading{font-weight:700; margin-bottom:0rem;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-top: 1px solid var(--q-color-primary); padding-top:1rem; width:100%;}
+	.welcome .ki-explanation .ki-getting-started h3 {}  /*this needs to be wrapped inside a media query */
+
+
+	.welcome .ki-explanation .ki-banner{}
+	.welcome .ki-explanation .ki-heading{}
+	.welcome .ki-icon { font-size: 32pt}  /* these are used on the getting started section */
+
+/* agenda */
+
+	.agenda .q-list--bordered {border-left:0px; border-right:0px; } 
+	.agenda .ki-section-break {background-color: white!important;}
+	.agenda .ki-section-break .ki-index-star{
+		visibility:hidden;
+	}
+	.agenda .ki-section-break .ki-index-start{
+		display:none;
+	}
+
+	.agenda .ki-section-break .ki-index-pageHeading{
+			color:var(--q-color-primary);
+			font-weight: 700 !important;
+			min-height: 4rem;
+			padding-top:2rem;
+			margin:auto;
+	}
+	.agenda .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
+	.agenda .ki-index-item{align-items: flex-start;}
+	.agenda .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
+	.agenda .ki-highlight-page {
+		    border-top: 4px solid var(--q-color-secondary)!important;
+		    border-bottom: 4px solid var(--q-color-secondary)!important;
+	}
+
+	.agenda .q-item__section--side {
+	    color: #757575;
+	    align-items: flex-start;
+	    padding-right: 2em;
+	    width: 2em;
+	    min-width: 2em;
+	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
+
+
+	@media screen and (min-width: 64rem) { 
+
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 115%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;line-height: 115%;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;line-height: 115%;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
+
+	.agenda .ki-index-item .ki-index-start {
+		margin-right:2rem;
+		font-size:1.5rem;
+		font-family: monospace;
+		color:slategray;
+		min-width: 10rem;
+	}
+
+	} /* end of 64rem block */
+
+	@media screen and (min-width: 42rem) and (max-width: 64rem) {
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 115%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem;line-height: 115%;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem;line-height: 115%;font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
+
+			.agenda .ki-index-item .ki-index-start {
+		margin-right:1rem;
+		font-size:1.25rem;
+		font-family: monospace;
+		color:slategray;
+		min-width: 9rem;
+		}
+	} /* end of 42 - 64 rem block */
+
+	@media screen and (max-width: 42rem) { 
+	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 120%;}
+	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
+	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
+
+		.agenda .ki-index-item .ki-index-start {
+		margin-right:1rem;
+		font-size:1.1rem;
+		font-family: monospace;
+		color:slategray;
+		min-width: 8rem;
+		}
+
+	} /* end of 42rem block */
+/* end of agenda */
+
+
+
+	/* striped */
+	/* always used as an option with agenda or list */
+	.striped .ki-index-item:nth-child(odd) {
+	    background-color: rgba(144, 144, 144, 0.075);
+	    padding: 0.75rem 0.75rem;
+	}
+	.striped .ki-index-item:nth-child(even) {
+	    border: solid 1px #dbdbdb;
+	    border-left: 0px;
+	    border-right: 0px;
+	    padding: 0.75rem 0.75rem;
+	    border-top: solid 1px #dbdbdb;
+	}
+
+/* List */
+
+
+	.list .q-list--bordered {border-left:0px; border-right:0px; } 
+	.list .ki-section-break {background-color: white!important;}
+	.list .ki-section-break .ki-index-star{
+		visibility:hidden;
+	}
+	.list .ki-section-break .ki-index-start{
+		display:none;
+	}
+	.list .ki-section-break .ki-index-pageHeading{
+			color:var(--q-color-primary);
+			background-color: white!important;
+			font-weight: 700 !important;
+			min-height: 4rem;
+			padding-top:2rem;
+			margin:auto;
+	}
+	.list .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
+	.list .ki-index-item{align-items: flex-start;}
+	.list .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
+	.list .ki-highlight-page {
+		    border-top: 4px solid var(--q-color-secondary)!important;
+		    border-bottom: 4px solid var(--q-color-secondary)!important;
+	}
+
+	.list .q-item__section--side {
+	    color: #757575;
+	    align-items: flex-start;
+	    padding-right: 2em;
+	    width: 2em;
+	    min-width: 2em;
+	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
+
+
+
+	@media screen and (min-width: 64rem) { 
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 115%;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem; line-height: 115%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem; line-height: 115%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
+
+	} /* end of 64rem block */
+
+	@media screen and (min-width: 42rem) and (max-width: 64rem) {
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 115%;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem; line-height: 115%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem; line-height: 115%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
+
+	} /* end of 42 - 64 rem block */
+
+	@media screen and (max-width: 42rem) { 
+	.list .ki-index .ki-index-item .ki-index-description {line-height: 120%;}
+	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
+	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
+
+	} /* end of 42rem block */
+	/* end of List */
+
+/* static-agenda */
+.static-agenda {
+    margin: 0 0 2em 0;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.static-agenda tbody {display: table-row-group;}
+.static-agenda tbody tr {
+    border: solid 1px #dbdbdb;
+    border-left: 0;
+    border-right: 0;
+}
+.static-agenda td {padding: 0.75em 0.75em;}
+
+/* Panel */
+
+/* Panelist */
+
+/* Keynote */
+
+
+
+/* poster */
+	/*.poster .ki-template-abstract-number{display:inline;}
+	.poster .ki-template-abstract-number::before{content:"#";}
+	.poster .ki-template-abstract-number::after{content:". ";}
+	.poster .ki-template-google{display:block;margin-left: 2rem;}
+	.poster .ki-template-poster{display:block; padding-top: 1rem;}
+	.poster .ki-template-presenters{display:block; }
+	.poster .ki-template-institutions{display:block; padding-bottom:1rem;}*/
+	
+.poster .ki-explanation{
+  display: grid;
+  grid-template-rows:1fr ;
+  margin-bottom: .25rem;
+  max-width: 850px;
+  row-gap:1em;
+  grid-template-areas:
+  "section1"
+  "section2"
+  "section3"
+  ;
+}
+/* ----- Section 1 ----- ( Buttons are in Section 3 ) */
+.poster .ki-template-awards {
+  grid-area: section1;
+  display: grid;
+}
+
+/* ----- Section 2 ----- */
+.poster .ki-template-names {
+  grid-area: section2;
+  display: grid;
+  row-gap: .5em;
+}
+
+.poster .ki-template-presenters{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, .25fr));
+  row-gap: .5em;
+}
+
+/* ----- Section 3 ----- */
+.poster .ki-template-body {
+  grid-area: section3;
+  display: grid;
+  row-gap: .5em;
+}
+
+.poster  details > summary {
+  box-sizing: border-box;
+  background-color:var(--q-color-primary);
+  color:#fff;
+  border-radius:.5em;
+  padding: .5em 0;
+  max-width: 850px;
+  width: 100%;
+  text-align: center;
+  border: .25em solid var(--q-color-primary);
+  margin-bottom:.25rem;
+  transition: .5s;
+} 
+
+.poster summary:hover{
+  cursor:pointer;
+  background-color: #fff;
+  color: var(--q-color-primary);
+  border: .25em solid var(--q-color-primary);
+  transition: .5s;
+}
+
+.poster .wrapper {
+  box-sizing: border-box;
+  border: .25em solid var(--q-color-primary);
+  border-radius: .5em;
+  width:100%;
+  padding:56.25% 0 0 0;
+  position:relative;
+}
+
+.poster .wrapper > iframe{
+  border-radius: calc(.5em - .25em);
+  margin: 0;
+}
+
+.poster a > button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid var(--q-color-primary);
+  color: var(--q-color-primary);
+  font-size:.8em;
+}
+.poster a > button:hover {
+  color: #fff;
+}
+.poster a > button:hover:after {
+  height: 100%;
+}
+.poster a > button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: var(--q-color-primary);
+}
+/* Hello Pearl, Malicactus was here!!!!!! Baguette et fromage*/
+
