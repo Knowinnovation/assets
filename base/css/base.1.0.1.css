@@ -62,10 +62,10 @@
     margin-block-end: 1em;
     margin-inline-start: 1em;
     margin-inline-end: 1em;
-    line-height:1.5em;
+    line-height:1.5;
 }
 .ki-explanation p {
-    margin: 0.5em 0;
+    margin: 1em 0em 0em 0em;
 }
 
 .ki-explanation a:hover { text-decoration: underline; }
