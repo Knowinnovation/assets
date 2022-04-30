@@ -1,17 +1,3 @@
-.ki-explanation .ki-heading h1 {margin-block-start: 1em;
-margin-block-end:0.5em;}
-.ki-heading{margin-block-start: 1em;margin-block-end: 1em; margin-inline-start: 1em;margin-inline-end: 1em;}
-.ki-explanation{margin-block-start: 1em;margin-block-end: 1em;
-  margin-inline-start: 1em;margin-inline-end: 1em;
-}
-.ki-explanation p {padding: 0.5em 0;
-Margin:0em;
-Line-height:1.5em;}
-
-.ki-explanation ol > li:first-child {
-    padding-top: 0em;
-}
-.ki-explanation ol> li {padding-top:0.5em;}
 
 
 /* include any fonts we want to use in the event  */
@@ -63,11 +49,43 @@ Line-height:1.5em;}
 	    margin: 0;
 	}
 
-	.ki-heading {margin-left:1.9rem; color:var(--q-color-primary);}
+
+.ki-heading{
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 0em;
+    color:var(--q-color-primary);
+}
+.ki-explanation{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    line-height:1.5em;
+}
+.ki-explanation p {
+    margin: 0.5em 0;
+    Line-height:1.5em;
+}
+
+.ki-explanation a:hover { text-decoration: underline; }
+.ki-highlight-explanation { font-weight:bold;}
+.ki-highlight-page {font-weight: 700;}
+
+.ki-explanation ol > li:first-child {
+    margin-top: 0em;
+    padding-top:0em;
+}
+.ki-explanation ul > li:first-child {
+    margin-top: 0em;
+    padding-top:0em;
+}
+.ki-explanation ol> li {margin-top:0.5em;}
+.ki-explanation ul> li {margin-top:0.5em;}
+
 	.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
-	.ki-explanation a:hover { text-decoration: underline; }
-	.ki-highlight-explanation { font-weight:bold;}
-	.ki-highlight-page {font-weight: 700;}
+
 
 /* Set the left and right-hand margin for the items, so that they align with the explanation block */
 .q-pa-md {margin-left: 1rem; margin-right: 1rem;}
@@ -85,13 +103,13 @@ Line-height:1.5em;}
 	.info .ki-heading{}
 
 /* Welcome */
-	.welcome h2 {margin-top:2rem!important;}
+	.welcome h2 {margin-top:2em!important;}
 	.welcome .ki-explanation {}
 	.welcome .ki-explanation .ki-getting-started {display:flex;flex-direction: column;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item {display:flex; flex-direction: row;}
-	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem; padding-top:1rem;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem; margin-top:1rem;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-heading{font-weight:700; margin-bottom:0rem;}
-	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-top: 1px solid var(--q-color-primary); padding-top:1rem; width:100%;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-top: 1px solid var(--q-color-primary); margin-top:1rem; width:100%;}
 	.welcome .ki-explanation .ki-getting-started h3 {}  /*this needs to be wrapped inside a media query */
 
 
@@ -113,8 +131,8 @@ Line-height:1.5em;}
 	.agenda .ki-section-break .ki-index-pageHeading{
 			color:var(--q-color-primary);
 			font-weight: 700 !important;
-			min-height: 4rem;
-			padding-top:2rem;
+			min-height: 4em;
+			padding-top:2em;
 			margin:auto;
 	}
 	.agenda .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
