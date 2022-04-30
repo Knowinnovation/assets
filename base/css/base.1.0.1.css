@@ -1,3 +1,19 @@
+.ki-explanation .ki-heading h1 {margin-block-start: 1em;
+margin-block-end:0.5em;}
+.ki-heading{margin-block-start: 1em;margin-block-end: 1em; margin-inline-start: 1em;margin-inline-end: 1em;}
+.ki-explanation{margin-block-start: 1em;margin-block-end: 1em;
+  margin-inline-start: 1em;margin-inline-end: 1em;
+}
+.ki-explanation p {padding: 0.5em 0;
+Margin:0em;
+Line-height:1.5em;}
+
+.ki-explanation ol > li:first-child {
+    padding-top: 0em;
+}
+.ki-explanation ol> li {padding-top:0.5em;}
+
+
 /* include any fonts we want to use in the event  */
 
 
@@ -49,57 +65,16 @@
 
 	.ki-heading {margin-left:1.9rem; color:var(--q-color-primary);}
 	.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
-	.ki-explanation a { color: var(--q-color-secondary); text-decoration: none; }
 	.ki-explanation a:hover { text-decoration: underline; }
 	.ki-highlight-explanation { font-weight:bold;}
-	.ki-heading .ki-heading-star {display: none;}
 	.ki-highlight-page {font-weight: 700;}
 
 /* Set the left and right-hand margin for the items, so that they align with the explanation block */
-.q-pa-md {margin-left: 1rem; margin-right: 1rem;}	
+.q-pa-md {margin-left: 1rem; margin-right: 1rem;}
 
-/* set up the various break points */
-	@media screen and (min-width: 64rem) { 
-		.ki-explanation { margin: auto 2rem; font-size: 1.125rem; line-height: 1.5rem; } 
-		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
-		.ki-heading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%; } 
-		.ki-template-pageHeading { font-size: 3.25rem; margin-top: 2rem; margin-bottom: 2rem; line-height: 110%;} 
+.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
 
-		h1 { font-size: 3.25rem; } 
-		h2 { font-size: 3.125rem;}
-		h3 { font-size: 2.8125rem;}
-		h4 { font-size: 2.1875rem;}
-		h5 { font-size: 2rem;}
-		h6 { font-size: 1.875rem;}
 
-	}
-	
-	@media screen and (min-width: 42rem) and (max-width: 64rem) { 
-		.ki-explanation {margin: auto 2rem; font-size: 1.125rem; line-height: 1.5;} 
-		.ki-explanation .ki-banner {display:block; margin-left: auto; margin-right:auto; width:100%;}
-		.ki-heading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 110%;} 
-		.ki-template-pageHeading { font-size: 2.8125rem; margin-top: 2rem; margin-bottom: 1.5rem; line-height: 1.5;} 
-		h1 { font-size: 2.8125rem; } 
-		h2 { font-size: 2.1875rem;}
-		h3 { font-size: 2rem;}
-		h4 { font-size: 1.875rem;}
-		h5 { font-size: 1.5rem;}
-		h6 { font-size: 1.25rem;}
-
-	}
-	@media screen and (max-width: 42rem) { 
-		.ki-explanation {margin: auto 2rem; font-size: 1rem; line-height:1.6;}
-		.ki-explanation .ki-banner {display:none;}
-		.ki-heading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 1.6;} 
-		.ki-template-pageHeading { font-size: 2.1875rem; margin-top: 2rem; margin-bottom: 1rem;line-height: 1.6;} 
-		h1 { font-size: 2.1875rem; } 
-		h2 { font-size: 2rem;}
-		h3 { font-size: 1.875rem;}
-		h4 { font-size: 1.5rem;}
-		h5 { font-size: 1.25rem;}
-		h6 { font-size: 1.125rem;}
-
-	}
 
 
 /* == Page Types == */
@@ -159,53 +134,7 @@
 	    max-width: 2rem;} /* ensure that the text in menus aligns in a column */
 
 
-	@media screen and (min-width: 64rem) { 
-
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 1.2;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem;line-height: 1.2;font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem;line-height: 1.2;font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
-
-	.agenda .ki-index-item .ki-index-start {
-		margin-right:2rem;
-		font-size:1.5rem;
-		font-family: monospace;
-		color:slategray;
-		min-width: 10rem;
-	}
-
-	} /* end of 64rem block */
-
-	@media screen and (min-width: 42rem) and (max-width: 64rem) {
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 1.2;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem;line-height: 1.2;font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem;line-height: 1.2;font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
-
-			.agenda .ki-index-item .ki-index-start {
-		margin-right:1rem;
-		font-size:1.25rem;
-		font-family: monospace;
-		color:slategray;
-		min-width: 9rem;
-		}
-	} /* end of 42 - 64 rem block */
-
-	@media screen and (max-width: 42rem) { 
-	.agenda .ki-index .ki-index-item .ki-index-description {min-width: 80%;max-width: 80%; line-height: 120%;}
-	.agenda .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
-	.agenda .ki-index .ki-index-item .ki-agenda-item-description {color:slategrey;}
-
-		.agenda .ki-index-item .ki-index-start {
-		margin-right:1rem;
-		font-size:1.1rem;
-		font-family: monospace;
-		color:slategray;
-		min-width: 8rem;
-		}
-
-	} /* end of 42rem block */
+	
 /* end of agenda */
 
 
@@ -259,31 +188,6 @@
 	    min-width: 2em;
 	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
 
-
-
-	@media screen and (min-width: 64rem) { 
-	.list .ki-index .ki-index-item .ki-index-description {line-height: 115%;}
-	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.5rem; line-height: 115%; font-weight: 500;}
-	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.5rem; line-height: 115%; font-weight: 500;}
-	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
-
-	} /* end of 64rem block */
-
-	@media screen and (min-width: 42rem) and (max-width: 64rem) {
-	.list .ki-index .ki-index-item .ki-index-description {line-height: 115%;}
-	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.25rem; line-height: 115%; font-weight: 500;}
-	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.25rem; line-height: 115%; font-weight: 500;}
-	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
-
-	} /* end of 42 - 64 rem block */
-
-	@media screen and (max-width: 42rem) { 
-	.list .ki-index .ki-index-item .ki-index-description {line-height: 120%;}
-	.list .ki-index .ki-index-item .ki-index-pageName {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
-	.list .ki-index .ki-index-item .ki-index-pageHeading {font-size: 1.1rem; line-height: 120%; font-weight: 500;}
-	.list .ki-index .ki-index-item .ki.list-item-description {color:slategrey;}
-
-	} /* end of 42rem block */
 	/* end of List */
 
 /* static-agenda */
