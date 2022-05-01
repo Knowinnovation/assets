@@ -52,10 +52,10 @@
 
 
 .ki-heading{
+    margin-block-start:1em;
     margin-inline-start: 1em;
     margin-inline-end: 0em;
     color:var(--q-color-primary);
-    
 }
 .ki-explanation{
     margin-block-start: 1em;
