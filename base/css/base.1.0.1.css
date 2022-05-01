@@ -52,7 +52,7 @@
 
 .ki-heading{
     margin-block-start: 2em;
-    margin-block-end: 1em;
+    margin-block-end: 0em;
     margin-inline-start: 1em;
     margin-inline-end: 0em;
     color:var(--q-color-primary);
@@ -64,26 +64,30 @@
     margin-inline-end: 1em;
     line-height:1.5;
 }
-.ki-explanation p {
+.ki-explanation h1,
+.ki-explanation h2,
+.ki-explanation h3,
+.ki-explanation h4,
+.ki-explanation h5,
+.ki-explanation h6
+{
     margin: 1em 0em 0em 0em;
+    font-weight:500;
+    line-height:1.25;
+}
+.ki-explanation p {
+    margin: 0.5em 0em 0em 0em;
 }
 
 .ki-explanation a:hover { text-decoration: underline; }
 .ki-highlight-explanation { font-weight:bold;}
 .ki-highlight-page {font-weight: 700;}
 
-.ki-explanation ol > li:first-child {
-    margin-top: 0em;
-    padding-top:0em;
-}
-.ki-explanation ul > li:first-child {
-    margin-top: 0em;
-    padding-top:0em;
-}
+
 .ki-explanation ol> li {margin-top:0.5em;}
 .ki-explanation ul> li {margin-top:0.5em;}
 
-	.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
+.ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
 
 
 /* Set the left and right-hand margin for the items, so that they align with the explanation block */
@@ -102,8 +106,6 @@
 	.info .ki-heading{}
 
 /* Welcome */
-	.welcome h2 {margin-top:2em!important;}
-	.welcome .ki-explanation {}
 	.welcome .ki-explanation .ki-getting-started {display:flex;flex-direction: column;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item {display:flex; flex-direction: row;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem; margin-top:1rem;}
@@ -349,5 +351,5 @@
   width: 100%;
   background: var(--q-color-primary);
 }
-/* Hello Pearl, Malicactus was here!!!!!! Baguette et fromage*/
+
 
