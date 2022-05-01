@@ -53,15 +53,15 @@
 
 .ki-heading{
     margin-block-start:2em;
-    margin-inline-start: 1em;
-    margin-inline-end: 0em;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
     color:var(--q-color-primary);
 }
 .ki-explanation{
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 1em;
-    margin-inline-end: 1em;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
     line-height:1.5;
 }
 .ki-explanation h1,
@@ -89,6 +89,12 @@
 
 .ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
 
+/* set the margin for the item-count.*/
+.ki-items-count {
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+}
+
 /* set a top margin for the ki-index so there is space between it and the heading*/
 .ki-index {
 margin-top: 2em;
@@ -113,7 +119,7 @@ margin-top: 2em;
 	.welcome .ki-explanation .ki-getting-started {display:flex;flex-direction: column;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item {display:flex; flex-direction: row;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item img{width:50px; margin-right:2rem; margin-top:1rem;}
-	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-heading{font-weight:700; margin-bottom:0rem;}
+	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-heading{font-weight:700; margin-bottom:0em;}
 	.welcome .ki-explanation .ki-getting-started .ki-getting-started-item .ki-getting-started-item-description{border-top: 1px solid var(--q-color-primary); margin-top:1em; width:100%;}
 	.welcome .ki-explanation .ki-getting-started h3 {}  /*this needs to be wrapped inside a media query */
 
