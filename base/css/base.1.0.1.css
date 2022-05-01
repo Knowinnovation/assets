@@ -89,8 +89,8 @@
 
 .ki-template-pageHeading, h1,  h2, h3, h4, h5, h6 {color:var(--q-color-primary); display:block;}
 
-/* set a top margin for the q-list--bordered so there is space below the heading*/
-.q-list--bordered {
+/* set a top margin for the ki-index so there is space between it and the heading*/
+.ki-index {
 margin-top: 2em;
 }
 
