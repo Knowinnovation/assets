@@ -124,7 +124,9 @@ margin-top: 2em;
 
 /* agenda */
 
-	.agenda .q-list--bordered {border-left:0px; border-right:0px; } 
+	.agenda .q-list--bordered {border-left:2px; border-right:2px;
+        margin-right:1rem; margin-left:1rem;
+    }
 	.agenda .ki-section-break {background-color: white!important;}
 	.agenda .ki-section-break .ki-index-star{
 		visibility:hidden;
@@ -140,7 +142,6 @@ margin-top: 2em;
 			padding-top:2em;
 			margin:auto;
 	}
-	.agenda .q-list--bordered {margin-right:1rem; margin-left:1rem;}
 	.agenda .ki-index-item{align-items: flex-start;}
 	.agenda .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.agenda .ki-highlight-page {
