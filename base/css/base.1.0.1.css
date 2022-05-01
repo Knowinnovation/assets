@@ -14,6 +14,7 @@
 /* ensure images stay within the item */
 .ki-item-text > img { max-width: 100%; }
 
+
 /* declare the standard tags */
 	body {font-size: 1rem; line-height: 1.5rem;}
 	h1, h2, h3, h4, h5, h6 {
@@ -139,7 +140,7 @@ margin-top: 2em;
 			padding-top:2em;
 			margin:auto;
 	}
-	.agenda .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
+	.agenda .q-list--bordered {margin-right:1rem; margin-left:1rem;}
 	.agenda .ki-index-item{align-items: flex-start;}
 	.agenda .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.agenda .ki-highlight-page {
@@ -194,7 +195,8 @@ margin-top: 2em;
 			padding-top:2rem;
 			margin:auto;
 	}
-	.list .q-list--bordered {margin-right:2rem; margin-left:2rem;} 
+	.list .q-list--bordered {margin-right:1rem; margin-left:1rem;
+    }
 	.list .ki-index-item{align-items: flex-start;}
 	.list .q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable.ki-index-item{align-items: flex-start;}
 	.list .ki-highlight-page {
@@ -211,6 +213,8 @@ margin-top: 2em;
 	    max-width: 2em;} /* ensure that the text in menus aligns in a column */
 
 	/* end of List */
+
+
 
 /* static-agenda */
 .static-agenda {
